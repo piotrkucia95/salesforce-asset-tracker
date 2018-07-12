@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1d1127-6209-4abb-a449-04ffb10ea53d" name="Default" comment="" />
+    <list default="true" id="fb1d1127-6209-4abb-a449-04ffb10ea53d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls-meta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls-meta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls-meta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,12 +29,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="A18_DTO_AssetFilter.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="A18_DM_AssetUserService.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -24,11 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_DM_AssetUserService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
+      <file leaf-file-name="A18_AC_AssetUserController.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +57,11 @@
       <file leaf-file-name="A18_DM_AssetService.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +69,11 @@
       <file leaf-file-name="A18_DA_AssetUserService.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +81,8 @@
       <file leaf-file-name="A18_DA_AssetService.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -66,29 +93,21 @@
       <file leaf-file-name="A18_CS_AssetUserService.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AC_AssetUserController.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_ES_QRService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#468#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_DTO.cls" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -96,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_ES_IRestService.cls" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
+      <file leaf-file-name="A18_AssetAssembler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="471">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -108,13 +127,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_ES_CSVService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <file leaf-file-name="A18_AssetUserAssembler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="422">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="61" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_CS_AssetService.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#840#855#0" expanded="true" />
+                <element signature="e#1172#1187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,22 +169,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DTO.cls" />
+        <option value="$PROJECT_DIR$/src/classes/AssetUserAssembler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" />
       </list>
     </option>
   </component>
@@ -169,6 +207,18 @@
     </option>
     <option name="projectWorkspaceSettings">
       <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="apexLogLevel" value="FINEST" />
+            <option name="calloutsLogLevel" value="ERROR" />
+            <option name="documentText" value="System.debug(Asset_To_User__c.Status__c.getDescribe().getPicklistValues());" />
+            <option name="profilingLogLevel" value="ERROR" />
+            <option name="systemLogLevel" value="FINEST" />
+            <option name="validationLogLevel" value="ERROR" />
+            <option name="visualforceLogLevel" value="ERROR" />
+            <option name="workflowLogLevel" value="ERROR" />
+          </AnonymousApexSettings>
+        </option>
         <option name="connectionWorkspaceSettings">
           <map>
             <entry key="Akademia 2018">
@@ -176,22 +226,24 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
-                      <entry key="CLASSES/A18_AC_ASSETCONTROLLER.CLS" value="1531225027613" />
-                      <entry key="CLASSES/A18_AC_ASSETUSERCONTROLLER.CLS" value="1531224544958" />
-                      <entry key="CLASSES/A18_CS_ASSETUSERSERVICE.CLS" value="1531223262000" />
-                      <entry key="CLASSES/A18_DA_ASSETSERVICE.CLS" value="1531222831095" />
-                      <entry key="CLASSES/A18_DA_ASSETUSERSERVICE.CLS" value="1531223329000" />
-                      <entry key="CLASSES/A18_DM_ASSETSERVICE.CLS" value="1531222990776" />
-                      <entry key="CLASSES/A18_DM_ASSETUSERSERVICE.CLS" value="1531223341805" />
-                      <entry key="CLASSES/A18_DTO_ASSETFILTER.CLS" value="1531224264000" />
-                      <entry key="CLASSES/A18_DTO_ASSETSTATUS.CLS" value="1531224625280" />
-                      <entry key="CLASSES/A18_DTO_ASSETUSER.CLS" value="1531224371006" />
-                      <entry key="CLASSES/A18_ES_CSVSERVICE.CLS" value="1531224686801" />
+                      <entry key="CLASSES/A18_AC_ASSETCONTROLLER.CLS" value="1531402974703" />
+                      <entry key="CLASSES/A18_AC_ASSETUSERCONTROLLER.CLS" value="1531404091615" />
+                      <entry key="CLASSES/A18_ASSETASSEMBLER.CLS" value="1531400547593" />
+                      <entry key="CLASSES/A18_ASSETUSERASSEMBLER.CLS" value="1531403298151" />
+                      <entry key="CLASSES/A18_CS_ASSETSERVICE.CLS" value="1531402895143" />
+                      <entry key="CLASSES/A18_CS_ASSETUSERSERVICE.CLS" value="1531404044689" />
+                      <entry key="CLASSES/A18_DA_ASSETSERVICE.CLS" value="1531402551189" />
+                      <entry key="CLASSES/A18_DA_ASSETUSERSERVICE.CLS" value="1531404032920" />
+                      <entry key="CLASSES/A18_DM_ASSETSERVICE.CLS" value="1531402705315" />
+                      <entry key="CLASSES/A18_DM_ASSETUSERSERVICE.CLS" value="1531404036294" />
+                      <entry key="CLASSES/A18_DTO.CLS" value="1531404593693" />
+                      <entry key="CLASSES/A18_ES_CSVSERVICE.CLS" value="1531383852320" />
                       <entry key="CLASSES/A18_ES_HEROKUSERVICE.CLS" value="1531223350296" />
                       <entry key="CLASSES/A18_ES_IRESTSERVICE.CLS" value="1531226758549" />
                       <entry key="CLASSES/A18_ES_QRSERVICE.CLS" value="1531225580004" />
-                      <entry key="CLASSES/A18_VFC_ASSETCONTROLLER.CLS" value="1531225021413" />
-                      <entry key="CLASSES/A18_VFC_ASSETUSERCONTROLLER.CLS" value="1531225040718" />
+                      <entry key="CLASSES/A18_VFC_ASSETCONTROLLER.CLS" value="1531392903495" />
+                      <entry key="CLASSES/A18_VFC_ASSETUSERCONTROLLER.CLS" value="1531383608217" />
+                      <entry key="CLASSES/ASSETUSERASSEMBLER.CLS" value="1531399777483" />
                     </map>
                   </option>
                 </ConnectionWorkspaceSettings>
@@ -208,7 +260,9 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -218,8 +272,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,20 +388,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="7" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="7" weight="0.32478634" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471355" />
-      <window_info anchor="bottom" id="Problems" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16979866" />
+      <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="SOQL Query" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Log Viewer" order="7" />
@@ -356,11 +410,11 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -368,66 +422,91 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Akademia 2018.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip!/Asset__c.cls">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls">
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls">
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls">
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls">
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -492,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -512,10 +581,223 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Akademia 2018.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip!/Asset__c.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/AssetUserAssembler.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#840#855#0" expanded="true" />
+            <element signature="e#1172#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#468#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

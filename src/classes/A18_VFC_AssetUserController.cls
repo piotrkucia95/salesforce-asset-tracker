@@ -16,7 +16,14 @@ public with sharing class A18_VFC_AssetUserController {
 
     }
 
-    public List<A18_DTO_AssetUser> getAssetToUserList(){
+    public List<A18_DTO.AssetStatus> getAssetStatuses(){
+
+        //temporarily
+        return NULL;
+
+    }
+
+    public List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status){
 
         //temporarily
         return NULL;

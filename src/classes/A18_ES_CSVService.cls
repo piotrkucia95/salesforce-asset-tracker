@@ -4,7 +4,7 @@
 
 public with sharing class A18_ES_CSVService {
 
-    public String generate(A18_DTO_AssetFilter filters){
+    public String generate(A18_DTO.AssetFilter filters){
 
         //temporarily
         return NULL;
