@@ -31,10 +31,7 @@ public with sharing class A18_AC_AssetController {
     }
 
     public List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId){
-
-        //temporarily
-        return NULL;
-
+        return CSAssetService.searchAssets(searchPhrase, recordTypeId);
     }
 
 }

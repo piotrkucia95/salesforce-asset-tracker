@@ -29,4 +29,8 @@ public with sharing class A18_DM_AssetService {
     public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
         return DAAssetService.getAssetRecordTypes();
     }
+
+    public  List<Asset__c> searchAssets(String searchPhrase, Id recordTypeId) {
+        return  DAAssetService.searchAssets(searchPhrase, recordTypeId);
+    }
 }

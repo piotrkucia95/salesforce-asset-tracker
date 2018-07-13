@@ -10,16 +10,16 @@ public with sharing class A18_AC_AssetUserController {
         this.CSAssetUserService = new A18_CS_AssetUserService();
     }
 
-    public void assignAssetToUser(ID assetId, ID userId) {
-
+    public void addAssetUser(A18_DTO.AssetUser assetUserDTO) {
+        CSAssetUserService.addAssetUser(assetUserDTO);
     }
 
-    public void updateAssetToUser(ID assetToUserId, ID assetId, ID userId) {
-
+    public void updateAssetUser(A18_DTO.AssetUser assetUserDTO) {
+        CSAssetUserService.updateAssetUser(assetUserDTO);
     }
 
-    public void removeAssetToUser(ID assetToUserId) {
-
+    public void deleteAssetUser(ID assetToUserId) {
+        CSAssetUserService.deleteAssetUser(assetToUserId);
     }
 
     public List<A18_DTO.AssetStatus> getAssetStatuses() {
@@ -27,10 +27,7 @@ public with sharing class A18_AC_AssetUserController {
     }
 
     public List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status) {
-
-        //temporarily
-        return NULL;
-
+        return CSAssetUserService.searchAssetUsers(searchPhrase, status);
     }
 
 }
