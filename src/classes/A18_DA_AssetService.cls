@@ -25,9 +25,7 @@ public with sharing class A18_DA_AssetService {
     public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
         return Asset__c.SObjectType.getDescribe().getRecordTypeInfos();
     }
-
-
-
+    
     public List<Asset__c> searchAssets(String searchPhrase, Id recordTypeId){
         List<Schema.RecordTypeInfo> recordTypeInfos = Asset__c.SObjectType.getDescribe().getRecordTypeInfos();
         List<Id> validId = new List<Id>();
@@ -38,8 +36,8 @@ public with sharing class A18_DA_AssetService {
 
         //obtaining the data of Asset's order
         Asset_Search_Settings__c searchSetting = Asset_Search_Settings__c.getInstance();
-        String orderField = validateOrderFields(searchSetting.Order_Field__c.split(';'));
-        String orderDirection = validateOrderDirection(searchSetting.Order_Direction__c);
+        String orderField = A18_CustomSettingsValidation.validateQueryFields(searchSetting.Order_Field__c.split(';'), 'Asset');
+        String orderDirection = A18_CustomSettingsValidation.validateQueryDirection(searchSetting.Order_Direction__c);
 
         if(recordTypeId == NULL || !validId.contains(recordTypeId) ){
             List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\'IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c ORDER BY '+orderField +' '+orderDirection +')');
@@ -48,40 +46,5 @@ public with sharing class A18_DA_AssetService {
             List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\'IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c ORDER BY '+orderField +' '+orderDirection +') WITH RecordTypeId= ' +recordTypeId);
             return myQuery[0];
         }
-
     }
-
-
-    public String validateOrderFields(List<String> orderFields){
-        List<String> extraOrderFieldsList = orderFields;
-        Set<String> objectFields = Schema.getGlobalDescribe().get('Asset__c')
-                .getDescribe().fields.getMap().keySet();
-
-        List<String> orderFieldsList = new List<String>();
-
-        for(String field : extraOrderFieldsList){
-            if(objectFields.contains(field)){
-                orderFieldsList.add(field);
-            }
-        }
-        if(orderFieldsList.isEmpty()) {
-            orderFieldsList.add('Name');
-            orderFieldsList.add('Description__c');
-        }
-        String orderFieldsString = orderFieldsList[0];
-        for(Integer i = 1; i<orderFieldsList.size(); i++){
-            orderFieldsString += (', ' + orderFieldsList[i]);
-        }
-        return orderFieldsString;
-    }
-
-
-    public String validateOrderDirection(String orderDirection){
-        String direction = orderDirection;
-        if(orderDirection == null || (orderDirection!='ASC' && orderDirection!='DESC')) {
-            direction = 'ASC';
-        }
-        return direction;
-    }
-
 }

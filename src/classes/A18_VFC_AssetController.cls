@@ -4,7 +4,7 @@
 
 public with sharing class A18_VFC_AssetController {
 
-    private A18_CS_AssetService CSAssetService;
+    /*private A18_CS_AssetService CSAssetService;
 
     public A18_VFC_AssetController(){
         this.CSAssetService = new A18_CS_AssetService();

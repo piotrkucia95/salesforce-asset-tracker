@@ -15,7 +15,7 @@ public with sharing class A18_AC_AssetController {
     }
 
     public void updateAsset(A18_DTO.Asset assetDTO){
-
+        CSAssetService.updateAsset(assetDTO);
     }
 
     public void deleteAsset(ID assetId){
