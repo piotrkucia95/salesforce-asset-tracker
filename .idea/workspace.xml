@@ -4,11 +4,27 @@
     <list default="true" id="fb1d1127-6209-4abb-a449-04ffb10ea53d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Akademia 2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Akademia 2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Akademia 2018.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetUserControllerTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetUserControllerTest.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_CustomSettingsValidation.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_CustomSettingsValidation.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DTO.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/A18_TestDataFactory.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_TestDataFactory.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" afterDir="false" />
     </list>
@@ -22,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A18_AC_AssetControllerTest.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls">
+      <file leaf-file-name="ContactTrigger.trigger" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triggers/ContactTrigger.trigger">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -34,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_AC_AssetUserControllerTest.cls" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserControllerTest.cls">
+      <file leaf-file-name="IncidentLogTrigger.trigger" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triggers/IncidentLogTrigger.trigger">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -46,10 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_ES_HerokuService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls">
+      <file leaf-file-name="AccountTrigger.trigger" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger.trigger">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="85">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="59" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -57,20 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_DTO.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
+      <file leaf-file-name="RequestTrigger.trigger" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triggers/RequestTrigger.trigger">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_DM_AssetUserService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -78,29 +86,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_DM_AssetService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
+      <file leaf-file-name="RequestTriggerHandler.cls" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="476">
+              <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#207#219#0" expanded="true" />
+                <element signature="e#665#677#0" expanded="true" />
+                <element signature="e#1631#1643#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_ES_CSVService.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <file leaf-file-name="AccountTriggerHandlerTest.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/AccountTriggerHandlerTest.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AC_AssetController.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -108,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_VFC_AssetUserController.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls">
+      <file leaf-file-name="AccountTriggerHandler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/AccountTriggerHandler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="204">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -120,13 +125,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_VFC_AssetController.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls">
+      <file leaf-file-name="ContactTriggerHandler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/ContactTriggerHandler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriggerHandler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/TriggerHandler.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+              <folding>
+                <element signature="e#515#534#0" expanded="true" />
+                <element signature="e#572#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncidentLogTriggerHandler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#221#238#0" expanded="true" />
+                <element signature="e#456#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,12 +169,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Apex Class" />
         <option value="Apex Unit Test Class" />
+        <option value="Apex Trigger" />
+        <option value="Apex Class" />
         <option value="Apex Metadata" />
       </list>
     </option>
-    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,30 +184,43 @@
       <list>
         <option value="$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO.cls" />
         <option value="$PROJECT_DIR$/src/classes/AssetUserAssembler.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_CustomSettingsQueryValidation.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls" />
+        <option value="$PROJECT_DIR$/src/triggers/ContactTigger.trigger" />
+        <option value="$PROJECT_DIR$/src/triggers/AccountTrigger1.trigger" />
+        <option value="$PROJECT_DIR$/src/triggers/AccountTrigger2.trigger" />
+        <option value="$PROJECT_DIR$/src/triggers/SuperAccountTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/classes/AccountTriggerHandler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/AccountTriggerHandlerTest.cls" />
+        <option value="$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls" />
+        <option value="$PROJECT_DIR$/src/triggers/AccountTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/triggers/OpportunityTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/triggers/ContactTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/classes/IcidentLogTriggerHandler.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_CustomSettingsValidation.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_TestDataFactory.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetUserControllerTest.cls" />
+        <option value="$PROJECT_DIR$/src/classes/ContactTriggerHandler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/TriggerHandler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls" />
+        <option value="$PROJECT_DIR$/src/triggers/RequestTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/triggers/IncidentLogTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls" />
       </list>
     </option>
   </component>
@@ -197,9 +242,9 @@
           <AnonymousApexSettings>
             <option name="apexLogLevel" value="FINEST" />
             <option name="calloutsLogLevel" value="ERROR" />
-            <option name="documentText" value="A18_DA_AssetUserService obj = new A18_DA_AssetUserService();&#10;&#10;System.debug(obj.searchAssetUsers('Mouse for Adam B', 'Delivered'));" />
+            <option name="documentText" value="delete [SELECT Id FROM Contact WHERE CreatedDate = TODAY];" />
             <option name="profilingLogLevel" value="ERROR" />
-            <option name="splitterProportion" value="0.3566698" />
+            <option name="splitterProportion" value="0.3888889" />
             <option name="systemLogLevel" value="FINEST" />
             <option name="validationLogLevel" value="ERROR" />
             <option name="visualforceLogLevel" value="ERROR" />
@@ -208,25 +253,6 @@
         </option>
         <option name="connectionWorkspaceSettings">
           <map>
-            <entry key="Akademia">
-              <value>
-                <ConnectionWorkspaceSettings>
-                  <option name="buildSuccessDatesBySourceRootRelativePath">
-                    <map>
-                      <entry key="CLASSES/A18_AC_ASSETCONTROLLER.CLS" value="1531693219703" />
-                      <entry key="CLASSES/A18_AC_ASSETCONTROLLERTEST.CLS" value="1531695670034" />
-                      <entry key="CLASSES/A18_AC_ASSETUSERCONTROLLERTEST.CLS" value="1531695679523" />
-                      <entry key="CLASSES/A18_CUSTOMSETTINGSVALIDATION.CLS" value="1531690609737" />
-                      <entry key="CLASSES/A18_DA_ASSETSERVICE.CLS" value="1531688657140" />
-                      <entry key="CLASSES/A18_DA_ASSETUSERSERVICE.CLS" value="1531690350863" />
-                      <entry key="CLASSES/A18_TESTDATAFACTORY.CLS" value="1531690950960" />
-                      <entry key="CLASSES/A18_VFC_ASSETCONTROLLER.CLS" value="1531695240398" />
-                      <entry key="CLASSES/A18_VFC_ASSETUSERCONTROLLER.CLS" value="1531695300842" />
-                    </map>
-                  </option>
-                </ConnectionWorkspaceSettings>
-              </value>
-            </entry>
             <entry key="Akademia 2018">
               <value>
                 <ConnectionWorkspaceSettings>
@@ -249,27 +275,1167 @@
                       <entry key="CLASSES/A18_ES_QRSERVICE.CLS" value="1531225580004" />
                       <entry key="CLASSES/A18_VFC_ASSETCONTROLLER.CLS" value="1531392903495" />
                       <entry key="CLASSES/A18_VFC_ASSETUSERCONTROLLER.CLS" value="1531383608217" />
+                      <entry key="CLASSES/ACCOUNTTRIGGERHANDLER.CLS" value="1531736615095" />
+                      <entry key="CLASSES/ACCOUNTTRIGGERHANDLERTEST.CLS" value="1531736615095" />
                       <entry key="CLASSES/ASSETUSERASSEMBLER.CLS" value="1531399777483" />
+                      <entry key="CLASSES/CONTACTTRIGGERHANDLER.CLS" value="1531738057104" />
+                      <entry key="CLASSES/CONTACTTRIGGERHANDLERTEST.CLS" value="1531736615095" />
+                      <entry key="CLASSES/ICIDENTLOGTRIGGERHANDLER.CLS" value="1531738685000" />
+                      <entry key="CLASSES/INCIDENTLOGTRIGGERHANDLER.CLS" value="1531746552855" />
+                      <entry key="CLASSES/REQUESTTRIGGERHANDLER.CLS" value="1531748358633" />
+                      <entry key="CLASSES/TRIGGERHANDLER.CLS" value="1531741769000" />
+                      <entry key="TRIGGERS/ACCOUNTTRIGGER.TRIGGER" value="1531736615335" />
+                      <entry key="TRIGGERS/CONTACTTIGGER.TRIGGER" value="1531724252140" />
+                      <entry key="TRIGGERS/CONTACTTRIGGER.TRIGGER" value="1531738413618" />
+                      <entry key="TRIGGERS/INCIDENTLOGTRIGGER.TRIGGER" value="1531748139777" />
+                      <entry key="TRIGGERS/OPPORTUNITYTRIGGER.TRIGGER" value="1531736615335" />
+                      <entry key="TRIGGERS/REQUESTTRIGGER.TRIGGER" value="1531748143619" />
                     </map>
+                  </option>
+                  <option name="lastBuildScope" value="CUSTOM" />
+                  <option name="lastBuildViewToggles">
+                    <map>
+                      <entry key="RETRIEVE">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="true" />
+                            <option name="showLocalOnly" value="false" />
+                            <option name="showServerOnly" value="true" />
+                            <option name="showSubscribedOnly" value="true" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                  <option name="lastCustomSelectionUrls">
+                    <set>
+                      <option value="metadata://ApexClass/TriggerHandler" />
+                    </set>
                   </option>
                 </ConnectionWorkspaceSettings>
               </value>
             </entry>
           </map>
         </option>
+        <option name="metadataContents">
+          <map>
+            <entry key="Akademia 2018">
+              <value>
+                <MetadataContents>
+                  <option name="lastPopulated" value="1531221567948" />
+                  <option name="metadataTypes">
+                    <set>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Custom%3A Support Profile" />
+                            <option value="Customer Community Plus Login User" />
+                            <option value="High Volume Customer Portal User" />
+                            <option value="Analytics Cloud Integration User" />
+                            <option value="Force%2Ecom - Free User" />
+                            <option value="Cross Org Data Proxy User" />
+                            <option value="PlatformPortal" />
+                            <option value="External Identity User" />
+                            <option value="Force%2Ecom - App Subscription User" />
+                            <option value="Standard" />
+                            <option value="Chatter External User" />
+                            <option value="Identity User" />
+                            <option value="Custom%3A Sales Profile" />
+                            <option value="Partner Community Login User" />
+                            <option value="ContractManager" />
+                            <option value="Customer Community Plus User" />
+                            <option value="Partner Community User" />
+                            <option value="StandardAul" />
+                            <option value="Gold Partner User" />
+                            <option value="Chatter Moderator User" />
+                            <option value="ReadOnly" />
+                            <option value="SolutionManager" />
+                            <option value="Chatter Free User" />
+                            <option value="HighVolumePortal" />
+                            <option value="Customer Portal Manager Standard" />
+                            <option value="Customer Community Login User" />
+                            <option value="MarketingProfile" />
+                            <option value="Analytics Cloud Security User" />
+                            <option value="Admin" />
+                            <option value="Silver Partner User" />
+                            <option value="Partner App Subscription User" />
+                            <option value="Work%2Ecom Only User" />
+                            <option value="Authenticated Website" />
+                            <option value="Customer Community User" />
+                            <option value="Custom%3A Marketing Profile" />
+                            <option value="Employee" />
+                            <option value="CPQ Integration User" />
+                            <option value="Customer Portal Manager Custom" />
+                          </set>
+                        </option>
+                        <option name="name" value="Profile" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ApexDevNet" />
+                          </set>
+                        </option>
+                        <option name="name" value="RemoteSiteSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Fixed_asset_admins" />
+                            <option value="Fixed_asset_coordinators" />
+                          </set>
+                        </option>
+                        <option name="name" value="Group" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Company" />
+                            <option value="Address" />
+                            <option value="Macro" />
+                            <option value="Product" />
+                            <option value="Security" />
+                            <option value="Knowledge" />
+                            <option value="Case" />
+                            <option value="Name" />
+                            <option value="Ideas" />
+                            <option value="FieldService" />
+                            <option value="SocialCustomerService" />
+                            <option value="OmniChannel" />
+                            <option value="Opportunity" />
+                            <option value="Search" />
+                            <option value="FileUploadAndDownloadSecurity" />
+                            <option value="Activities" />
+                            <option value="Order" />
+                            <option value="OrgPreference" />
+                            <option value="BusinessHours" />
+                            <option value="Forecasting" />
+                            <option value="Mobile" />
+                            <option value="LiveAgent" />
+                            <option value="Quote" />
+                            <option value="Entitlement" />
+                            <option value="Contract" />
+                            <option value="PathAssistant" />
+                          </set>
+                        </option>
+                        <option name="name" value="Settings" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DataCloudGeoLocation" />
+                          </set>
+                        </option>
+                        <option name="name" value="CleanDataService" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DirectorDirectSales" />
+                            <option value="SVPSalesMarketing" />
+                            <option value="COO" />
+                            <option value="MarketingTeam" />
+                            <option value="DirectorChannelSales" />
+                            <option value="Team_Leader" />
+                            <option value="InstallationRepairServices" />
+                            <option value="SVPHumanResources" />
+                            <option value="SVPCustomerServiceSupport" />
+                            <option value="VPInternationalSales" />
+                            <option value="CEO" />
+                            <option value="EasternSalesTeam" />
+                            <option value="ChannelSalesTeam" />
+                            <option value="CFO" />
+                            <option value="CustomerSupportInternational" />
+                            <option value="CustomerSupportNorthAmerica" />
+                            <option value="WesternSalesTeam" />
+                            <option value="Employee" />
+                            <option value="VPMarketing" />
+                            <option value="VPNorthAmericanSales" />
+                          </set>
+                        </option>
+                        <option name="name" value="Role" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="sf_chttr_apps" />
+                            <option value="sf_com_apps" />
+                          </set>
+                        </option>
+                        <option name="name" value="InstalledPackage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard-Idea" />
+                            <option value="standard-Macro" />
+                            <option value="standard-StreamingChannel" />
+                            <option value="standard-Case" />
+                            <option value="standard-Solution" />
+                            <option value="standard-ContentSubscriptions" />
+                            <option value="standard-Dashboard" />
+                            <option value="standard-File" />
+                            <option value="standard-Document" />
+                            <option value="standard-Pricebook2" />
+                            <option value="standard-ListEmail" />
+                            <option value="standard-DuplicateRecordSet" />
+                            <option value="standard-Account" />
+                            <option value="standard-home" />
+                            <option value="standard-WaveHome" />
+                            <option value="standard-OtherUserProfile" />
+                            <option value="Incident_Log__c" />
+                            <option value="standard-UserProfile" />
+                            <option value="standard-Order" />
+                            <option value="standard-Workspace" />
+                            <option value="standard-Forecasting3" />
+                            <option value="standard-ProfilePlatformFeed" />
+                            <option value="standard-AppLauncher" />
+                            <option value="standard-CollaborationGroup" />
+                            <option value="standard-DandBCompany" />
+                            <option value="Asset__c" />
+                            <option value="standard-Campaign" />
+                            <option value="standard-JigsawSearch" />
+                            <option value="standard-Sites" />
+                            <option value="standard-ContentSearch" />
+                            <option value="standard-Lead" />
+                            <option value="standard-ContentContribute" />
+                            <option value="standard-ProfilePlatformOverview" />
+                            <option value="standard-report" />
+                            <option value="standard-Console" />
+                            <option value="Car__c" />
+                            <option value="Asset_To_User__c" />
+                            <option value="standard-Contract" />
+                            <option value="standard-UserProvisioningRequest" />
+                            <option value="standard-Chatter" />
+                            <option value="standard-Contact" />
+                            <option value="standard-Opportunity" />
+                            <option value="standard-Product2" />
+                            <option value="Request__c" />
+                            <option value="standard-Asset" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomTab" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Account" />
+                            <option value="Task" />
+                            <option value="Asset__c" />
+                            <option value="Contact" />
+                            <option value="Case" />
+                            <option value="Car__c" />
+                            <option value="Asset_To_User__c" />
+                            <option value="ContentDocument" />
+                            <option value="Campaign" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="Asset" />
+                            <option value="Event" />
+                            <option value="Request__c" />
+                            <option value="Contract" />
+                            <option value="Incident_Log__c" />
+                            <option value="Solution" />
+                          </set>
+                        </option>
+                        <option name="name" value="TopicsForObjects" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AutoResponseRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Quick_Request" />
+                            <option value="LightningSalesConsole_UtilityBar" />
+                            <option value="PS_Fixed_Asset_Management_Tool_UtilityBar" />
+                            <option value="LightningService_UtilityBar" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlexiPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CPQIntegrationUserApp" />
+                          </set>
+                        </option>
+                        <option name="name" value="ConnectedApp" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Salesforce1" />
+                            <option value="AppSwitcher" />
+                          </set>
+                        </option>
+                        <option name="name" value="AppMenu" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Employee_profileSessionSetting1531125832859" />
+                          </set>
+                        </option>
+                        <option name="name" value="ProfileSessionSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Request__c.Fixed_Asset_Request_Test" />
+                            <option value="Request__c.Request_Status_Update" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApprovalProcess" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CPQIntegrationUserCert" />
+                          </set>
+                        </option>
+                        <option name="name" value="Certificate" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Fixed_asset_admins" />
+                            <option value="Fixed_asset_coordinators" />
+                          </set>
+                        </option>
+                        <option name="name" value="Queue" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Employee_profilePasswordPolicy1531125832795" />
+                          </set>
+                        </option>
+                        <option name="name" value="ProfilePasswordPolicy" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Asset_To_User__c" />
+                            <option value="Asset__c" />
+                            <option value="Request__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="Workflow" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Asset_To_User__c.End_Date_Actualization" />
+                            <option value="Request__c.Request_In_Process" />
+                            <option value="Request__c.Request_Accepted" />
+                            <option value="Request__c.Request_Cancelled" />
+                            <option value="Request__c.Request_Rejected" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowFieldUpdate" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Asset__c.X5_Days_To_License_Expiry" />
+                            <option value="Request__c.Request_is_not_processed_for_more_than_10_days" />
+                            <option value="Request__c.Request_is_not_processed_for_3_days" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowAlert" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account.Test_Task" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowTask" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Request__c.Request Not Processed" />
+                            <option value="Asset_To_User__c.Asset Retured To Store" />
+                            <option value="Request__c.Request Not Processed In 5 Days" />
+                            <option value="Asset__c.License Expires In 5 Days" />
+                            <option value="Account.Test Account Workflow" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead.Standard_Lead_Duplicate_Rule" />
+                            <option value="Account.Standard_Account_Duplicate_Rule" />
+                            <option value="Contact.Standard_Contact_Duplicate_Rule" />
+                          </set>
+                        </option>
+                        <option name="name" value="DuplicateRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account-Account %28Sales%29 Layout" />
+                            <option value="Car__c-New" />
+                            <option value="Contact-Contact %28Support%29 Layout" />
+                            <option value="Product2-Product Layout" />
+                            <option value="Lead-Lead Layout" />
+                            <option value="Case-Case %28Sales%29 Layout" />
+                            <option value="Contact-Contact Layout" />
+                            <option value="Lead-Lead %28Support%29 Layout" />
+                            <option value="DandBCompany-D%26B Company Layout" />
+                            <option value="Case-Case %28Support%29 Layout" />
+                            <option value="AssetRelationship-Asset Relationship Layout" />
+                            <option value="Macro-Macro Layout" />
+                            <option value="Order-Order Layout" />
+                            <option value="Solution-Solution Layout" />
+                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
+                            <option value="ScorecardMetric-Scorecard Metric Layout" />
+                            <option value="Pricebook2-Price Book Layout" />
+                            <option value="Event-Event Layout" />
+                            <option value="UserProvisioningLog-User Provisioning Log Layout" />
+                            <option value="UserProvAccount-User Provisioning Account Layout" />
+                            <option value="Contact-Contact %28Marketing%29 Layout" />
+                            <option value="Task-Task Layout" />
+                            <option value="Company_Budget_Per_Role__mdt-Company Budget Per Role Layout" />
+                            <option value="Car__c-Used" />
+                            <option value="Request__c-Request Layout" />
+                            <option value="Asset-Asset Layout" />
+                            <option value="Opportunity-Opportunity Layout" />
+                            <option value="OrderItem-Order Product Layout" />
+                            <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
+                            <option value="Asset__c-Asset Layout" />
+                            <option value="OpportunityLineItem-Opportunity Product Layout" />
+                            <option value="Case-Case Layout" />
+                            <option value="Contract-Contract Layout" />
+                            <option value="Asset__c-Equipment Layout" />
+                            <option value="Account-Account Layout" />
+                            <option value="Campaign-Campaign Layout" />
+                            <option value="Incident_Log__c-Incident Log Layout" />
+                            <option value="UserAlt-User Profile Layout" />
+                            <option value="Asset__c-License Layout" />
+                            <option value="ScorecardAssociation-Scorecard Association Layout" />
+                            <option value="Car__c-Car Layout" />
+                            <option value="Opportunity-Opportunity %28Sales%29 Layout" />
+                            <option value="SocialPersona-Social Persona Layout" />
+                            <option value="Scorecard-Scorecard Layout" />
+                            <option value="Case-Case %28Marketing%29 Layout" />
+                            <option value="Asset_To_User__c-Asset To User Layout" />
+                            <option value="PricebookEntry-Price Book Entry Layout" />
+                            <option value="CaseClose-Close Case Layout" />
+                            <option value="Idea-Idea Layout" />
+                            <option value="FeedItem-Feed Item Layout" />
+                            <option value="ContentVersion-Content Version Layout" />
+                            <option value="Opportunity-Opportunity %28Support%29 Layout" />
+                            <option value="Global-Global Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
+                            <option value="Account-Account %28Marketing%29 Layout" />
+                            <option value="EmailMessage-Email Message Layout" />
+                            <option value="SocialPost-Social Post Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
+                            <option value="Account-Account %28Support%29 Layout" />
+                            <option value="QuickText-Quick Text Layout" />
+                            <option value="User-User Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
+                            <option value="Lead-Lead %28Marketing%29 Layout" />
+                            <option value="Asset__c-Request Layout" />
+                            <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
+                          </set>
+                        </option>
+                        <option name="name" value="Layout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Quick_Request-1" />
+                            <option value="License_Expires_In_10_Days-1" />
+                            <option value="Request_Not_Processed_For_3_Days-1" />
+                            <option value="Quick_Request-2" />
+                            <option value="Asset_Returned_To_Store-1" />
+                            <option value="Asset_Owner_Update_Flow-1" />
+                            <option value="Request_Owner_Update-1" />
+                            <option value="Request_not_processed_for_10_days-1" />
+                            <option value="Asset_Owner_Update-1" />
+                            <option value="Test_Process-1" />
+                          </set>
+                        </option>
+                        <option name="name" value="Flow" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="CollaborationGroup" />
+                            <option value="Task" />
+                            <option value="OpportunityLineItem" />
+                            <option value="ForecastingCategoryMapping" />
+                            <option value="CaseContactRole" />
+                            <option value="Activity" />
+                            <option value="Document" />
+                            <option value="ContactCleanInfo" />
+                            <option value="ScorecardMetric" />
+                            <option value="PushTopic" />
+                            <option value="ContractContactRole" />
+                            <option value="FeedItem" />
+                            <option value="ExchangeUserMapping" />
+                            <option value="SocialPersona" />
+                            <option value="Asset" />
+                            <option value="CampaignMember" />
+                            <option value="CollaborationGroupMember" />
+                            <option value="Order" />
+                            <option value="StreamingChannel" />
+                            <option value="AccountContactRole" />
+                            <option value="EmailMessage" />
+                            <option value="AccountCleanInfo" />
+                            <option value="Pricebook2" />
+                            <option value="Company_Budget_Per_Role__mdt" />
+                            <option value="Asset__c" />
+                            <option value="UserProvisioningRequest" />
+                            <option value="Asset_User_Search_Settings__c" />
+                            <option value="PricebookEntry" />
+                            <option value="OrgDeleteRequest" />
+                            <option value="Car__c" />
+                            <option value="Campaign" />
+                            <option value="LeadCleanInfo" />
+                            <option value="Idea" />
+                            <option value="Asset_Search_Settings__c" />
+                            <option value="Request__c" />
+                            <option value="Contract" />
+                            <option value="ScorecardAssociation" />
+                            <option value="PartnerRole" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="MacroAction" />
+                            <option value="Site" />
+                            <option value="User" />
+                            <option value="Product2" />
+                            <option value="Macro" />
+                            <option value="MacroInstruction" />
+                            <option value="DuplicateRecordItem" />
+                            <option value="CaseComment" />
+                            <option value="Case" />
+                            <option value="ContentVersion" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="DuplicateRecordSet" />
+                            <option value="Scorecard" />
+                            <option value="Topic" />
+                            <option value="Incident_Log__c" />
+                            <option value="Solution" />
+                            <option value="StreamActivityAccess" />
+                            <option value="QuickText" />
+                            <option value="AssetRelationship" />
+                            <option value="DandBCompany" />
+                            <option value="OpportunityContactRole" />
+                            <option value="Contact" />
+                            <option value="Asset_To_User__c" />
+                            <option value="RequestsForAccessSIQ" />
+                            <option value="OrderItem" />
+                            <option value="AssistantProgress" />
+                            <option value="List_Custom_Settings__c" />
+                            <option value="Event" />
+                            <option value="Trigger_Switch__c" />
+                            <option value="RecordAction" />
+                            <option value="TopicAssignment" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObject" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Asset_User_Search_Settings__c.Order_Fields__c" />
+                            <option value="Asset__c.Invoice_Number__c" />
+                            <option value="Car__c.Description__c" />
+                            <option value="Case.SLAViolation__c" />
+                            <option value="Lead.Primary__c" />
+                            <option value="Asset_User_Search_Settings__c.Order_Direction__c" />
+                            <option value="Request__c.Reason__c" />
+                            <option value="Lead.CurrentGenerators__c" />
+                            <option value="Request__c.Needs_Additional_verifcation__c" />
+                            <option value="Account.NumberofLocations__c" />
+                            <option value="List_Custom_Settings__c.Email_List__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
+                            <option value="Account.SLASerialNumber__c" />
+                            <option value="Account.UpsellOpportunity__c" />
+                            <option value="Company_Budget_Per_Role__mdt.Budget__c" />
+                            <option value="Account.CustomerPriority__c" />
+                            <option value="Car__c.Damaged__c" />
+                            <option value="Request__c.Status__c" />
+                            <option value="Car__c.Start_Day__c" />
+                            <option value="Car__c.End_day__c" />
+                            <option value="Company_Budget_Per_Role__mdt.Role_Name__c" />
+                            <option value="Asset__c.Description__c" />
+                            <option value="Asset__c.License_Expiry_Date__c" />
+                            <option value="Trigger_Switch__c.ContactTrigger__c" />
+                            <option value="Incident_Log__c.Stack_Trace__c" />
+                            <option value="Opportunity.OrderNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
+                            <option value="Car__c.Owners_Before__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
+                            <option value="Request__c.Value__c" />
+                            <option value="Account.SLAExpirationDate__c" />
+                            <option value="Asset__c.Days_used__c" />
+                            <option value="Car__c.Price_per_Day__c" />
+                            <option value="Asset_To_User__c.Days_used__c" />
+                            <option value="Request__c.Due_Date__c" />
+                            <option value="Car__c.Color__c" />
+                            <option value="Case.PotentialLiability__c" />
+                            <option value="Asset_To_User__c.User__c" />
+                            <option value="Car__c.Account__c" />
+                            <option value="Opportunity.TrackingNumber__c" />
+                            <option value="Trigger_Switch__c.AccountTrigger__c" />
+                            <option value="Incident_Log__c.Message__c" />
+                            <option value="Asset_Search_Settings__c.Order_Field__c" />
+                            <option value="Account.Active__c" />
+                            <option value="Asset__c.Purchase_Date__c" />
+                            <option value="Asset__c.License_Number__c" />
+                            <option value="Asset_To_User__c.End_Date__c" />
+                            <option value="Asset_User_Search_Settings__c.Search_Fields__c" />
+                            <option value="CaseComment.ParentOrigin" />
+                            <option value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option value="Account.Sum_of_Cost__c" />
+                            <option value="Contact.Level__c" />
+                            <option value="Car__c.Time_of_Rental__c" />
+                            <option value="Goal.OrigGoalId__c" />
+                            <option value="Asset_Search_Settings__c.Order_Direction__c" />
+                            <option value="Request__c.Who__c" />
+                            <option value="Car__c.Cost__c" />
+                            <option value="Car__c.Brand__c" />
+                            <option value="Account.SLA__c" />
+                            <option value="Asset__c.Price__c" />
+                            <option value="Asset_To_User__c.Asset__c" />
+                            <option value="Lead.SICCode__c" />
+                            <option value="Contact.Languages__c" />
+                            <option value="CaseComment.CommentBody" />
+                            <option value="Asset__c.Serial_No__c" />
+                            <option value="Request__c.What__c" />
+                            <option value="Car__c.Type__c" />
+                            <option value="Opportunity.CurrentGenerators__c" />
+                            <option value="Asset__c.Purchased_By__c" />
+                            <option value="Asset_To_User__c.Start_Date__c" />
+                            <option value="Request__c.Priority__c" />
+                            <option value="Asset__c.Due_Date__c" />
+                            <option value="Asset_To_User__c.Status__c" />
+                            <option value="Lead.ProductInterest__c" />
+                            <option value="Lead.NumberofLocations__c" />
+                            <option value="Case.Product__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomField" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Car__c.Used_Car" />
+                            <option value="Metric.Progress" />
+                            <option value="Metric.Completion" />
+                            <option value="Asset__c.License" />
+                            <option value="Car__c.New_Car" />
+                            <option value="Asset__c.Equipment" />
+                          </set>
+                        </option>
+                        <option name="name" value="RecordType" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Campaign.ViewCampaignInfluenceReport" />
+                            <option value="Opportunity.DeliveryStatus" />
+                            <option value="Case.UpsellCrosssellOpportunity" />
+                            <option value="Account.Billing" />
+                          </set>
+                        </option>
+                        <option name="name" value="WebLink" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Car__c.End_Day_Later_Than_Start_Day" />
+                            <option value="Request__c.Due_Date_In_The_Past" />
+                            <option value="Asset__c.Due_Date_In_The_Past" />
+                          </set>
+                        </option>
+                        <option name="name" value="ValidationRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order.AllActivatedOrders" />
+                            <option value="Opportunity.NewThisWeek" />
+                            <option value="Case.AllOpenCases" />
+                            <option value="Asset_To_User__c.All" />
+                            <option value="Order.AllDraftOrders" />
+                            <option value="Case.MyCases" />
+                            <option value="User.ActiveUsers" />
+                            <option value="Order.AllOrders" />
+                            <option value="Incident_Log__c.All" />
+                            <option value="Scorecard.MyScorecards" />
+                            <option value="Opportunity.ClosingNextMonth" />
+                            <option value="Contact.AllContacts" />
+                            <option value="Case.MyOpenCases" />
+                            <option value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option value="Opportunity.Private" />
+                            <option value="Contract.AllContracts" />
+                            <option value="Contract.MyActivatedContracts" />
+                            <option value="Request__c.Fixed_asset_admins_Request" />
+                            <option value="Contract.AllDraftContracts" />
+                            <option value="WorkFeedbackRequest.AboutTopics" />
+                            <option value="Contact.NewLastWeek" />
+                            <option value="Task.DelegatedTasks" />
+                            <option value="SocialPersona.AllSocialPersonas" />
+                            <option value="User.AllUsers" />
+                            <option value="Task.UnscheduledTasks" />
+                            <option value="Contract.MyDraftContracts" />
+                            <option value="Lead.TodaysLeads" />
+                            <option value="Asset__c.All" />
+                            <option value="Task.CompletedTasks" />
+                            <option value="Solution.AllUnreviewedSolutions" />
+                            <option value="Account.NewLastWeek" />
+                            <option value="Activity.UpcomingEvents" />
+                            <option value="Account.MyAccounts" />
+                            <option value="Opportunity.AllOpportunities" />
+                            <option value="Task.OpenTasks" />
+                            <option value="Task.OverdueTasks" />
+                            <option value="Contact.BirthdaysThisMonth" />
+                            <option value="Account.AllAccounts" />
+                            <option value="Opportunity.ClosingThisMonth" />
+                            <option value="Request__c.All" />
+                            <option value="Contact.NewThisWeek" />
+                            <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Activity.AllActivities" />
+                            <option value="Opportunity.NewLastWeek" />
+                            <option value="Asset.AllAssets" />
+                            <option value="User.AdminUsers" />
+                            <option value="Scorecard.AllScorecards" />
+                            <option value="Opportunity.MyOpportunities" />
+                            <option value="Campaign.MyActiveCampaigns" />
+                            <option value="Lead.MyUnreadLeads" />
+                            <option value="Product2.AllProducts" />
+                            <option value="Campaign.AllActiveCampaigns" />
+                            <option value="Contact.MyContacts" />
+                            <option value="Activity.TodaysTasks" />
+                            <option value="Car__c.All" />
+                            <option value="Task.RecurringTasks" />
+                            <option value="Request__c.Fixed_asset_coordinators_Request" />
+                            <option value="Case.AllClosedCases" />
+                            <option value="Opportunity.Won" />
+                            <option value="Solution.AllReviewedSolutions" />
+                            <option value="Account.PlatinumandGoldSLACustomers" />
+                            <option value="Contract.MyInApprovalContracts" />
+                            <option value="Task.TodaysTasks" />
+                            <option value="Activity.MyActivities" />
+                            <option value="Contract.AllInApprovalContracts" />
+                            <option value="WorkFeedbackTemplate.All" />
+                            <option value="Lead.AllOpenLeads" />
+                            <option value="Account.NewThisWeek" />
+                            <option value="WorkFeedbackRequest.All" />
+                            <option value="Lead.ViewCustom1" />
+                            <option value="Idea.Ideas_Last_7_Days" />
+                            <option value="Contract.AllActivatedContracts" />
+                            <option value="Lead.ViewCustom2" />
+                          </set>
+                        </option>
+                        <option name="name" value="ListView" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="IncidentLogTrigger" />
+                            <option value="OpportunityTrigger" />
+                            <option value="ContactTrigger" />
+                            <option value="RequestTrigger" />
+                            <option value="AccountTrigger" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexTrigger" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Car__c-en_US" />
+                            <option value="Company_Budget_Per_Role__mdt-en_US" />
+                            <option value="List_Custom_Settings__c-en_US" />
+                            <option value="Asset_User_Search_Settings__c-en_US" />
+                            <option value="Asset_To_User__c-en_US" />
+                            <option value="Asset_Search_Settings__c-en_US" />
+                            <option value="Trigger_Switch__c-en_US" />
+                            <option value="Request__c-en_US" />
+                            <option value="Incident_Log__c-en_US" />
+                            <option value="Asset__c-en_US" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObjectTranslation" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CustomLabels" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabels" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="A18_VFC_AssetUserController" />
+                            <option value="A18_ES_QRService" />
+                            <option value="A18_DA_AssetUserService" />
+                            <option value="TriggerHandler" />
+                            <option value="RequestTriggerHandler" />
+                            <option value="ContactTriggerHandlerTest" />
+                            <option value="A18_TestDataFactory" />
+                            <option value="A18_DM_AssetService" />
+                            <option value="AccountTriggerHandlerTest" />
+                            <option value="A18_AC_AssetUserController" />
+                            <option value="A18_ES_IRestService" />
+                            <option value="A18_AssetUserAssembler" />
+                            <option value="A18_CS_AssetService" />
+                            <option value="ContactTriggerHandler" />
+                            <option value="A18_AC_AssetController" />
+                            <option value="A18_ES_CSVService" />
+                            <option value="A18_AC_AssetUserControllerTest" />
+                            <option value="A18_DM_AssetUserService" />
+                            <option value="A18_CustomSettingsValidation" />
+                            <option value="IncidentLogTriggerHandler" />
+                            <option value="A18_CS_AssetUserService" />
+                            <option value="A18_VFC_AssetController" />
+                            <option value="A18_DA_AssetService" />
+                            <option value="A18_DTO" />
+                            <option value="A18_AC_AssetControllerTest" />
+                            <option value="AccountTriggerHandler" />
+                            <option value="A18_ES_HerokuService" />
+                            <option value="A18_AssetAssembler" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Internal Zone" />
+                          </set>
+                        </option>
+                        <option name="name" value="Community" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
+                            <option value="Account.Standard_Account_Match_Rule_v1_0" />
+                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Lead" />
+                            <option value="Contact" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard__Sales" />
+                            <option value="standard__LightningService" />
+                            <option value="PS_Fixed_Asset_Management_Tool" />
+                            <option value="standard__ServiceConsole" />
+                            <option value="standard__Community" />
+                            <option value="standard__AppLauncher" />
+                            <option value="standard__Chatter" />
+                            <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Platform" />
+                            <option value="standard__LightningSales" />
+                            <option value="standard__Service" />
+                            <option value="standard__Marketing" />
+                            <option value="standard__Content" />
+                            <option value="standard__Sites" />
+                            <option value="standard__LightningBolt" />
+                            <option value="standard__LightningSalesConsole" />
+                            <option value="standard__Insights" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomApplication" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead.Standard" />
+                            <option value="Case.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Request_not_processed_for_10_days" />
+                            <option value="Request_Not_Processed_For_3_Days" />
+                            <option value="License_Expires_In_10_Days" />
+                            <option value="Quick_Request" />
+                            <option value="Asset_Owner_Update_Flow" />
+                            <option value="Asset_Returned_To_Store" />
+                            <option value="Test_Process" />
+                            <option value="Request_Owner_Update" />
+                            <option value="Asset_Owner_Update" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlowDefinition" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="en_US" />
+                          </set>
+                        </option>
+                        <option name="name" value="Translations" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Task.EditDescription" />
+                            <option value="NewGroup" />
+                            <option value="FeedItem.NewTaskFromFeedItem" />
+                            <option value="NewNote" />
+                            <option value="CollaborationGroup.NewGroupMember" />
+                            <option value="Task.EditDescription_0" />
+                            <option value="CollaborationGroup.NewGroupRecord" />
+                            <option value="SendEmail" />
+                            <option value="NewLead" />
+                            <option value="Task.UpdateStatus" />
+                            <option value="NewOpportunity" />
+                            <option value="NewTask" />
+                            <option value="Task.Defer_0" />
+                            <option value="NewAccount" />
+                            <option value="Task.UpdateStatus_0" />
+                            <option value="Task.UpdatePriority" />
+                            <option value="Case.LogACall" />
+                            <option value="Case.NewChildCase" />
+                            <option value="Task.UpdatePriority_0" />
+                            <option value="NewContact" />
+                            <option value="NewCase" />
+                            <option value="Task.Defer" />
+                            <option value="NewEvent" />
+                            <option value="LogACall" />
+                          </set>
+                        </option>
+                        <option name="name" value="QuickAction" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Create_Request_Record_For_Anyone" />
+                            <option value="Fixed_asset_coordinator" />
+                            <option value="Fixed_asset_admin" />
+                          </set>
+                        </option>
+                        <option name="name" value="PermissionSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Account" />
+                            <option value="User" />
+                            <option value="Asset__c" />
+                            <option value="Asset_User_Search_Settings__c" />
+                            <option value="Case" />
+                            <option value="Contact" />
+                            <option value="FlowInterview" />
+                            <option value="Campaign" />
+                            <option value="ListEmail" />
+                            <option value="Asset_Search_Settings__c" />
+                            <option value="Opportunity" />
+                            <option value="List_Custom_Settings__c" />
+                            <option value="Lead" />
+                            <option value="Asset" />
+                            <option value="Trigger_Switch__c" />
+                            <option value="Request__c" />
+                            <option value="Incident_Log__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="SharingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Asset__c.Read_Write_Rule_for_Coordinators" />
+                            <option value="Request__c.Read_Write_Rule_for_Coordinators" />
+                            <option value="Request__c.Read_Write_Rule_for_Admins" />
+                            <option value="Asset__c.Read_Write_Rule_for_Admins" />
+                          </set>
+                        </option>
+                        <option name="name" value="SharingOwnerRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DE Default" />
+                          </set>
+                        </option>
+                        <option name="name" value="HomePageLayout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="FiscalYearPeriodPrefix" />
+                            <option value="TaskPriority" />
+                            <option value="EventType" />
+                            <option value="CaseContactRole" />
+                            <option value="WorkOrderStatus" />
+                            <option value="Product2Family" />
+                            <option value="Industry" />
+                            <option value="CasePriority" />
+                            <option value="OrderType" />
+                            <option value="ContractContactRole" />
+                            <option value="TaskType" />
+                            <option value="IdeaStatus" />
+                            <option value="AccountRating" />
+                            <option value="SalesTeamRole" />
+                            <option value="CampaignType" />
+                            <option value="WorkOrderLineItemStatus" />
+                            <option value="AccountOwnership" />
+                            <option value="SolutionStatus" />
+                            <option value="AccountContactRole" />
+                            <option value="RoleInTerritory2" />
+                            <option value="CampaignMemberStatus" />
+                            <option value="ServiceContractApprovalStatus" />
+                            <option value="LeadSource" />
+                            <option value="CaseType" />
+                            <option value="CaseStatus" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="QuickTextChannel" />
+                            <option value="CampaignStatus" />
+                            <option value="QuoteStatus" />
+                            <option value="ContractStatus" />
+                            <option value="EventSubject" />
+                            <option value="AssetStatus" />
+                            <option value="FiscalYearQuarterName" />
+                            <option value="Salutation" />
+                            <option value="ContactRole" />
+                            <option value="FiscalYearQuarterPrefix" />
+                            <option value="LeadStatus" />
+                            <option value="IdeaMultiCategory" />
+                            <option value="SocialPostEngagementLevel" />
+                            <option value="AccountContactMultiRoles" />
+                            <option value="EntitlementType" />
+                            <option value="FiscalYearPeriodName" />
+                            <option value="TaskSubject" />
+                            <option value="TaskStatus" />
+                            <option value="AccountType" />
+                            <option value="OpportunityStage" />
+                            <option value="SocialPostClassification" />
+                            <option value="CaseReason" />
+                            <option value="IdeaThemeStatus" />
+                            <option value="WorkOrderPriority" />
+                            <option value="QuickTextCategory" />
+                            <option value="OpportunityType" />
+                            <option value="SocialPostReviewedStatus" />
+                            <option value="CaseOrigin" />
+                          </set>
+                        </option>
+                        <option name="name" value="StandardValueSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="ReportFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
+                            <option value="unfiled$public/SupportSelfServiceResetPassword" />
+                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
+                            <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
+                            <option value="unfiled$public/SupportCaseAssignmentNotification" />
+                            <option value="unfiled$public/SupportCaseResponse" />
+                            <option value="unfiled$public/SalesNewCustomerEmail" />
+                            <option value="unfiled$public/Request_not_processed" />
+                            <option value="unfiled$public/License_Expires_In_5_Days" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
+                            <option value="unfiled$public/SupportEscalatedCaseNotification" />
+                            <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
+                            <option value="unfiled$public/SupportEscalatedCaseReassignment" />
+                            <option value="unfiled$public/MarketingProductInquiryResponse" />
+                            <option value="unfiled$public/Request_not_processed_for_3_days" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailTemplate" />
+                      </MetadataType>
+                    </set>
+                  </option>
+                </MetadataContents>
+              </value>
+            </entry>
+          </map>
+        </option>
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
-            <option name="documentText" value="SELECT Name, Start_Date__c, Asset__c, User__c FROM Asset_To_User__c WHERE Name LIKE 'Mouse' ORDER BY Name ASC" />
+            <option name="documentText" value="SELECT Name, Id FROM Account WHERE Name = 'coś'" />
           </SoqlQuerySettings>
         </option>
       </ProjectWorkspaceSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-80" />
-    <option name="y" value="29" />
-    <option name="width" value="1356" />
-    <option name="height" value="555" />
+    <option name="x" value="-8" />
+    <option name="width" value="1268" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -282,39 +1448,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="triggers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="IlluminatedCloudApplicationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -328,7 +1499,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Apex Unit Tests.ContactTriggerHandlerTest.shouldCreateAccountForContact">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -370,46 +1541,119 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="A18_AC_AssetControllerTest.testAddAsset" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="AccountTriggerHandlerTest" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allTests" value="false" />
-      <option name="apexLogLevel" value="FINEST" />
-      <option name="calloutsLogLevel" value="ERROR" />
-      <option name="connectionName" value="Akademia" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="Akademia 2018" />
       <option name="contextConfiguration" value="true" />
       <option name="databaseLogLevel" value="INFO" />
-      <option name="logLevelsInitialized" value="true" />
+      <option name="logLevelsInitialized" value="false" />
       <option name="moduleToTestClassNames">
         <map>
           <entry key="Akademia 2018">
             <value>
               <set>
-                <option value="A18_AC_AssetControllerTest" />
+                <option value="AccountTriggerHandlerTest" />
               </set>
             </value>
           </entry>
         </map>
       </option>
-      <option name="profilingLogLevel" value="ERROR" />
-      <option name="systemLogLevel" value="FINEST" />
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
       <option name="testClassToTestMethodNames">
+        <map />
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+    </configuration>
+    <configuration name="AccountTriggerHandlerTest.shouldCreateAccountForContact" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="Akademia 2018" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
         <map>
-          <entry key="A18_AC_AssetControllerTest">
+          <entry key="Akademia 2018">
             <value>
               <set>
-                <option value="testAddAsset" />
+                <option value="AccountTriggerHandlerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="AccountTriggerHandlerTest">
+            <value>
+              <set>
+                <option value="shouldCreateAccountForContact" />
               </set>
             </value>
           </entry>
         </map>
       </option>
       <option name="testSuiteName" />
-      <option name="validationLogLevel" value="ERROR" />
-      <option name="visualforceLogLevel" value="ERROR" />
-      <option name="workflowLogLevel" value="ERROR" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
     </configuration>
+    <configuration name="ContactTriggerHandlerTest.shouldCreateAccountForContact" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="Akademia 2018" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="Akademia 2018">
+            <value>
+              <set>
+                <option value="ContactTriggerHandlerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="ContactTriggerHandlerTest">
+            <value>
+              <set>
+                <option value="shouldCreateAccountForContact" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+    </configuration>
+    <list>
+      <item itemvalue="Apex Unit Tests.ContactTriggerHandlerTest.shouldCreateAccountForContact" />
+      <item itemvalue="Apex Unit Tests.AccountTriggerHandlerTest.shouldCreateAccountForContact" />
+      <item itemvalue="Apex Unit Tests.AccountTriggerHandlerTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Apex Unit Tests.A18_AC_AssetControllerTest.testAddAsset" />
+        <item itemvalue="Apex Unit Tests.ContactTriggerHandlerTest.shouldCreateAccountForContact" />
+        <item itemvalue="Apex Unit Tests.AccountTriggerHandlerTest" />
+        <item itemvalue="Apex Unit Tests.AccountTriggerHandlerTest.shouldCreateAccountForContact" />
       </list>
     </recent_temporary>
   </component>
@@ -427,20 +1671,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="A18_AC_AssetControllerTest_testAddAsset - 2018.07.15 at 23h 59m 19s.xml">
-      <configuration name="A18_AC_AssetControllerTest.testAddAsset" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="AccountTriggerHandlerTest - 2018.07.16 at 11h 51m 05s.xml">
+      <configuration name="AccountTriggerHandlerTest" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="A18_AC_AssetControllerTest_testAddAsset - 2018.07.16 at 00h 00m 37s.xml">
-      <configuration name="A18_AC_AssetControllerTest.testAddAsset" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="AccountTriggerHandlerTest - 2018.07.16 at 11h 51m 25s.xml">
+      <configuration name="AccountTriggerHandlerTest" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="A18_AC_AssetControllerTest_testAddAsset - 2018.07.16 at 00h 02m 45s.xml">
-      <configuration name="A18_AC_AssetControllerTest.testAddAsset" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="AccountTriggerHandlerTest - 2018.07.16 at 11h 51m 45s.xml">
+      <configuration name="AccountTriggerHandlerTest" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="A18_AC_AssetControllerTest_testAddAsset - 2018.07.16 at 00h 04m 59s.xml">
-      <configuration name="A18_AC_AssetControllerTest.testAddAsset" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="AccountTriggerHandlerTest - 2018.07.16 at 11h 51m 53s.xml">
+      <configuration name="AccountTriggerHandlerTest" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="A18_AC_AssetControllerTest_testAddAsset - 2018.07.16 at 00h 13m 47s.xml">
-      <configuration name="A18_AC_AssetControllerTest.testAddAsset" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="AccountTriggerHandlerTest - 2018.07.16 at 11h 52m 03s.xml">
+      <configuration name="AccountTriggerHandlerTest" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="AccountTriggerHandlerTest - 2018.07.16 at 11h 52m 54s.xml">
+      <configuration name="AccountTriggerHandlerTest" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="ContactTriggerHandlerTest_shouldCreateAccountForContact - 2018.07.16 at 11h 53m 02s.xml">
+      <configuration name="ContactTriggerHandlerTest.shouldCreateAccountForContact" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="ContactTriggerHandlerTest_shouldCreateAccountForContact - 2018.07.16 at 11h 54m 40s.xml">
+      <configuration name="ContactTriggerHandlerTest.shouldCreateAccountForContact" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="ContactTriggerHandlerTest_shouldCreateAccountForContact - 2018.07.16 at 11h 54m 51s.xml">
+      <configuration name="ContactTriggerHandlerTest.shouldCreateAccountForContact" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="ContactTriggerHandlerTest_shouldCreateAccountForContact - 2018.07.16 at 11h 54m 59s.xml">
+      <configuration name="ContactTriggerHandlerTest.shouldCreateAccountForContact" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -453,32 +1712,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32951653" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="7" weight="0.31585845" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.32684565" side_tool="true" weight="0.32478634" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.67315435" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32896462" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33285302" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21346705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21610738" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info anchor="bottom" id="SOQL Query" order="7" weight="0.32896462" />
+      <window_info anchor="bottom" id="SOQL Query" order="7" weight="0.32763532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Log Viewer" order="7" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973786" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -490,86 +1749,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -596,8 +1781,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="102">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip!/Asset__c.cls" />
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -608,232 +1822,276 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/apex.properties" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CustomSettingsQueryValidation.cls" />
-    <entry file="file://$PROJECT_DIR$/out/production/Akademia 2018/classes/A18_AC_AssetController.cls-meta.xml" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CustomSettingsValidation.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1520#1539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_TestDataFactory.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls" />
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls" />
     <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="204">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/AssetUserAssembler.cls" />
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/ContactTigger.trigger" />
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetUserService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger1.trigger" />
+    <entry file="file://$PROJECT_DIR$/src/triggers/SuperAccountTrigger.trigger" />
+    <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger2.trigger" />
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserControllerTest.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="412">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/OpportunityTrigger.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/IcidentLogTriggerHandler.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserControllerTest.cls">
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="363">
+          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="87" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Akademia 2018.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CustomSettingsValidation.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/ContactTrigger.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/TriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+          <folding>
+            <element signature="e#515#534#0" expanded="true" />
+            <element signature="e#572#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#221#238#0" expanded="true" />
+            <element signature="e#456#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/AccountTriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/AccountTriggerHandlerTest.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ContactTriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/IncidentLogTrigger.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/RequestTrigger.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#207#219#0" expanded="true" />
+            <element signature="e#665#677#0" expanded="true" />
+            <element signature="e#1631#1643#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,7 +2136,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9</last-edited>
+          <last-edited>IlluminatedCloud (Akademia 2018/Akademia 2018)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
