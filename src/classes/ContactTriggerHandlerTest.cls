@@ -23,11 +23,8 @@ private class ContactTriggerHandlerTest {
 
         //Verify
         c = [SELECT Id, FirstName, LastName, AccountId FROM Contact WHERE Id = :c.Id];
-
         System.assertNotEquals(NULL, c.AccountId, 'Account ID shouldnt be null');
-
         Account acc = [SELECT Id, Name FROM Account WHERE Id = :c.AccountId];
         System.assertEquals(acc.Name, c.FirstName + ' ' + c.LastName, 'Name should be the same');
-
     }
 }

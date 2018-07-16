@@ -9,7 +9,6 @@ private class AccountTriggerHandlerTest {
         Account acc = new Account(
                 Name = 'NewName'
         );
-
         Trigger_Switch__c triggerSwitch = new Trigger_Switch__c(
                 AccountTrigger__c = true
         );
@@ -22,7 +21,6 @@ private class AccountTriggerHandlerTest {
 
         //Verify
         List<Account> accounts = [SELECT Name, Id FROM Account WHERE Name = :acc.Name];
-
         System.assertEquals(2, accounts.size(), 'There should be 2 accounts with same name');
     }
 }

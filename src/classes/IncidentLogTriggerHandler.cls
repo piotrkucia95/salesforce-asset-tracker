@@ -10,7 +10,11 @@ public with sharing class IncidentLogTriggerHandler extends TriggerHandler {
         for (Incident_Log__c newIncidentLog : (List<Incident_Log__c>)Trigger.new) {
             List<String> mailToAddressList = new List<String>();
             List_Custom_Settings__c mailListSettings = List_Custom_Settings__c.getInstance();
-            mailToAddressList = mailListSettings.Email_List__c.split(';');
+            if(mailListSettings.Email_List__c == NULL){
+                mailToAddressList.add('p.kucia@polsource.com');
+            } else {
+                mailToAddressList = mailListSettings.Email_List__c.split(';');
+            }
             mail.setToAddresses(mailToAddressList);
             mail.setCcAddresses(mailToAddressList);
             mail.setReplyTo('p.kucia@polource.com');
