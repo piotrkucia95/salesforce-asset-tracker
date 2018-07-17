@@ -5,11 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/illuminatedCloud.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Akademia 2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Akademia 2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/AccountTriggerHandlerTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/AccountTriggerHandlerTest.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +16,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RequestTriggerHandler.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls">
+      <file leaf-file-name="A18_ObjectInApprovalProcessBatchClass.cls" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessBatchClass.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AC_AssetController.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestTriggerHandlerTest.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandlerTest.cls">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="337">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#560#585#0" expanded="true" />
+                <element signature="e#633#637#0" expanded="true" />
+                <element signature="e#1277#1285#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,17 +34,17 @@
       <file leaf-file-name="IncidentLogTriggerHandler.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="26">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestTrigger.trigger" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/triggers/RequestTrigger.trigger">
+      <file leaf-file-name="A18_ObjectInApprovalProcessScheduler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessScheduler.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -69,24 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_AC_AssetControllerTest.cls" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls">
+      <file leaf-file-name="A18_ObjectInApprovalProcessSchedulerExec.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessSchedulerExec.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-              <folding>
-                <element signature="e#382#397#0" expanded="true" />
-                <element signature="e#1524#1531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTrigger.trigger" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger.trigger">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="136">
+              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -94,25 +64,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactTriggerHandlerTest.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls">
+      <file leaf-file-name="A18_RequestOverviewBatchClass.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestOverviewBatchClass.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="-51">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#711#736#0" expanded="true" />
+                <element signature="e#1103#1111#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactTriggerHandler.cls" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/ContactTriggerHandler.cls">
+      <file leaf-file-name="Default.apex" pinned="false" current-in-tab="false">
+        <entry file="mock:///Default.apex">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="A18_RequestOverviewScheduler.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestOverviewScheduler.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="IncidentLogTriggerHandlerTest.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandlerTest.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="383">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_RequestOverviewSchedulerExec.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestOverviewSchedulerExec.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_IncidentLogDeleteBatchClass.cls" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteBatchClass.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="67" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="25" selection-end-column="67" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -126,8 +137,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Apex Trigger" />
-        <option value="Apex Class" />
         <option value="Apex Unit Test Class" />
+        <option value="Apex Class" />
         <option value="Apex Metadata" />
       </list>
     </option>
@@ -143,18 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DTO.cls" />
-        <option value="$PROJECT_DIR$/src/classes/AssetUserAssembler.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" />
@@ -182,10 +181,30 @@
         <option value="$PROJECT_DIR$/src/classes/AccountTriggerHandlerTest.cls" />
         <option value="$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls" />
         <option value="$PROJECT_DIR$/src/classes/IncidentLogTriggerHandlerTest.cls" />
-        <option value="$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls" />
         <option value="$PROJECT_DIR$/src/classes/RequestTriggerHandlerRest.cls" />
         <option value="$PROJECT_DIR$/src/classes/RequestTriggerHandlerTest.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls" />
+        <option value="$PROJECT_DIR$/src/classes/IncidentLogDeleterHandler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_IncidentLogDeleterHandler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_IncidentLogDeleter.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteSchedulerClass.cls" />
+        <option value="$PROJECT_DIR$/src/classes/ObjectInApprovalProccesSchedulerExec.cls" />
+        <option value="$PROJECT_DIR$/src/classes/ObjectInApprovalProcessScheduler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/ObjectInApprovalProcessBatchClass.cls" />
+        <option value="$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProccesSchedulerExec.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessSchedulerExec.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteSchedulerExec.cls" />
+        <option value="$PROJECT_DIR$/src/classes/RequestBatchClass.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_RequestBatchClass.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_RequestScheduler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteScheduler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_IncidentLogBatchClass.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessScheduler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_RequestOverviewScheduler.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_RequestOverviewSchedulerExec.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_RequestOverviewBatchClass.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessBatchClass.cls" />
       </list>
     </option>
   </component>
@@ -205,15 +224,8 @@
       <ProjectWorkspaceSettings>
         <option name="anonymousApexSettings">
           <AnonymousApexSettings>
-            <option name="apexLogLevel" value="FINEST" />
-            <option name="calloutsLogLevel" value="ERROR" />
-            <option name="documentText" value="delete [SELECT Id FROM Contact WHERE CreatedDate = TODAY];" />
-            <option name="profilingLogLevel" value="ERROR" />
-            <option name="splitterProportion" value="0.3888889" />
-            <option name="systemLogLevel" value="FINEST" />
-            <option name="validationLogLevel" value="ERROR" />
-            <option name="visualforceLogLevel" value="ERROR" />
-            <option name="workflowLogLevel" value="ERROR" />
+            <option name="documentText" value="A18_ObjectInApprovalProcessSchedulerExec scheduler = new A18_ObjectInApprovalProcessSchedulerExec();" />
+            <option name="splitterProportion" value="0.5364173" />
           </AnonymousApexSettings>
         </option>
         <option name="connectionWorkspaceSettings">
@@ -257,6 +269,18 @@
                       <entry key="CLASSES/A18_ES_HEROKUSERVICE.CLS" value="1531223350296" />
                       <entry key="CLASSES/A18_ES_IRESTSERVICE.CLS" value="1531226758549" />
                       <entry key="CLASSES/A18_ES_QRSERVICE.CLS" value="1531225580004" />
+                      <entry key="CLASSES/A18_INCIDENTLOGBATCHCLASS.CLS" value="1531820728799" />
+                      <entry key="CLASSES/A18_INCIDENTLOGDELETEBATCHCLASS.CLS" value="1531826397643" />
+                      <entry key="CLASSES/A18_INCIDENTLOGDELETESCHEDULER.CLS" value="1531820626076" />
+                      <entry key="CLASSES/A18_INCIDENTLOGDELETESCHEDULERCLASS.CLS" value="1531821645839" />
+                      <entry key="CLASSES/A18_INCIDENTLOGDELETESCHEDULEREXEC.CLS" value="1531826118446" />
+                      <entry key="CLASSES/A18_OBJECTINAPPROVALPROCCESSCHEDULEREXEC.CLS" value="1531822793000" />
+                      <entry key="CLASSES/A18_OBJECTINAPPROVALPROCESSBATCHCLASS.CLS" value="1531836718397" />
+                      <entry key="CLASSES/A18_OBJECTINAPPROVALPROCESSSCHEDULER.CLS" value="1531827911603" />
+                      <entry key="CLASSES/A18_OBJECTINAPPROVALPROCESSSCHEDULEREXEC.CLS" value="1531827915564" />
+                      <entry key="CLASSES/A18_REQUESTOVERVIEWBATCHCLASS.CLS" value="1531833952628" />
+                      <entry key="CLASSES/A18_REQUESTOVERVIEWSCHEDULER.CLS" value="1531830092023" />
+                      <entry key="CLASSES/A18_REQUESTOVERVIEWSCHEDULEREXEC.CLS" value="1531830714288" />
                       <entry key="CLASSES/A18_VFC_ASSETCONTROLLER.CLS" value="1531392903495" />
                       <entry key="CLASSES/A18_VFC_ASSETUSERCONTROLLER.CLS" value="1531383608217" />
                       <entry key="CLASSES/ACCOUNTTRIGGERHANDLER.CLS" value="1531736615095" />
@@ -265,7 +289,11 @@
                       <entry key="CLASSES/CONTACTTRIGGERHANDLER.CLS" value="1531738057104" />
                       <entry key="CLASSES/CONTACTTRIGGERHANDLERTEST.CLS" value="1531736615095" />
                       <entry key="CLASSES/ICIDENTLOGTRIGGERHANDLER.CLS" value="1531738685000" />
-                      <entry key="CLASSES/INCIDENTLOGTRIGGERHANDLER.CLS" value="1531746552855" />
+                      <entry key="CLASSES/INCIDENTLOGDELETERHANDLER.CLS" value="1531817851000" />
+                      <entry key="CLASSES/INCIDENTLOGTRIGGERHANDLER.CLS" value="1531832507963" />
+                      <entry key="CLASSES/OBJECTINAPPROVALPROCCESSCHEDULEREXEC.CLS" value="1531822570000" />
+                      <entry key="CLASSES/OBJECTINAPPROVALPROCESSBATCHCLASS.CLS" value="1531821960000" />
+                      <entry key="CLASSES/OBJECTINAPPROVALPROCESSSCHEDULER.CLS" value="1531822570000" />
                       <entry key="CLASSES/REQUESTTRIGGERHANDLER.CLS" value="1531748358633" />
                       <entry key="CLASSES/TRIGGERHANDLER.CLS" value="1531741769000" />
                       <entry key="TRIGGERS/ACCOUNTTRIGGER.TRIGGER" value="1531736615335" />
@@ -1410,7 +1438,8 @@
         </option>
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
-            <option name="documentText" value="SELECT Name, Id FROM Account WHERE Name = 'coś'" />
+            <option name="documentText" value="SELECT ActorId FROM ProcessInstanceWorkitem" />
+            <option name="splitterProportion" value="0.6371742" />
           </SoqlQuerySettings>
         </option>
       </ProjectWorkspaceSettings>
@@ -1418,7 +1447,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1268" />
+    <option name="width" value="1385" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1432,29 +1461,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akademia-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akademia-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="triggers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1462,14 +1486,13 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1529,7 +1552,7 @@
       <option name="allTests" value="false" />
       <option name="apexLogLevel" value="DEBUG" />
       <option name="calloutsLogLevel" value="INFO" />
-      <option name="connectionName" value="Akademia" />
+      <option name="connectionName" value="Akademia 2018" />
       <option name="contextConfiguration" value="true" />
       <option name="databaseLogLevel" value="INFO" />
       <option name="logLevelsInitialized" value="false" />
@@ -1566,7 +1589,7 @@
       <option name="allTests" value="false" />
       <option name="apexLogLevel" value="DEBUG" />
       <option name="calloutsLogLevel" value="INFO" />
-      <option name="connectionName" value="Akademia" />
+      <option name="connectionName" value="Akademia 2018" />
       <option name="contextConfiguration" value="true" />
       <option name="databaseLogLevel" value="INFO" />
       <option name="logLevelsInitialized" value="false" />
@@ -1603,7 +1626,7 @@
       <option name="allTests" value="false" />
       <option name="apexLogLevel" value="DEBUG" />
       <option name="calloutsLogLevel" value="INFO" />
-      <option name="connectionName" value="Akademia" />
+      <option name="connectionName" value="Akademia 2018" />
       <option name="contextConfiguration" value="true" />
       <option name="databaseLogLevel" value="INFO" />
       <option name="logLevelsInitialized" value="false" />
@@ -1640,7 +1663,7 @@
       <option name="allTests" value="false" />
       <option name="apexLogLevel" value="DEBUG" />
       <option name="calloutsLogLevel" value="INFO" />
-      <option name="connectionName" value="Akademia" />
+      <option name="connectionName" value="Akademia 2018" />
       <option name="contextConfiguration" value="true" />
       <option name="databaseLogLevel" value="INFO" />
       <option name="logLevelsInitialized" value="false" />
@@ -1677,7 +1700,7 @@
       <option name="allTests" value="false" />
       <option name="apexLogLevel" value="DEBUG" />
       <option name="calloutsLogLevel" value="INFO" />
-      <option name="connectionName" value="Akademia" />
+      <option name="connectionName" value="Akademia 2018" />
       <option name="contextConfiguration" value="true" />
       <option name="databaseLogLevel" value="INFO" />
       <option name="logLevelsInitialized" value="false" />
@@ -1782,38 +1805,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007163" side_tool="true" weight="0.33158585" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.67315435" weight="0.32905984" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49856734" weight="0.32896462" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49856734" weight="0.32896462" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1230916" side_tool="true" weight="0.32853025" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.8769084" weight="0.37037036" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928367" weight="0.32896462" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.33158585" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928367" weight="0.32896462" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22492836" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1671141" />
       <window_info anchor="bottom" id="Problems" order="7" sideWeight="0.49928367" weight="0.32896462" />
-      <window_info anchor="bottom" id="SOQL Query" order="7" sideWeight="0.49928367" weight="0.3263434" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="SOQL Query" order="7" sideWeight="0.49928367" weight="0.32478634" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Log Viewer" order="7" sideWeight="0.7750716" weight="0.32896462" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1825,130 +1849,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip!/Asset__c.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_HerokuService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetFilter.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetStatus.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO_AssetUser.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_IRestService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_VFC_AssetUserController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_CSVService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/AssetUserAssembler.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AssetUserAssembler.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -2000,9 +1900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2011,9 +1908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2029,55 +1923,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger.trigger">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="51">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandlerTest.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandlerRest.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandlerRest.cls" />
     <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandler.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandlerTest.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="1207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/triggers/RequestTrigger.trigger">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="102">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -2090,25 +1951,248 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/ContactTriggerHandlerTest.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="102">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogDeleterHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleterHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleter.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/RequestTriggerHandlerTest.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteSchedulerClass.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ObjectInApprovalProccesSchedulerExec.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ObjectInApprovalProcessScheduler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/ObjectInApprovalProcessBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#493#510#0" expanded="true" />
+            <element signature="e#571#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetControllerTest.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        <state relative-caret-position="363">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProccesSchedulerExec.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding>
-            <element signature="e#382#397#0" expanded="true" />
-            <element signature="e#1524#1531#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/RequestBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestScheduler.cls">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteScheduler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteSchedulerExec.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip!/Database/Batchable.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_IncidentLogDeleteBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="67" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandlerTest.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/IncidentLogTriggerHandler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestOverviewScheduler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestOverviewSchedulerExec.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_RequestOverviewBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#711#736#0" expanded="true" />
+            <element signature="e#1103#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessScheduler.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessSchedulerExec.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ObjectInApprovalProcessBatchClass.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#560#585#0" expanded="true" />
+            <element signature="e#633#637#0" expanded="true" />
+            <element signature="e#1277#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>

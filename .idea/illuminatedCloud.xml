@@ -4,9 +4,9 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="Akademia" />
+          <option name="connectionName" value="Akademia 2018" />
           <option name="defaultModuleName" value="Akademia 2018" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/Akademia/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/Akademia_2018/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>
