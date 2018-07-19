@@ -4,30 +4,30 @@
 
 public with sharing class A18_VFC_AssetUserController {
 
-    /*public void assignAssetToUser(ID assetId, ID userId){
+    private A18_CS_AssetUserService CSAssetUserService;
 
+    public A18_VFC_AssetUserController() {
+        this.CSAssetUserService = new A18_CS_AssetUserService();
     }
 
-    public void updateAssetToUser(ID assetToUserId, ID assetId, ID userId){
-
+    public void addAssetUser(A18_DTO.AssetUser assetUserDTO) {
+        CSAssetUserService.addAssetUser(assetUserDTO);
     }
 
-    public void removeAssetToUser(ID assetToUserId){
-
+    public void updateAssetUser(A18_DTO.AssetUser assetUserDTO) {
+        CSAssetUserService.updateAssetUser(assetUserDTO);
     }
 
-    public List<A18_DTO.AssetStatus> getAssetStatuses(){
-
-        //temporarily
-        return NULL;
-
+    public void deleteAssetUser(ID assetToUserId) {
+        CSAssetUserService.deleteAssetUser(assetToUserId);
     }
 
-    public List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status){
+    public List<A18_DTO.AssetStatus> getAssetStatuses() {
+        return CSAssetUserService.getAssetStatuses();
+    }
 
-        //temporarily
-        return NULL;
-
-    }*/
+    public List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status) {
+        return CSAssetUserService.searchAssetUsers(searchPhrase, status);
+    }
 
 }

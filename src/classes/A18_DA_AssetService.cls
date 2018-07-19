@@ -19,7 +19,7 @@ public with sharing class A18_DA_AssetService {
     }
 
     public List<Asset__c> getAssets() {
-        return [SELECT Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c FROM Asset__c];
+        return [SELECT Name, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c FROM Asset__c];
     }
 
     public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
@@ -40,7 +40,7 @@ public with sharing class A18_DA_AssetService {
         String orderDirection = A18_CustomSettingsValidation.validateQueryDirection(searchSetting.Order_Direction__c);
 
         if(recordTypeId == NULL || !validId.contains(recordTypeId) ){
-            List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\'IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c ORDER BY '+orderField +' '+orderDirection +')');
+            List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\' IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c ORDER BY '+orderField +' '+orderDirection +')');
             return myQuery[0];
         } else {
             List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\'IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c ORDER BY '+orderField +' '+orderDirection +') WITH RecordTypeId= ' +recordTypeId);

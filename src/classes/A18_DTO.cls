@@ -5,11 +5,13 @@
 public with sharing class A18_DTO {
 
     public class Asset {
-        public String description;
-        public Date dueDate;
-        public String invoiceNumber;
-        public Decimal price;
-        public Date purchaseDate;
+        public String name{get; set;}
+        public Id id{get; set;}
+        public String description{get; set;}
+        public Date dueDate{get; set;}
+        public String invoiceNumber{get; set;}
+        public Decimal price{get; set;}
+        public Date purchaseDate{get; set;}
     }
 
     public class AssetRecordType {
