@@ -5,18 +5,80 @@
 public with sharing class A18_ES_QRService {
 
     public String getUrl(ID assetId){
+        AssetQREndpoint__c QRsetting = AssetQREndpoint__c.getInstance();
+        String endpoint = QRsetting.URL__c + assetId;
 
-        //temporarily
-        return NULL;
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        request.setEndpoint(endpoint);
+        request.setMethod('GET');
+        HttpResponse response = http.send(request);
 
+        // If the request is successful, parse the JSON response.
+        if (response.getStatusCode() == 200) {
+            // Deserialize the JSON string into collections of primitive data types.
+            Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+            // Cast the values in the 'SOME QR DATA HERE' key as a String URL Address
+            String URL = (String) results.get('SOME QR DATA HERE');
+            System.debug('Succesful opperation');
+            return URL;
+        } else  if(response.getStatusCode() == 400) {
+            System.debug('ERROR: Invalid ID supplied');
+            return NULL;
+        } else  if(response.getStatusCode() == 404) {
+            System.debug('ERROR: QR not found');
+            return NULL;
+        } else {
+            System.debug('ERROR: Unexpected error');
+            return NULL;
+        }
     }
 
     public void create(ID assetId){
+        AssetQREndpoint__c QRsetting = AssetQREndpoint__c.getInstance();
+        String endpoint = QRsetting.URL__c + assetId;
 
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        request.setEndpoint(endpoint);
+        request.setMethod('POST');
+        request.setHeader('Content-Type', 'application/json;charset=UTF-8');
+        // Set the body as a JSON object
+        request.setBody('QR data in JSON format');
+        HttpResponse response = http.send(request);
+        // Parse the JSON response
+        if (response.getStatusCode() == 201) {
+            System.debug(response.getBody());
+        } else  if(response.getStatusCode() == 400) {
+            System.debug('ERROR: Invalid ID supplied');
+        } else  if(response.getStatusCode() == 404) {
+            System.debug('ERROR: QR not found');
+        } else {
+            System.debug('ERROR: Unexpected error');
+        }
     }
 
     public void updateQRCode(ID assetId){
+        AssetQREndpoint__c QRsetting = AssetQREndpoint__c.getInstance();
+        String endpoint = QRsetting.URL__c + assetId;
 
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        request.setEndpoint(endpoint);
+        request.setMethod('PUT');
+        request.setHeader('Content-Type', 'application/json;charset=UTF-8');
+        // Set the body as a JSON object
+        request.setBody('QR data in JSON format');
+        HttpResponse response = http.send(request);
+        // Parse the JSON response
+        if (response.getStatusCode() == 201) {
+            System.debug(response.getBody());
+        } else  if(response.getStatusCode() == 400) {
+            System.debug('ERROR: Invalid ID supplied');
+        } else  if(response.getStatusCode() == 404) {
+            System.debug('ERROR: QR not found');
+        } else {
+            System.debug('ERROR: Unexpected error');
+        }
     }
-
 }

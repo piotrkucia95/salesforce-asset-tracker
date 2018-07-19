@@ -16,18 +16,21 @@ global class A18_ObjectInApprovalProcessBatchClass implements Database.Batchable
     }
 
     global void execute(Database.BatchableContext bc, List<sObject> scope) {
-        List<ProcessInstanceWorkItem> APList = (List<ProcessInstanceWorkItem>)scope;
-        List<Id> approverList = new List<Id>();
-
-        for(ProcessInstanceWorkItem APItem : APList) {
-            approverList.add(APItem.ActorId);
-        }
-
-        List<User> mailToUserList = [SELECT email FROM User WHERE Id IN :approverList];
+        List<ProcessInstanceWorkItem> faza = (List<ProcessInstanceWorkItem>)scope;
+        List<Id> ids = new List<Id>();
         List<String> mailToAddressList = new List<String>();
-        //creation of a list of approvers' emails
-        for(User u : mailToUserList){
-            mailToAddressList.add(u.email);
+
+        for(ProcessInstanceWorkitem zxc : faza){
+            ids.add(zxc.ActorId);
+            List<GroupMember> groupMembers = [SELECT UserOrGroupId FROM GroupMember WHERE GroupId = :zxc.ActorId];
+            Set<Id> groupMbIds = new Set<Id>();
+            for (GroupMember g : groupMembers) {
+                groupMbIds.add(g.Id);
+            }
+            List<User> users = [SELECT Email FROM User WHERE Id IN :groupMbIds];
+            for(User u : users){
+                mailToAddressList.add(u.email);
+            }
         }
 
         if(mailToAddressList.isEmpty()) return;
