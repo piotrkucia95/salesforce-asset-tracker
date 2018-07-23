@@ -7,12 +7,12 @@ public with sharing class A18_CS_AssetService {
     private A18_DM_AssetService DMAssetService;
 
     public A18_CS_AssetService() {
-        this.DMAssetService = new A18_DM_AssetService();
+        DMAssetService = new A18_DM_AssetService();
     }
 
-    public void addAsset(A18_DTO.Asset assetDTO) {
+    public static void addAsset(A18_DTO.Asset assetDTO) {
         Asset__c asset = A18_AssetAssembler.convertToDomain(assetDTO);
-        DMAssetService.addAsset(asset);
+        A18_DM_AssetService.addAsset(asset);
     }
 
     public void updateAsset(A18_DTO.Asset assetDTO) {

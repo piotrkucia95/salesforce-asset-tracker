@@ -10,8 +10,8 @@ public with sharing class A18_DM_AssetService {
         this.DAAssetService = new A18_DA_AssetService();
     }
 
-    public void addAsset(Asset__c asset) {
-        DAAssetService.addAsset(asset);
+    public static void addAsset(Asset__c asset) {
+        A18_DA_AssetService.addAsset(asset);
     }
 
     public void updateAsset(Asset__c asset) {

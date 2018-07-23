@@ -7,7 +7,7 @@
         var newAssetJSONString = JSON.stringify(newAsset);
 
         action.setParams({
-            "newAsset": newAssetJSONString
+            "dtoString": newAssetJSONString
         });
         console.log(newAssetJSONString);
         action.setCallback(this, function(response) {

@@ -4,9 +4,9 @@
 
 public with sharing class A18_DA_AssetService {
 
-    public Asset_Search_Settings__c setti;
+    //public Asset_Search_Settings__c setti;
 
-    public void addAsset(Asset__c asset) {
+    public static void addAsset(Asset__c asset) {
         insert asset;
     }
 

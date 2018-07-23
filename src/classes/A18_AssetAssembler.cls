@@ -8,7 +8,7 @@ public with sharing class A18_AssetAssembler {
         A18_DTO.Asset DTOAsset = new A18_DTO.Asset();
 
         DTOAsset.name = asset.Name;
-        DTOAsset.id = asset.Id;
+        //DTOAsset.id = asset.Id;
         DTOAsset.description = asset.Description__c;
         DTOAsset.dueDate = asset.Due_Date__c;
         DTOAsset.invoiceNumber = asset.Invoice_Number__c;
@@ -22,7 +22,6 @@ public with sharing class A18_AssetAssembler {
         Asset__c CAsset = new Asset__c();
 
         CAsset.Name = asset.name;
-        CAsset.Id = asset.id;
         CAsset.Description__c = asset.description;
         CAsset.Due_Date__c = asset.dueDate;
         CAsset.Purchase_Date__c = asset.purchaseDate;
