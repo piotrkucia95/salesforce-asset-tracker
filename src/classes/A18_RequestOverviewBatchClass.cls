@@ -36,7 +36,7 @@ global class A18_RequestOverviewBatchClass implements Database.Batchable<sObject
         Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
         mail.setToAddresses(mailToAddressList);
         mail.setSenderDisplayName('Salesforce Support');
-        mail.setSubject('Object In Approval Process For Too Long');
+        mail.setSubject('Request Overview');
         mail.setPlainTextBody('Request Overview for Last Week: \n'
                                 + 'Total Requests: ' +requestList.size() +'\n'
                                 + 'Requests Approved: ' +approvedRequests +'\n'

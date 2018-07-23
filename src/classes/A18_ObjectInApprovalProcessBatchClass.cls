@@ -20,6 +20,7 @@ global class A18_ObjectInApprovalProcessBatchClass implements Database.Batchable
         List<Id> ids = new List<Id>();
         List<String> mailToAddressList = new List<String>();
 
+        //TODO Fix the query so it can find object's approver correctly
         for(ProcessInstanceWorkitem zxc : faza){
             ids.add(zxc.ActorId);
             List<GroupMember> groupMembers = [SELECT UserOrGroupId FROM GroupMember WHERE GroupId = :zxc.ActorId];
