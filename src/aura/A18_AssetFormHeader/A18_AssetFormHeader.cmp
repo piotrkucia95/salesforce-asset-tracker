@@ -5,7 +5,7 @@
 <aura:component description="A18_AssetFormHeader">
     <aura:attribute name="user" type="User" />
 
-    <fieldset class="slds-box slds-theme--default slds-container--small">
+    <fieldset class="slds-box slds-theme--default slds-container--small slds-align_absolute-center">
         <legend id="newassetform" class="slds-text-heading--small slds-p-vertical--medium">
             Logged As
         </legend>

@@ -19,5 +19,12 @@
     handleAddAsset : function(component, event, helper) {
         var newAsset = event.getParam("newAsset");
         helper.createAsset(component, newAsset);
+        component.set("v.newAsset",{
+                                'name': '',
+                                'description': '',
+                                'dueDate': '',
+                                'invoiceNumber': '',
+                                'price': '',
+                                'purchaseDate': ''});
     },
 })

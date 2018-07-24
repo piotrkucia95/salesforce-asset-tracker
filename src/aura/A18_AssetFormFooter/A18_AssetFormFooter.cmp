@@ -7,6 +7,7 @@
 
     <aura:registerEvent name="addAsset" type="c:A18_AddAssetEvent"/>
 
+    <div>
         <lightning:button label="Add Asset"
                           class="slds-m-top--medium"
                           variant="brand"
@@ -16,5 +17,5 @@
                           class="slds-m-top--medium"
                           variant="brand"
                           onclick="{!c.clickCancel}"/>
-
+    </div>
 </aura:component>

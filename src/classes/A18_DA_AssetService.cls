@@ -7,6 +7,7 @@ public with sharing class A18_DA_AssetService {
     //public Asset_Search_Settings__c setti;
 
     public static void addAsset(Asset__c asset) {
+        System.debug('XXXXX'+asset);
         insert asset;
     }
 

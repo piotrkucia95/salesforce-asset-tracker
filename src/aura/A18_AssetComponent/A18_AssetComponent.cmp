@@ -8,42 +8,19 @@
         'Name': '',
         'Id': '',
         'Email': '' }"/>
+
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:handler name="addAsset" event="c:A18_AddAssetEvent" action="{!c.handleAddAsset}"/>
 
-
     <c:A18_AssetFormHeader user="{!v.user}" />
 
-    <fieldset class="slds-box slds-theme--default slds-container--small">
+    <fieldset class="slds-box slds-theme--default slds-container--small slds-align_absolute-center">
         <legend id="newassetform" class="slds-text-heading--small
           slds-p-vertical--medium">
             Add Asset
         </legend>
-        <div aria-labelledby="newassetform">
-            <form class="slds-form--stacked">
-                <lightning:input aura:id="assetform" label="Asset Name"
-                                 name="assetname"
-                                 value="{!v.newAsset.name}"
-                                 required="true"/>
-                <lightning:input aura:id="assetform" label="Description"
-                                 name="assetdescription"
-                                 value="{!v.newAsset.description}"/>
-                <lightning:input type="date" aura:id="assetform" label="Due Date"
-                                 name="assetduedate"
-                                 value="{!v.newAsset.dueDate}"/>
-                <lightning:input aura:id="assetform" label="Invoice Number"
-                                 name="assetinvoicenumber"
-                                 value="{!v.newAsset.invoiceNumber}"/>
-                <lightning:input type="number" aura:id="assetform" label="Price"
-                                 name="assetprice"
-                                 formatter="currency"
-                                 step="1"
-                                 value="{!v.newAsset.price}" />
-                <lightning:input type="date" aura:id="assetform" label="Purchase Date"
-                                 name="assetpurchasedate"
-                                 value="{!v.newAsset.purchaseDate}"/>
-            </form>
-        </div>
+
+        <c:A18_AssetForm newAsset="{!v.newAsset}" />
 
         <c:A18_AssetFormFooter newAsset="{!v.newAsset}" />
     </fieldset>

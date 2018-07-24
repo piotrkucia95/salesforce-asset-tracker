@@ -3,17 +3,19 @@
  */
 ({
     clickAdd: function(component, event, helper) {
-//        var validAsset = component.find('assetform').reduce(function (validSoFar, inputCmp) {
-//            inputCmp.showHelpMessageIfInvalid();
-//            return validSoFar && inputCmp.get('v.validity').valid;
-//        }, true);
-//
-//        if(validAsset){
-                var newAsset = component.get("v.newAsset");
-                helper.createAsset(component, newAsset);
-//        }
+        var newAsset = component.get("v.newAsset");
+        if(newAsset.name != null){
+            helper.createAsset(component, newAsset);
+        } else {
+            console.log("Name field cannot be empty!");
+        }
     },
     clickCancel : function(component, event, helper) {
-        component.set("v.newAsset.name", "");
+        component.set("v.newAsset",{
+                        'name': '',
+                        'description': '',
+                        'dueDate': '',
+                        'invoiceNumber': '',
+                        'price': false});
     },
 })

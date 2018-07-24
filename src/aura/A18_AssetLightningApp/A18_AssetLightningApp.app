@@ -4,4 +4,5 @@
 
 <aura:application description="A18_AssetLightningApp" extends="force:slds">
     <c:A18_AssetComponent />
+    <c:A18_AssetLDSComponent />
 </aura:application>
