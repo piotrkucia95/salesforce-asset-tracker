@@ -4,13 +4,13 @@
 
 public with sharing class A18_ES_QRService {
 
-    public String getUrl(ID assetId){
-        AssetQREndpoint__c QRsetting = AssetQREndpoint__c.getInstance();
-        String endpoint = QRsetting.URL__c + assetId;
+    static AssetQREndpoint__c QRSettings = AssetQREndpoint__c.getInstance();
+    static String endpoint = QRSettings.URL__c;
 
+    public static String getUrl(ID assetId){
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint(endpoint);
+        request.setEndpoint(endpoint + assetId);
         request.setMethod('GET');
         HttpResponse response = http.send(request);
 
@@ -34,37 +34,28 @@ public with sharing class A18_ES_QRService {
         }
     }
 
-    public void create(ID assetId){
-        AssetQREndpoint__c QRsetting = AssetQREndpoint__c.getInstance();
-        String endpoint = QRsetting.URL__c + assetId;
-
+    @future(callout=true)
+    public static void create(Id assetId){
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint(endpoint);
+        request.setEndpoint(endpoint + assetId);
         request.setMethod('POST');
-        request.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        // Set the body as a JSON object
-        request.setBody('QR data in JSON format');
         HttpResponse response = http.send(request);
-        // Parse the JSON response
-        if (response.getStatusCode() == 201) {
-            System.debug(response.getBody());
-        } else  if(response.getStatusCode() == 400) {
-            System.debug('ERROR: Invalid ID supplied');
-        } else  if(response.getStatusCode() == 404) {
-            System.debug('ERROR: QR not found');
-        } else {
-            System.debug('ERROR: Unexpected error');
+        System.debug('XXXXXXXXX' + endpoint);
+        if(response.getStatusCode() == 200){
+            Attachment attachment = new Attachment();
+            attachment.Name = 'QR Code for asset: ' + assetId;
+            attachment.Body = response.getBodyAsBlob();
+            attachment.ParentId = assetId;
+            System.debug('abc');
+            insert attachment;
         }
     }
 
-    public void updateQRCode(ID assetId){
-        AssetQREndpoint__c QRsetting = AssetQREndpoint__c.getInstance();
-        String endpoint = QRsetting.URL__c + assetId;
-
+    public static void updateQRCode(ID assetId){
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint(endpoint);
+        request.setEndpoint(endpoint + assetId);
         request.setMethod('PUT');
         request.setHeader('Content-Type', 'application/json;charset=UTF-8');
         // Set the body as a JSON object

@@ -16,6 +16,6 @@
                         'description': '',
                         'dueDate': '',
                         'invoiceNumber': '',
-                        'price': false});
+                        'price': ''});
     },
 })
