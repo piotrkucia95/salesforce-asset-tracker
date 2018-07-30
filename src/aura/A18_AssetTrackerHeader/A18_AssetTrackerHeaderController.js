@@ -1,8 +1,8 @@
 /**
- * Created by Piotr Kucia on 23.07.2018.
+ * Created by Piotr Kucia on 30.07.2018.
  */
 ({
-    doInit: function(component, event, helper) {
+    init : function(component, event, helper) {
         var action1 = component.get("c.getCurrentUser");
         var action2 = component.get("c.checkUserGroup");
         action1.setCallback(this, function(response) {
@@ -26,16 +26,5 @@
 
         $A.enqueueAction(action1);
         $A.enqueueAction(action2);
-    },
-    handleAddAsset : function(component, event, helper) {
-        var newAsset = event.getParam("newAsset");
-        helper.createAsset(component, newAsset);
-        component.set("v.newAsset",{
-                                'name': '',
-                                'description': '',
-                                'dueDate': '',
-                                'invoiceNumber': '',
-                                'price': '',
-                                'purchaseDate': ''});
     },
 })

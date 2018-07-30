@@ -69,4 +69,24 @@ public with sharing class A18_AC_AssetController {
         }
     }
 
+    @AuraEnabled
+    public static String checkUserGroup(){
+        Id currentUserId = (Id)UserInfo.getUserId();
+        List<GroupMember> assetCoordinators = [SELECT UserOrGroupId FROM GroupMember WHERE GroupId IN
+                                                            (SELECT Id FROM Group WHERE DeveloperName = 'Fixed_asset_coordinators')];
+        List<GroupMember> assetAdmins = [SELECT UserOrGroupId FROM GroupMember WHERE GroupId IN
+                                                            (SELECT Id FROM Group WHERE DeveloperName = 'Fixed_asset_admins')];
+        for(GroupMember member : assetAdmins) {
+            if(member.UserOrGroupId == currentUserId){
+                return 'Asset Admin';
+            }
+        }
+        for(GroupMember member : assetCoordinators) {
+            if(member.UserOrGroupId == currentUserId){
+                return 'Asset Coordinator';
+            }
+        }
+        return 'Employee';
+    }
+
 }

@@ -1,0 +1,14 @@
+/**
+ * Created by Polsource on 30.07.2018.
+ */
+.THIS img {
+    z-index: 99;
+    cursor: pointer;
+    position: relative;
+    max-width: 100%;
+    max-height: 52px;
+    display: block;
+    outline: 0;
+    height: 50px;
+    margin-top: 10px;
+}
