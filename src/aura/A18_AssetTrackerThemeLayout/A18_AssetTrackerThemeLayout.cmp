@@ -6,13 +6,13 @@
     <div class="slds-grid slds-grid--align-center">
         <div class="content">
             <div class="header">
-                    <c:A18_AssetTrackerHeader />
+                <c:A18_AssetTrackerHeader />
             </div>
             <div class="body">
                     {!v.body}
             </div>
-            <div class="footer">
-                    fdsdfsdff
+            <div class="footer slds-docked-form-footer">
+                <c:A18_AssetTrackerFooter />
             </div>
         </div>
     </div>

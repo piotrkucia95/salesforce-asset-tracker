@@ -12,9 +12,9 @@
         </lightning:layoutItem>
         <lightning:layoutItem padding="horizontal-small">
             <div class="page-section page-header">
-                <h2 class="slds-text-heading--medium">{!v.user.FirstName}&nbsp;{!v.user.LastName}</h2>
-                <h4>{!v.user.Email}</h4>
-                <h4>{!v.userType}</h4>
+                <h4>{!v.user.FirstName}&nbsp;{!v.user.LastName}</h4>
+                <p>{!v.user.Email}</p>
+                <p>{!v.userType}</p>
             </div>
         </lightning:layoutItem>
     </lightning:layout>
