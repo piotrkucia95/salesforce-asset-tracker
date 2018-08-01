@@ -20,7 +20,7 @@ public with sharing class A18_DA_AssetService {
     }
 
     public List<Asset__c> getAssets() {
-        return [SELECT Name, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c FROM Asset__c];
+        return [SELECT Name, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c, Is_Broken__c FROM Asset__c];
     }
 
     public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
@@ -47,5 +47,14 @@ public with sharing class A18_DA_AssetService {
             List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\'IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c ORDER BY '+orderField +' '+orderDirection +') WITH RecordTypeId= ' +recordTypeId);
             return myQuery[0];
         }
+    }
+
+    public static List<Asset__c> getAssetsAssignedToUser(Id userId) {
+        List<Asset_To_User__c> assetsToUsers = [SELECT Asset__c FROM Asset_To_User__c WHERE User__c = :userId];
+        List<Id> assetIds = new List<Id>();
+        for(Asset_To_User__c asset : assetsToUsers) {
+            assetIds.add(asset.Asset__c);
+        }
+        return [SELECT Name, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c, Is_Broken__c FROM Asset__c WHERE Id IN :assetIds];
     }
 }

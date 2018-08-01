@@ -30,4 +30,8 @@ public with sharing class A18_AC_AssetUserController {
         return CSAssetUserService.searchAssetUsers(searchPhrase, status);
     }
 
+    @AuraEnabled
+    public static List<A18_DTO.AssetUser> getAssetUsers() {
+        return A18_CS_AssetUserService.getAssetUsers();
+    }
 }

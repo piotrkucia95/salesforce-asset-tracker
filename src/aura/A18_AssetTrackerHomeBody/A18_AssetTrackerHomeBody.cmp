@@ -11,14 +11,14 @@
         'Email': '' }"/>
 
     <aura:handler event="c:A18_AssetTrackerUserInfoEvent" action="{!c.handleUserInfoEvent}"/>
-    <lightning:overlayLibrary aura:id="overlayLib"/>
-
 
     <h1>Hello {!v.user.FirstName}!</h1>
 
     <p>Welcome to PolSource Asset Tracker App. You can view the assets you're
         currently using, report any equipment faults and flaws or make request for new assets, if You need some.</p>
 
-    <lightning:button name="modal" label="Show Modal" onclick="{!c.handleShowModal}"/>
+    <button class="slds-button slds-button_brand" onclick="{!c.showModal}">Request a New Asset</button>
+    <c:A18_AssetTrackerModal aura:id="requestModal" objectType="Request"/>
+
 
 </aura:component>

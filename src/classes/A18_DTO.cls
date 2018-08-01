@@ -12,6 +12,7 @@ public with sharing class A18_DTO {
         public String invoiceNumber{get; set;}
         public Decimal price{get; set;}
         public Date purchaseDate{get; set;}
+        public Boolean isBroken{get; set;}
     }
 
     public class AssetRecordType {
@@ -30,6 +31,7 @@ public with sharing class A18_DTO {
 
 
     public class AssetUser {
+        public String name;
         public ID assetId;
         public Date startDate;
         public Date endDate;

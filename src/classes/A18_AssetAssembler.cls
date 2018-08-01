@@ -14,6 +14,7 @@ public with sharing class A18_AssetAssembler {
         DTOAsset.invoiceNumber = asset.Invoice_Number__c;
         DTOAsset.price = asset.Price__c;
         DTOAsset.purchaseDate = asset.Purchase_Date__c;
+        DTOAsset.isBroken = asset.Is_Broken__c;
 
         return DTOAsset;
     }
@@ -27,6 +28,7 @@ public with sharing class A18_AssetAssembler {
         CAsset.Purchase_Date__c = asset.purchaseDate;
         CAsset.Price__c = asset.price;
         CAsset.Invoice_Number__c = asset.invoiceNumber;
+        CAsset.Is_Broken__c = asset.isBroken;
 
         return CAsset;
     }

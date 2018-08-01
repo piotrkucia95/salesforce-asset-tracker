@@ -7,6 +7,7 @@ public with sharing class A18_AssetUserAssembler {
     public static A18_DTO.AssetUser convertToDTO(Asset_To_User__c assetUser){
         A18_DTO.AssetUser DTOAssetUser = new A18_DTO.AssetUser();
 
+        DTOAssetUser.name = assetUser.Name;
         DTOAssetUser.assetId = assetUser.Asset__c;
         DTOAssetUser.startDate = assetUser.Start_Date__c;
         DTOAssetUser.endDate = assetUser.End_Date__c;
@@ -19,6 +20,7 @@ public with sharing class A18_AssetUserAssembler {
     public static Asset_To_User__c convertToDomain(A18_DTO.AssetUser assetUser){
         Asset_To_User__c CAssetUser = new Asset_To_User__c();
 
+        CAssetUser.Name = assetUser.name;
         CAssetUser.Asset__c = assetUser.assetId;
         CAssetUser.Start_Date__c = assetUser.startDate;
         CAssetUser.End_Date__c = assetUser.endDate;

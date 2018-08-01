@@ -89,4 +89,16 @@ public with sharing class A18_AC_AssetController {
         return 'Employee';
     }
 
+    @AuraEnabled
+    public static List<String> getAssetsAssignedToUser(String userId) {
+        List<A18_DTO.Asset> assetsDTO = A18_CS_AssetService.getAssetsAssignedToUser((Id)userId);
+        List<String> DTOStrings = new List<String>();
+
+        for(A18_DTO.Asset assetDTO : assetsDTO) {
+            DTOStrings.add(JSON.serialize(assetDTO));
+        }
+        System.debug(DTOStrings);
+        return DTOStrings;
+    }
+
 }

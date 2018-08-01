@@ -44,4 +44,14 @@ public with sharing class A18_CS_AssetUserService {
         }
         return DTOFoundAssetUsers;
     }
+
+    public static List<A18_DTO.AssetUser> getAssetUsers() {
+        List<Asset_To_User__c> assetsToUsers = A18_DM_AssetUserService.getAssetUsers();
+        List<A18_DTO.AssetUser> DTOAssetUsers = new List<A18_DTO.AssetUser>();
+
+        for(Asset_To_User__c assetUser : assetsToUsers) {
+            DTOAssetUsers.add(A18_AssetUserAssembler.convertToDTO(assetUser));
+        }
+        return DTOAssetUsers;
+    }
 }

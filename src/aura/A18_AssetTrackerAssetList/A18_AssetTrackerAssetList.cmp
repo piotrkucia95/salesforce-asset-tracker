@@ -1,0 +1,22 @@
+<!--
+ - Created by Polsource on 01.08.2018.
+ -->
+
+<aura:component description="A18_AssetTrackerAssetList" controller="A18_AC_AssetController"
+                implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="user" type="User" default="{
+        'Name': '',
+        'Id': '',
+        'Email': '' }"/>
+    <aura:attribute name="myAssets" type="Object[]"/>
+
+    <aura:handler name="change" value="{!v.user}" action="{!c.handleUserChange}" />
+    <aura:handler event="c:A18_AssetTrackerUserInfoEvent" action="{!c.handleUserInfoEvent}"/>
+
+    <h1>You currently use following assets: {!v.user.Id}</h1>
+
+    <aura:iteration items="{!v.myAssets}" var="obj">
+        {!obj.name}
+    </aura:iteration>
+
+</aura:component>

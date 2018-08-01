@@ -33,4 +33,8 @@ public with sharing class A18_DM_AssetService {
     public  List<Asset__c> searchAssets(String searchPhrase, Id recordTypeId) {
         return  DAAssetService.searchAssets(searchPhrase, recordTypeId);
     }
+
+    public static List<Asset__c> getAssetsAssignedToUser(Id userId) {
+        return A18_DA_AssetService.getAssetsAssignedToUser(userId);
+    }
 }
