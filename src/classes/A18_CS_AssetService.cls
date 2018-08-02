@@ -15,9 +15,9 @@ public with sharing class A18_CS_AssetService {
         A18_DM_AssetService.addAsset(asset);
     }
 
-    public void updateAsset(A18_DTO.Asset assetDTO) {
+    public static void updateAsset(A18_DTO.Asset assetDTO) {
         Asset__c asset = A18_AssetAssembler.convertToDomain(assetDTO);
-        DMAssetService.updateAsset(asset);
+        A18_DM_AssetService.updateAsset(asset);
     }
 
     public void deleteAssets(ID assetId) {

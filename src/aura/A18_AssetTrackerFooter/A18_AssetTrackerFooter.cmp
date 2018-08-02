@@ -3,5 +3,5 @@
  -->
 
 <aura:component description="A18_AssetTrackerFooter">
-    <p>PolSource Academy 2018 Asset Tracker Community. All rights reserved! &copy;</p>
+    <p class="slds-text-align--center">PolSource Academy 2018 Asset Tracker Community. All rights reserved! &copy;</p>
 </aura:component>

@@ -6,7 +6,7 @@ public with sharing class A18_DTO {
 
     public class Asset {
         public String name{get; set;}
-        //public Id id{get; set;}
+        public Id id{get; set;}
         public String description{get; set;}
         public Date dueDate{get; set;}
         public String invoiceNumber{get; set;}

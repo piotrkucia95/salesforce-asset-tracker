@@ -14,8 +14,8 @@ public with sharing class A18_DM_AssetService {
         A18_DA_AssetService.addAsset(asset);
     }
 
-    public void updateAsset(Asset__c asset) {
-        DAAssetService.updateAsset(asset);
+    public static void updateAsset(Asset__c asset) {
+        A18_DA_AssetService.updateAsset(asset);
     }
 
     public void deleteAssets(ID assetId) {

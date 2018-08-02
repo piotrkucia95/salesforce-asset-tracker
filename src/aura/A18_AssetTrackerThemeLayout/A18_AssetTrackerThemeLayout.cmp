@@ -3,17 +3,13 @@
  -->
 
 <aura:component description="A18_AssetTrackerThemeLayout" implements="forceCommunity:themeLayout">
-    <div class="slds-grid slds-grid--align-center">
-        <div class="content">
-            <div class="header">
-                <c:A18_AssetTrackerHeader />
-            </div>
-            <div class="body">
-                    {!v.body}
-            </div>
-            <div class="footer slds-docked-form-footer">
-                <c:A18_AssetTrackerFooter />
-            </div>
-        </div>
+    <div class="header">
+        <c:A18_AssetTrackerHeader />
+    </div>
+    <div class="slds-align--absolute-center">
+            {!v.body}
+    </div>
+    <div class="footer slds-docked-form-footer">
+        <c:A18_AssetTrackerFooter />
     </div>
 </aura:component>

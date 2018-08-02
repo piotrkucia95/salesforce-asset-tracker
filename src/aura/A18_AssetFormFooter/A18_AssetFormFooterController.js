@@ -4,6 +4,7 @@
 ({
     clickAdd: function(component, event, helper) {
         var newAsset = component.get("v.newAsset");
+        newAsset.isBroken = false;
         if(newAsset.name != null){
             helper.createAsset(component, newAsset);
         } else {

@@ -11,13 +11,7 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
-                var assetStrings = response.getReturnValue();
-                var assetObjects = new Array();
-                for(var i=0; i<assetStrings.length; i++) {
-                    assetObjects.push(JSON.parse(assetStrings[i]));
-                    console.log(assetObjects[i]);
-                }
-                component.set("v.myAssets", assetObjects);
+                component.set("v.myAssets", response.getReturnValue());
             } else {
                 console.log("Failed with state: " + state);
             }
@@ -28,4 +22,21 @@
         var user = event.getParam("user");
         component.set("v.user", user);
     },
+    handleAssetBroken : function(component, event, helper) {
+        var assetJSON = JSON.stringify(event.getParam("asset"));
+        console.log(assetJSON);
+        var action = component.get("c.updateAssetFromJSONString");
+        action.setParams({
+            "dtoString": assetJSON
+        });
+        action.setCallback(this, function(response) {
+            var state = response.getState();
+            if (state === "SUCCESS") {
+                console.log("Success");
+            } else {
+                console.log("Failed with state: " + state);
+            }
+        });
+        $A.enqueueAction(action);
+    }
 })

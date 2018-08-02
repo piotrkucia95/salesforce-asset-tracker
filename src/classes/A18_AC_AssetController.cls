@@ -14,8 +14,8 @@ public with sharing class A18_AC_AssetController {
         A18_CS_AssetService.addAsset(assetDTO);
     }
 
-    public void updateAsset(A18_DTO.Asset assetDTO) {
-        CSAssetService.updateAsset(assetDTO);
+    public static void updateAsset(A18_DTO.Asset assetDTO) {
+        A18_CS_AssetService.updateAsset(assetDTO);
     }
 
     public void deleteAsset(ID assetId) {
@@ -32,6 +32,23 @@ public with sharing class A18_AC_AssetController {
 
     public List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId) {
         return CSAssetService.searchAssets(searchPhrase, recordTypeId);
+    }
+
+    public static A18_DTO.Asset createAssetDTOFromJSON(String JSONString) {
+        Map<String,String> dtoMap = new Map<String,String>();
+        dtoMap = (Map<String,String>)System.JSON.deserialize(JSONString,Map<String,String>.class);
+        A18_DTO.Asset dtoAsset = new A18_DTO.Asset();
+
+        if(dtoMap.get('name') != NULL) dtoAsset.name = dtoMap.get('name');
+        if(dtoMap.get('id') != NULL) dtoAsset.id = dtoMap.get('id');
+        if(dtoMap.get('description') != NULL) dtoAsset.description = dtoMap.get('description');
+        if(dtoMap.get('dueDate') != NULL) dtoAsset.dueDate = Date.valueOf(dtoMap.get('dueDate'));
+        if(dtoMap.get('invoiceNumber') != NULL) dtoAsset.invoiceNumber = dtoMap.get('invoiceNumber');
+        if(dtoMap.get('price') != NULL) dtoAsset.price = Decimal.valueOf(dtoMap.get('price'));
+        if(dtoMap.get('purchaseDate') != NULL) dtoAsset.purchaseDate = Date.valueOf(dtoMap.get('purchaseDate'));
+        if(dtoMap.get('isBroken') != NULL) dtoAsset.isBroken = Boolean.valueOf(dtoMap.get('isBroken'));
+
+        return dtoAsset;
     }
 
     @AuraEnabled
@@ -51,19 +68,18 @@ public with sharing class A18_AC_AssetController {
     @AuraEnabled
     public static void createAssetFromJSONString(String dtoString) {
         try {
-            Map<String,String> dtoMap = new Map<String,String>();
-            dtoMap = (Map<String,String>)System.JSON.deserialize(dtoString,Map<String,String>.class);
-            A18_DTO.Asset dtoAsset = new A18_DTO.Asset();
-
-            if(dtoMap.get('name') != NULL) dtoAsset.name = dtoMap.get('name');
-            if(dtoMap.get('description') != NULL) dtoAsset.description = dtoMap.get('description');
-            if(dtoMap.get('dueDate') != NULL) dtoAsset.dueDate = Date.valueOf(dtoMap.get('dueDate'));
-            if(dtoMap.get('invoiceNumber') != NULL) dtoAsset.invoiceNumber = dtoMap.get('invoiceNumber');
-            if(dtoMap.get('price') != NULL) dtoAsset.price = Decimal.valueOf(dtoMap.get('price'));
-            if(dtoMap.get('purchaseDate') != NULL) dtoAsset.purchaseDate = Date.valueOf(dtoMap.get('purchaseDate'));
-
+            A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
             addAsset(dtoAsset);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
+    }
 
+    @AuraEnabled
+    public static void updateAssetFromJSONString(String dtoString) {
+        try {
+            A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
+            updateAsset(dtoAsset);
         } catch(Exception e) {
             throw new AuraHandledException('Error: ' + e.getMessage());
         }
@@ -97,7 +113,6 @@ public with sharing class A18_AC_AssetController {
         for(A18_DTO.Asset assetDTO : assetsDTO) {
             DTOStrings.add(JSON.serialize(assetDTO));
         }
-        System.debug(DTOStrings);
         return DTOStrings;
     }
 

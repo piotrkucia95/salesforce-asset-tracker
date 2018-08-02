@@ -11,7 +11,7 @@ public with sharing class A18_DA_AssetService {
         insert asset;
     }
 
-    public void updateAsset(Asset__c asset) {
+    public static void updateAsset(Asset__c asset) {
         upsert asset;
     }
 
@@ -55,6 +55,6 @@ public with sharing class A18_DA_AssetService {
         for(Asset_To_User__c asset : assetsToUsers) {
             assetIds.add(asset.Asset__c);
         }
-        return [SELECT Name, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c, Is_Broken__c FROM Asset__c WHERE Id IN :assetIds];
+        return [SELECT Name, Id, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c, Is_Broken__c FROM Asset__c WHERE Id IN :assetIds];
     }
 }

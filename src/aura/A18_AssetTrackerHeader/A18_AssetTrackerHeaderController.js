@@ -35,5 +35,9 @@
             userEvent.setParam("user", user);
             userEvent.fire();
         }
+    },
+    toggleDropdown : function(component, event, helper) {
+        var dropdownVisible = component.get('v.dropdownVisible');
+        component.set('v.dropdownVisible', !dropdownVisible);
     }
 })

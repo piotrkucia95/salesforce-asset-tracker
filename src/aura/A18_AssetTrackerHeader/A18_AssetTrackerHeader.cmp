@@ -5,32 +5,37 @@
 <aura:component description="A18_AssetTrackerHeader" controller="A18_AC_AssetController" implements="forceCommunity:availableForAllPageTypes,force:appHostable">
     <aura:attribute name="userWrapper" type="Map" default="{'userType': '',
                                                             'user': null}"/>
+
     <aura:handler name="init" value="{!this}" action="{!c.init}" />
     <aura:handler name="change" value="{!v.userWrapper}" action="{!c.handleUserWrapperChange}" />
     <aura:registerEvent name="userEvent" type="c:A18_AssetTrackerUserInfoEvent"/>
 
-    <div class="slds-grid slds-gutters">
+    <div class="slds-grid slds-gutters slds-align_absolute-center">
         <div class="slds-col">
             <a href="../s"><img src="{!$Resource.logo}" /></a>
         </div>
         <div class="slds-col">
-            <h1 class="slds-text-heading--medium"><a href="../s">My Assets</a></h1>
+            <h1 class="slds-text-heading--medium"><a href="https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity">Home</a></h1>
+        </div>
+        <div class="slds-col">
+            <h1 class="slds-text-heading--medium"><a href="https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/my-assets">My Assets</a></h1>
         </div>
         <aura:if isTrue="{!(v.userWrapper.userType == 'Asset Coordinator' || v.userWrapper.userType == 'Asset Admin')}">
             <div class="slds-col">
-                <h1 class="slds-text-heading--medium"><a href="../s/assets">Assets</a></h1>
+                <h1 class="slds-text-heading--medium"><a href="https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/assets">Assets</a></h1>
             </div>
 
             <div class="slds-col">
-                <h1 class="slds-text-heading--medium">Assets To Users</h1>
+                <h1 class="slds-text-heading--medium"><a href="https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/assets-to-users">Assets To Users</a></h1>
             </div>
 
             <div class="slds-col">
-                <h1 class="slds-text-heading--medium">Requests</h1>
+                <h1 class="slds-text-heading--medium"><a href="https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/requests">Requests</a></h1>
             </div>
         </aura:if>
+
         <div class="slds-col">
-            <h1 class="slds-text-heading--medium">Options</h1>
+            <h1 class="slds-text-heading--medium" onclick="{! c.toggleDropdown }">Options</h1>
         </div>
         <div class="slds-col">
             <c:A18_AssetTrackerUserInfo user="{!v.userWrapper.user}" userType="{!v.userWrapper.userType}"/>
