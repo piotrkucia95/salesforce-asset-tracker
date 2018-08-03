@@ -20,5 +20,4 @@
     <button class="slds-button slds-button_brand" onclick="{!c.showModal}">Request a New Asset</button>
     <c:A18_AssetTrackerModal aura:id="requestModal" objectType="Request"/>
 
-
 </aura:component>

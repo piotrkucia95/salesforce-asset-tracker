@@ -3,22 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="fb1d1127-6209-4abb-a449-04ffb10ea53d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerFooter/A18_AssetTrackerFooter.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerFooter/A18_AssetTrackerFooter.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeaderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeaderController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfo/A18_AssetTrackerUserInfo.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfo/A18_AssetTrackerUserInfo.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/A18_DTO.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/A18_DTO.cls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,56 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A18_AssetTrackerAssetList.cmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp">
+      <file leaf-file-name="A18_AssetTrackerHomeBodyController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="62" lean-forward="true" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AssetTrackerHomeBody.cmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AssetTrackerHeader.cmp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.cmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AssetTrackerHeaderController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeaderController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AssetTrackerAssetListItem.cmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A18_AssetTrackerAssetListItemController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -90,8 +44,26 @@
       <file leaf-file-name="A18_AssetTrackerAssetListController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_AssetTrackerRequestFormController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestForm/A18_AssetTrackerRequestFormController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_AssetTrackerEmployeeAssetListController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetList/A18_AssetTrackerEmployeeAssetListController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -100,25 +72,51 @@
         <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_AssetLightningApp.app" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetLightningApp/A18_AssetLightningApp.app">
+      <file leaf-file-name="A18_AssetFormFooterHelper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A18_AssetTrackerThemeLayout.cmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.cmp">
+      <file leaf-file-name="A18_AssetTrackerEmployeeAssetListItemController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetListItem/A18_AssetTrackerEmployeeAssetListItemController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="187">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_AssetTrackerAssetListItemController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A18_AssetFormFooter.cmp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooter.cmp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="A18_AC_AssetController.cls" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+              <folding>
+                <element signature="e#4515#4523#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +135,11 @@
         <option value="Lightning Tokens" />
         <option value="Lightning Design" />
         <option value="Lightning Helper" />
-        <option value="Lightning Component" />
-        <option value="Lightning Controller" />
         <option value="Lightning Application Event" />
-        <option value="Apex Metadata" />
         <option value="Lightning Style" />
+        <option value="Lightning Component" />
+        <option value="Apex Metadata" />
+        <option value="Lightning Controller" />
       </list>
     </option>
   </component>
@@ -163,14 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.design" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayoutController.js" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetFormHeader/A18_AssetFormHeader.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentController.js" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponent.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/defaultTokens/defaultTokens.tokens" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfo/A18_AssetTrackerUserInfo.cmp" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestAsset/A18_AssetTrackerRequestAsset.design" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestAsset/A18_AssetTrackerRequestAsset.cmp" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestAsset/A18_AssetTrackerRequestAssetController.js" />
@@ -185,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/aura/A18_AsstTrackerAddRequestModal/A18_AsstTrackerAddRequestModal.cmp" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAddRequestModal/A18_AssetTrackerAddRequestModalController.js" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAddRequestModal/A18_AssetTrackerAddRequestModal.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerModal/A18_AssetTrackerModal.cmp" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerModal/A18_AssetTrackerModalController.js" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestForm/A18_AssetTrackerRequestFormController.js" />
@@ -196,24 +185,33 @@
         <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetUserService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetUserController.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_DTO.cls" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.css" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetBrokenEvent/A18_AssetTrackerAssetBrokenEvent.evt" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js" />
-        <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" />
         <option value="$PROJECT_DIR$/src/classes/A18_AssetAssembler.cls" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterController.js" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerFooter/A18_AssetTrackerFooter.cmp" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.css" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfo/A18_AssetTrackerUserInfo.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.css" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeaderController.js" />
         <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerListItem/A18_AssetTrackerListItem.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentHelper.js" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetList/A18_AssetTrackerEmployeeAssetListController.js" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetListItem/A18_AssetTrackerEmployeeAssetListItemController.js" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetListItem/A18_AssetTrackerEmployeeAssetListItem.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetList/A18_AssetTrackerEmployeeAssetList.cmp" />
+        <option value="$PROJECT_DIR$/src/classes/A18_ES_QRService.cls" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js" />
+        <option value="$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js" />
+        <option value="$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls" />
       </list>
     </option>
   </component>
@@ -271,7 +269,7 @@
                     <map>
                       <entry key="AURA/A18_ADDASSENTLDSEVENT" value="1532433762835" />
                       <entry key="AURA/A18_ADDASSETEVENT" value="1532433602627" />
-                      <entry key="AURA/A18_ASSETCOMPONENT" value="1532951957100" />
+                      <entry key="AURA/A18_ASSETCOMPONENT" value="1533298047974" />
                       <entry key="AURA/A18_ASSETFORM" value="1532434807000" />
                       <entry key="AURA/A18_ASSETFORMFOOTER" value="1533205152403" />
                       <entry key="AURA/A18_ASSETFORMHEADER" value="1532951485603" />
@@ -279,27 +277,29 @@
                       <entry key="AURA/A18_ASSETLIGHTNINGAPP" value="1532437949338" />
                       <entry key="AURA/A18_ASSETTRACKERADDREQUESTMODAL" value="1533114490987" />
                       <entry key="AURA/A18_ASSETTRACKERASSETBROKENEVENT" value="1533203729663" />
-                      <entry key="AURA/A18_ASSETTRACKERASSETLIST" value="1533211791547" />
-                      <entry key="AURA/A18_ASSETTRACKERASSETLISTITEM" value="1533211780617" />
+                      <entry key="AURA/A18_ASSETTRACKERASSETLIST" value="1533307122954" />
+                      <entry key="AURA/A18_ASSETTRACKERASSETLISTITEM" value="1533307442644" />
+                      <entry key="AURA/A18_ASSETTRACKEREMPLOYEEASSETLIST" value="1533303553611" />
+                      <entry key="AURA/A18_ASSETTRACKEREMPLOYEEASSETLISTITEM" value="1533303515601" />
                       <entry key="AURA/A18_ASSETTRACKERFOOTER" value="1533205408982" />
-                      <entry key="AURA/A18_ASSETTRACKERHEADER" value="1533216455239" />
-                      <entry key="AURA/A18_ASSETTRACKERHOMEBODY" value="1533198821071" />
+                      <entry key="AURA/A18_ASSETTRACKERHEADER" value="1533297080554" />
+                      <entry key="AURA/A18_ASSETTRACKERHOMEBODY" value="1533293774624" />
                       <entry key="AURA/A18_ASSETTRACKERMODAL" value="1533122526042" />
                       <entry key="AURA/A18_ASSETTRACKERREQUESTFORM" value="1533123914605" />
                       <entry key="AURA/A18_ASSETTRACKERTHEMELAYOUT" value="1533214525337" />
-                      <entry key="AURA/A18_ASSETTRACKERUSERINFO" value="1533030380000" />
+                      <entry key="AURA/A18_ASSETTRACKERUSERINFO" value="1533288769941" />
                       <entry key="AURA/A18_ASSETTRACKERUSERINFOEVENT" value="1533037437184" />
                       <entry key="AURA/A18_ASSTTRACKERADDREQUESTMODAL" value="1533113722633" />
                       <entry key="AURA/TESTCOMPONENT" value="1532337015000" />
-                      <entry key="CLASSES/A18_AC_ASSETCONTROLLER.CLS" value="1533204289312" />
+                      <entry key="CLASSES/A18_AC_ASSETCONTROLLER.CLS" value="1533307823287" />
                       <entry key="CLASSES/A18_AC_ASSETUSERCONTROLLER.CLS" value="1533130872700" />
                       <entry key="CLASSES/A18_ASSETASSEMBLER.CLS" value="1533205066554" />
                       <entry key="CLASSES/A18_ASSETUSERASSEMBLER.CLS" value="1533130744682" />
-                      <entry key="CLASSES/A18_CS_ASSETSERVICE.CLS" value="1533204036809" />
+                      <entry key="CLASSES/A18_CS_ASSETSERVICE.CLS" value="1533298627498" />
                       <entry key="CLASSES/A18_CS_ASSETUSERSERVICE.CLS" value="1533130859383" />
-                      <entry key="CLASSES/A18_DA_ASSETSERVICE.CLS" value="1533204438861" />
+                      <entry key="CLASSES/A18_DA_ASSETSERVICE.CLS" value="1533298617890" />
                       <entry key="CLASSES/A18_DA_ASSETUSERSERVICE.CLS" value="1533128816191" />
-                      <entry key="CLASSES/A18_DM_ASSETSERVICE.CLS" value="1533202948558" />
+                      <entry key="CLASSES/A18_DM_ASSETSERVICE.CLS" value="1533298623298" />
                       <entry key="CLASSES/A18_DM_ASSETUSERSERVICE.CLS" value="1533130670571" />
                       <entry key="CLASSES/A18_DTO.CLS" value="1533195013710" />
                       <entry key="CLASSES/A18_ES_CSVSERVICE.CLS" value="1532684480751" />
@@ -1482,7 +1482,7 @@
         </option>
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
-            <option name="documentText" value="SELECT Asset__c FROM Asset_To_User__c WHERE User__c = '0050X000005xI1UQAU'&#10;" />
+            <option name="documentText" value="SELECT Id FROM Attachment WHERE ParentId = 'a010X00000tBNDQQA4'&#10;" />
             <option name="splitterProportion" value="0.6371742" />
           </SoqlQuerySettings>
         </option>
@@ -1505,9 +1505,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1531,7 +1529,21 @@
               <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aura" type="462c0819:PsiDirectoryNode" />
-              <item name="A18_AssetTrackerHeader" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+              <item name="A18_AssetFormFooter" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="A18_AssetTrackerAssetList" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Akademia 2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="A18_AssetTrackerAssetListItem" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
             </path>
             <path>
               <item name="Akademia 2018" type="b2602c69:ProjectViewProjectNode" />
@@ -1555,13 +1567,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1877,35 +1891,35 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49856734" weight="0.32896462" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31140938" side_tool="true" weight="0.32763532" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.8769084" weight="0.41025642" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.16912752" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.6885906" weight="0.32763532" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49856734" weight="0.32763532" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22492836" side_tool="true" weight="0.43732193" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="7" sideWeight="0.8769084" weight="0.41025642" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928367" weight="0.32896462" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928367" weight="0.32763532" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.33158585" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928367" weight="0.32763532" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.17583893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.1785235" />
       <window_info anchor="bottom" id="Problems" order="7" sideWeight="0.49928367" weight="0.32763532" />
       <window_info anchor="bottom" id="SOQL Query" order="7" sideWeight="0.49928367" weight="0.32478634" />
-      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.16912752" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Log Viewer" order="7" sideWeight="0.7750716" weight="0.75783473" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.502849" side_tool="true" weight="0.17516778" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1917,20 +1931,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfoEvent/A18_AssetTrackerUserInfo.evt" />
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeaderHelper.js" />
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfoEvent/A18_AssetTrackerUserInfoEvent.evt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/modalFooter/modalFooter.cmp" />
-    <entry file="file://$PROJECT_DIR$/src/aura/ModalContent/ModalContentHelper.js" />
-    <entry file="file://$PROJECT_DIR$/src/aura/modalFooter/modalFooterController.js" />
-    <entry file="file://$PROJECT_DIR$/src/aura/ModalContent/ModalContentController.js" />
-    <entry file="file://$PROJECT_DIR$/src/aura/ModalContent/ModalContent.cmp" />
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AsstTrackerAddRequestModal/A18_AsstTrackerAddRequestModal.cmp" />
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAddRequestModal/A18_AssetTrackerAddRequestModalController.js" />
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAddRequestModal/A18_AssetTrackerAddRequestModal.cmp" />
@@ -1945,34 +1945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="2" selection-start-line="4" selection-end-line="48" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestForm/A18_AssetTrackerRequestFormController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerModal/A18_AssetTrackerModalController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerModal/A18_AssetTrackerModal.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfo/A18_AssetTrackerUserInfo.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -2018,30 +1990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestForm/A18_AssetTrackerRequestForm.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -2052,71 +2000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetBrokenEvent/A18_AssetTrackerAssetBrokenEvent.evt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#4335#4343#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2130,16 +2017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooter.cmp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerFooter/A18_AssetTrackerFooter.cmp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -2147,20 +2024,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.css" />
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerThemeLayout/A18_AssetTrackerThemeLayout.cmp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2168,59 +2032,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetLightningApp/A18_AssetLightningApp.app">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp">
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerModal/A18_AssetTrackerModalController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="62" lean-forward="true" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="71" />
+        <state relative-caret-position="289">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestForm/A18_AssetTrackerRequestForm.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerModal/A18_AssetTrackerModal.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfoEvent/A18_AssetTrackerUserInfoEvent.evt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeaderController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        <state relative-caret-position="500">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerListItem/A18_AssetTrackerListItem.cmp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetComponent/A18_AssetComponentHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DA_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DM_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_CS_AssetService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerUserInfo/A18_AssetTrackerUserInfo.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHeader/A18_AssetTrackerHeader.cmp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_DTO.cls">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetListItem/A18_AssetTrackerEmployeeAssetListItem.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_ES_QRService.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#728#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/AccountTrigger.trigger">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetList/A18_AssetTrackerEmployeeAssetList.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItem.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetList.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="133" selection-start-line="17" selection-start-column="133" selection-end-line="17" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBody.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerHomeBody/A18_AssetTrackerHomeBodyController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooter.cmp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetFormFooter/A18_AssetFormFooterHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetListItem/A18_AssetTrackerEmployeeAssetListItemController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetList/A18_AssetTrackerAssetListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerRequestForm/A18_AssetTrackerRequestFormController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerEmployeeAssetList/A18_AssetTrackerEmployeeAssetListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/A18_AssetTrackerAssetListItem/A18_AssetTrackerAssetListItemController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/A18_AC_AssetController.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+          <folding>
+            <element signature="e#4515#4523#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

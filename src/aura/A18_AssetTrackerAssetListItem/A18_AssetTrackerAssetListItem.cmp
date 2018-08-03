@@ -1,37 +1,40 @@
 <!--
- - Created by Piotr Kucia on 01.08.2018.
+ - Created by Piotr Kucia on 03.08.2018.
  -->
 
-<aura:component description="A18_AssetTrackerAssetListItem">
-    <aura:attribute name="assetJSON" type="String" default=""/>
+<aura:component description="A18_AssetTrackerAssetListItem" controller="A18_AC_AssetController">
+    <aura:attribute name="assetJSON" type="String"/>
     <aura:attribute name="asset" type="Object"/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
-    <aura:registerEvent name="assetBroken" type="c:A18_AssetTrackerAssetBrokenEvent"/>
-
-    <!--<h1 class="slds-page-header__title slds-m-right&#45;&#45;small  slds-truncate slds-align-left"><a href="{! $Site.siteUrlPrefix + '/detail/' + v.asset.id}">Go to details</a></h1>-->
 
     <tr>
         <th scope="row" data-label="Name">
-            <div class="slds-truncate">{!v.asset.name}</div>
+            <div class="slds-truncate"><a href="{!'https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/detail/' + v.asset.id}" target="_blank">{!v.asset.name}</a></div>
         </th>
+        <td data-label="Price">
+            <div class="slds-truncate">{!v.asset.price}</div>
+        </td>
+        <td data-label="Purchase Date">
+            <div class="slds-truncate">{!v.asset.purchaseDate}</div>
+        </td>
+        <td data-label="Due Date">
+            <div class="slds-truncate">{!v.asset.dueDate}</div>
+        </td>
+        <td data-label="Invoice Number">
+            <div class="slds-truncate">{!v.asset.invoiceNumber}</div>
+        </td>
         <td data-label="Description">
             <div class="slds-truncate">{!v.asset.description}</div>
         </td>
-        <td data-label="Invoice Number">
-            <div class="slds-truncate">{!v.asset.dueDate}</div>
+        <td data-label="Is Broken?">
+            <div class="slds-truncate">{!v.asset.isBroken == true ? 'YES' : 'NO'}</div>
         </td>
-        <td data-label="Prospecting">
-            <div class="slds-truncate">{!v.asset.invoiceNumber}</div>
-        </td>
-        <td data-label="Confidence">
-            <div class="slds-truncate"><lightning:input type="toggle"
-                                                        label="Broken?"
-                                                        name="broken"
-                                                        messageToggleActive="Yes"
-                                                        messageToggleInactive="No"
-                                                        checked="{!v.asset.isBroken}"
-                                                        onchange="{!c.markAsBroken}"/>
+        <td data-label="Action">
+            <div class="slds-button-group" role="group">
+                <button class="slds-button slds-button_neutral" onclick="{!c.getQR}">Get QR</button>
+                <button class="slds-button slds-button_neutral" onclick="{!c.editAsset}">Edit</button>
+                <button class="slds-button slds-button_neutral" onclick="{!c.deleteAsset}">Delete</button>
             </div>
         </td>
     </tr>

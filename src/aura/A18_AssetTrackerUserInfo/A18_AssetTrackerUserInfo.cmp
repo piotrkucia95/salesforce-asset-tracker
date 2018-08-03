@@ -13,7 +13,6 @@
         <lightning:layoutItem padding="horizontal-small">
             <div class="page-section page-header">
                 <h4>{!v.user.FirstName}&nbsp;{!v.user.LastName}</h4>
-                <p>{!v.user.Email}</p>
                 <p>{!v.userType}</p>
             </div>
         </lightning:layoutItem>

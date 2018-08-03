@@ -3,7 +3,7 @@
  */
 ({
     createAsset : function(component, newAsset) {
-        var action = component.get("c.createAssetFromJSONString");
+        var action = component.get("c.addAsset");
         var newAssetJSONString = JSON.stringify(newAsset);
 
         action.setParams({

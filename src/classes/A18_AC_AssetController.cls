@@ -10,30 +10,6 @@ public with sharing class A18_AC_AssetController {
         CSAssetService = new A18_CS_AssetService();
     }
 
-    public static void addAsset(A18_DTO.Asset assetDTO) {
-        A18_CS_AssetService.addAsset(assetDTO);
-    }
-
-    public static void updateAsset(A18_DTO.Asset assetDTO) {
-        A18_CS_AssetService.updateAsset(assetDTO);
-    }
-
-    public void deleteAsset(ID assetId) {
-        CSAssetService.deleteAssets(assetId);
-    }
-
-    public List<A18_DTO.Asset> getAssets() {
-        return CSAssetService.getAssets();
-    }
-
-    public List<A18_DTO.AssetRecordType> getAssetRecordTypes() {
-        return CSAssetService.getAssetRecordTypes();
-    }
-
-    public List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId) {
-        return CSAssetService.searchAssets(searchPhrase, recordTypeId);
-    }
-
     public static A18_DTO.Asset createAssetDTOFromJSON(String JSONString) {
         Map<String,String> dtoMap = new Map<String,String>();
         dtoMap = (Map<String,String>)System.JSON.deserialize(JSONString,Map<String,String>.class);
@@ -52,6 +28,54 @@ public with sharing class A18_AC_AssetController {
     }
 
     @AuraEnabled
+    public static void addAsset(String dtoString) {
+        try {
+            A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
+            A18_CS_AssetService.addAsset(dtoAsset);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
+    }
+
+    @AuraEnabled
+    public static void updateAsset(String dtoString) {
+        try {
+            A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
+            A18_CS_AssetService.updateAsset(dtoAsset);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
+    }
+
+    @AuraEnabled
+    public static void deleteAsset(ID assetId) {
+        try {
+            A18_CS_AssetService.deleteAssets(assetId);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
+    }
+
+    @AuraEnabled
+    public static List<String> getAssets() {
+        List<A18_DTO.Asset> assetsDTO = A18_CS_AssetService.getAssets();
+        List<String> DTOStrings = new List<String>();
+
+        for(A18_DTO.Asset assetDTO : assetsDTO) {
+            DTOStrings.add(JSON.serialize(assetDTO));
+        }
+        return DTOStrings;
+    }
+
+    public List<A18_DTO.AssetRecordType> getAssetRecordTypes() {
+        return CSAssetService.getAssetRecordTypes();
+    }
+
+    public List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId) {
+        return CSAssetService.searchAssets(searchPhrase, recordTypeId);
+    }
+
+    @AuraEnabled
     public static User getCurrentUser() {
         try {
             User newUser = new User();
@@ -60,26 +84,6 @@ public with sharing class A18_AC_AssetController {
             newUser.Id = UserInfo.getUserId();
             newUser.Email = UserInfo.getUserEmail();
             return newUser;
-        } catch(Exception e) {
-            throw new AuraHandledException('Error: ' + e.getMessage());
-        }
-    }
-
-    @AuraEnabled
-    public static void createAssetFromJSONString(String dtoString) {
-        try {
-            A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
-            addAsset(dtoAsset);
-        } catch(Exception e) {
-            throw new AuraHandledException('Error: ' + e.getMessage());
-        }
-    }
-
-    @AuraEnabled
-    public static void updateAssetFromJSONString(String dtoString) {
-        try {
-            A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
-            updateAsset(dtoAsset);
         } catch(Exception e) {
             throw new AuraHandledException('Error: ' + e.getMessage());
         }
@@ -114,6 +118,13 @@ public with sharing class A18_AC_AssetController {
             DTOStrings.add(JSON.serialize(assetDTO));
         }
         return DTOStrings;
+    }
+
+    @AuraEnabled
+    public static Id getAssetQRCode(Id assetId) {
+        Attachment a = [SELECT Id FROM Attachment WHERE ParentId = :assetId];
+        System.debug(a.Id + 'XXXXXXXXXXXXXXXXXXXXXXXXXXXS');
+        return a.Id;
     }
 
 }

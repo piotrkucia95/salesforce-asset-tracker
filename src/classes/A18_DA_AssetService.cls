@@ -15,11 +15,11 @@ public with sharing class A18_DA_AssetService {
         upsert asset;
     }
 
-    public void deleteAssets(ID assetId) {
+    public static void deleteAssets(ID assetId) {
         delete [SELECT Id FROM Asset__c WHERE Id = :assetId];
     }
 
-    public List<Asset__c> getAssets() {
+    public static List<Asset__c> getAssets() {
         return [SELECT Name, Description__c, Due_Date__c, Purchase_Date__c, Price__c, Invoice_Number__c, Is_Broken__c FROM Asset__c];
     }
 

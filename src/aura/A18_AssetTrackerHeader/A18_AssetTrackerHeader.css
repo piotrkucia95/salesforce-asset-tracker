@@ -3,7 +3,6 @@
  */
 
  .THIS {
-    min-width: 100vw;
  }
 
 .THIS img {
@@ -17,3 +16,4 @@
     height: 50px;
     margin-top: 10px;
 }
+

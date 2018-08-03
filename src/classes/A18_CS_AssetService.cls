@@ -20,12 +20,12 @@ public with sharing class A18_CS_AssetService {
         A18_DM_AssetService.updateAsset(asset);
     }
 
-    public void deleteAssets(ID assetId) {
-        DMAssetService.deleteAssets(assetId);
+    public static void deleteAssets(ID assetId) {
+        A18_DM_AssetService.deleteAssets(assetId);
     }
 
-    public List<A18_DTO.Asset> getAssets() {
-        List<Asset__c> assets = DMAssetService.getAssets();
+    public static List<A18_DTO.Asset> getAssets() {
+        List<Asset__c> assets = A18_DM_AssetService.getAssets();
         List<A18_DTO.Asset> DTOAssets = new List<A18_DTO.Asset>();
 
         for(Asset__c asset : assets){

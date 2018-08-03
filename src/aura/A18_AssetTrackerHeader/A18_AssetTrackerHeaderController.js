@@ -36,8 +36,13 @@
             userEvent.fire();
         }
     },
-    toggleDropdown : function(component, event, helper) {
-        var dropdownVisible = component.get('v.dropdownVisible');
-        component.set('v.dropdownVisible', !dropdownVisible);
+    logOut : function (component, event, helper) {
+        window.location.replace("https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/servlet/networks/switch?startURL=%2Fsecur%2Flogout.jsp");
+    },
+    goToSalesforce : function (component, event, helper) {
+        window.open("https://pkucia-dev-ed.lightning.force.com/", '_blank');
+    },
+    goToPolsource : function (component, event, helper) {
+        window.open("http://www.polsource.com", '_blank');
     }
 })

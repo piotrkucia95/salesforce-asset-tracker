@@ -18,12 +18,12 @@ public with sharing class A18_DM_AssetService {
         A18_DA_AssetService.updateAsset(asset);
     }
 
-    public void deleteAssets(ID assetId) {
-        DAAssetService.deleteAssets(assetId);
+    public static void deleteAssets(ID assetId) {
+        A18_DA_AssetService.deleteAssets(assetId);
     }
 
-    public List<Asset__c> getAssets() {
-        return DAAssetService.getAssets();
+    public static List<Asset__c> getAssets() {
+        return A18_DA_AssetService.getAssets();
     }
 
     public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
