@@ -2,9 +2,19 @@
  - Created by Piotr Kucia on 30.07.2018.
  -->
 
+<<<<<<< Updated upstream
 <aura:component description="A18_AssetTrackerHeader" controller="A18_AC_AssetController" implements="forceCommunity:availableForAllPageTypes,force:appHostable">
     <aura:attribute name="userWrapper" type="Map" default="{'userType': '',
                                                             'user': null}"/>
+=======
+<aura:component description="A18_AssetTrackerHeader" controller="A18_AC_AssetController"
+                extends="forceCommunity:navigationMenuBase" implements="forceCommunity:availableForAllPageTypes,force:appHostable">
+    <aura:attribute name="userType" type="String" />
+    <aura:attribute name="user" type="User" default="{
+        'Name': '',
+        'Id': '',
+        'Email': '' }"/>
+>>>>>>> Stashed changes
 
     <aura:handler name="init" value="{!this}" action="{!c.init}" />
     <aura:handler name="change" value="{!v.userWrapper}" action="{!c.handleUserWrapperChange}" />
@@ -45,7 +55,17 @@
             </ui:menu>
         </div>
         <div class="slds-col">
+<<<<<<< Updated upstream
             <c:A18_AssetTrackerUserInfo user="{!v.userWrapper.user}" userType="{!v.userWrapper.userType}"/>
+=======
+            <a class="icon-menu-item-link" href="/s/assets" data-href="/s/assets" ><!--title="{!$Label.c.PP_Requests}" onclick="{!c.navigateToUrl}" -->
+                SDFSDAFDAFD
+            </a>
+        </div>
+
+        <div class="slds-col">
+            <c:A18_AssetTrackerUserInfo user="{!v.user}" userType="{!v.userType}"/>
+>>>>>>> Stashed changes
         </div>
     </div>
 

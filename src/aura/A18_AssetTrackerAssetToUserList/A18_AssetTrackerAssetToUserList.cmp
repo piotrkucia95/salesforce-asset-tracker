@@ -1,0 +1,53 @@
+<!--
+ - Created by Piotr Kucia on 05.08.18.
+ -->
+
+<aura:component description="A18_AssetTrackerAssetToUserList" controller="A18_AC_AssetUserController"
+                implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="assetUsers" type="String[]"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+    <div class="slds-grid">
+        <div class="slds-col slds-size--3-of-12">
+            <lightning:icon iconName="custom:custom9" class="slds-float--left"/>
+            <p class="slds-text-heading--medium">&nbsp;Assets To Users</p>
+        </div>
+        <div class="slds-col slds-size--7-of-12"></div>
+        <div class="slds-col slds-size--2-of-12">
+            <button class="slds-button slds-button_brand slds-float_right" onclick="{!c.showModal}">Add Asset To User</button>
+        </div>
+    </div>
+
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+        <tr class="slds-text-title_caps">
+            <th scope="col">
+                <div class="slds-truncate" title="Name">Name</div>
+            </th>
+            <th scope="col">
+                <div class="slds-truncate" title="Asset ID">Asset ID</div>
+            </th>
+            <th scope="col">
+                <div class="slds-truncate" title="User ID">User ID</div>
+            </th>
+            <th scope="col">
+                <div class="slds-truncate" title="Start Date">Start Date</div>
+            </th>
+            <th scope="col">
+                <div class="slds-truncate" title="End Date">End Date</div>
+            </th>
+            <th scope="col">
+                <div class="slds-truncate" title="Status">Status</div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <aura:iteration items="{!v.assetUsers}" var="assetUserJSON">
+            <c:A18_AssetTrackerAssetToUserListItem assetUserJSON="{!assetUserJSON}"/>
+        </aura:iteration>
+        </tbody>
+    </table>
+
+
+</aura:component>

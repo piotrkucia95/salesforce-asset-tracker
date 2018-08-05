@@ -32,6 +32,7 @@ public with sharing class A18_DTO {
 
     public class AssetUser {
         public String name;
+        public ID id;
         public ID assetId;
         public Date startDate;
         public Date endDate;

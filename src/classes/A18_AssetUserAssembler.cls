@@ -8,6 +8,7 @@ public with sharing class A18_AssetUserAssembler {
         A18_DTO.AssetUser DTOAssetUser = new A18_DTO.AssetUser();
 
         DTOAssetUser.name = assetUser.Name;
+        DTOAssetUser.id = assetUser.Id;
         DTOAssetUser.assetId = assetUser.Asset__c;
         DTOAssetUser.startDate = assetUser.Start_Date__c;
         DTOAssetUser.endDate = assetUser.End_Date__c;
@@ -21,6 +22,7 @@ public with sharing class A18_AssetUserAssembler {
         Asset_To_User__c CAssetUser = new Asset_To_User__c();
 
         CAssetUser.Name = assetUser.name;
+        if(assetUser.id != NULL) CAssetUser.Id = assetUser.id;
         CAssetUser.Asset__c = assetUser.assetId;
         CAssetUser.Start_Date__c = assetUser.startDate;
         CAssetUser.End_Date__c = assetUser.endDate;

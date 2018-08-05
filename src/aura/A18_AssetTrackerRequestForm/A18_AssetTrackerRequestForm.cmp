@@ -4,8 +4,8 @@
 
 <aura:component description="A18_AssetTrackerRequestForm" implements="flexipage:availableForRecordHome, force:hasRecordId">
     <aura:attribute name="newRequest" type="Object"/>
-    <aura:attribute name="simpleNewRequest" type="Object"/>
-    <aura:attribute name="newRequestError" type="String"/>
+    <aura:attribute name="simpleNewRequest" type="Object" default="{'Status__c' = 'New'}"/>
+    <aura:attribute name="newRequestError" type="String" default="{'Status__c' = 'New'}"/>
     <aura:attribute name="requestAddedFlag" type="Boolean" default="false"/>
     <aura:attribute name="priorityErrorFlag" type="Boolean" default="false"/>
 
@@ -20,6 +20,9 @@
                       targetFields="{!v.simpleNewRequest}"
                       targetError="{!v.newRequestError}" />
 
+    <h3 class="{!v.requestAddedFlag == true ? 'slds-text-color_success slds-text-align_center' : 'slds-assistive-text'}">
+        Request added successfully!</h3>
+    <br/>
     <form class="slds-form--stacked">
         <lightning:input aura:id="requestform" label="Request Name"
                          name="requestname"
@@ -45,7 +48,6 @@
                          name="requestreason"
                          value="{!v.simpleNewRequest.Reason__c}" />
     </form>
-    <br/>
-    <h3 class="{!v.requestAddedFlag == true ? 'slds-text-color_success slds-text-align_center' : 'slds-assistive-text'}">Request added successfully!</h3>
+
 
 </aura:component>

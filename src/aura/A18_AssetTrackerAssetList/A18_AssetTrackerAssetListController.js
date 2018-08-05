@@ -14,7 +14,37 @@
         });
         $A.enqueueAction(action);
     },
-    addAsset : function(component, event, helper) {
-        //console.log('sadfsdffsdaasdfd');
-    }
+    showModal : function(component, event, handler) {
+        console.log('sdafdsfas');
+        var childComponent = component.find("assetModal");
+        childComponent.toggleModal();
+    },
+    handleAddAsset : function(component, event, helper) {
+        var newAsset = event.getParam("newAsset");
+        helper.createAsset(component, newAsset);
+        component.set("v.newAsset",{
+                        'name': '',
+                        'description': '',
+                        'dueDate': '',
+                        'invoiceNumber': '',
+                        'price': '',
+                        'purchaseDate': '',
+                        'isBroken': ''});
+    },
+    handleEditAsset : function(component, event, helper) {
+        var newAsset = event.getParam("newAsset");
+        helper.editAsset(component, newAsset);
+        component.set("v.newAsset",{
+                        'name': '',
+                        'description': '',
+                        'dueDate': '',
+                        'invoiceNumber': '',
+                        'price': '',
+                        'purchaseDate': '',
+                        'isBroken': ''});
+    },
+    handleDeleteAsset : function(component, event, helper) {
+        var assetId = event.getParam("assetId");
+        helper.deleteAsset(component, assetId);
+    },
 })

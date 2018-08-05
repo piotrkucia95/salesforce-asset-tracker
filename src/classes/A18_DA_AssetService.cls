@@ -12,7 +12,7 @@ public with sharing class A18_DA_AssetService {
     }
 
     public static void updateAsset(Asset__c asset) {
-        upsert asset;
+        update asset;
     }
 
     public static void deleteAssets(ID assetId) {

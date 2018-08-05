@@ -6,13 +6,28 @@
         var modalVisible = component.get('v.modalVisible');
         modalVisible = !modalVisible;
         component.set("v.modalVisible", modalVisible);
-        if(!modalVisible) {
-            var childComponent = component.find("requestForm");
+        if(!modalVisible ) {
+            if(component.get('v.objectType') == 'Request') var childComponent = component.find("requestForm");
+            else if(component.get('v.objectType') == 'Asset') var childComponent = component.find("assetForm");
+            else if(component.get('v.objectType') == 'Asset To User') var childComponent = component.find("assetToUserForm");
             childComponent.handleCancel();
         }
     },
     saveRequest : function(component, event, helper) {
         var childComponent = component.find("requestForm");
         childComponent.handleSaveRequest();
-    }
+    },
+    addAsset : function(component, event, helper) {
+        var childComponent = component.find("assetForm");
+        childComponent.handleAddAsset();
+    },
+    editAsset : function(component, event, helper) {
+        var childComponent = component.find("assetForm");
+        childComponent.handleEditAsset();
+        component.set('v.editFlag', false);
+    },
+    saveAssetToUser : function(component, event, helper) {
+        var childComponent = component.find("assetToUserForm");
+        childComponent.handleSaveAssetToUser();
+    },
 })

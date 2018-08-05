@@ -5,29 +5,48 @@
 <aura:component description="A18_AssetTrackerModal">
     <aura:attribute name="modalVisible" type="Boolean" default="false"/>
     <aura:attribute name="objectType" type="String" />
+    <aura:attribute name="object" type="Map" default="{'isBroken': false}"/>
+    <aura:attribute name="editFlag" type="Boolean" default="false"/>
 
     <aura:method name="toggleModal" action="{!c.toggleModal}" access="PUBLIC"></aura:method>
 
     <aura:if isTrue="{!v.modalVisible}">
-        <div class="demo-only" style="height: 640px;">
-            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
-                <div class="slds-modal__container">
-                    <header class="slds-modal__header">
-                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">New {!v.objectType}</h2>
-                    </header>
-                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
-                        <aura:if isTrue="{!v.objectType == 'Request'}">
-                            <c:A18_AssetTrackerRequestForm aura:id="requestForm"/>
-                        </aura:if>
-                    </div>
-                    <footer class="slds-modal__footer">
-                        <button class="slds-button slds-button_neutral" onclick="{!c.toggleModal}">Cancel</button>
-                        <button class="slds-button slds-button_brand" onclick="{!c.saveRequest}">Save</button>
-                    </footer>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">New {!v.objectType}</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <aura:if isTrue="{!v.objectType == 'Request'}">
+                        <c:A18_AssetTrackerRequestForm aura:id="requestForm"/>
+                    </aura:if>
+                    <aura:if isTrue="{!v.objectType == 'Asset'}">
+                        <c:A18_AssetTrackerAssetForm aura:id="assetForm" newAsset="{!v.object}"/>
+                    </aura:if>
+                    <aura:if isTrue="{!v.objectType == 'Asset To User'}">
+                        <c:A18_AssetTrackerAssetToUserForm aura:id="assetToUserForm"/>
+                    </aura:if>
                 </div>
-            </section>
-            <div class="slds-backdrop slds-backdrop_open"></div>
-        </div>
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" onclick="{!c.toggleModal}">Cancel</button>
+                    <aura:if isTrue="{!v.objectType == 'Request'}">
+                        <button class="slds-button slds-button_brand" onclick="{!c.saveRequest}">Save</button>
+                    </aura:if>
+                    <aura:if isTrue="{!v.objectType == 'Asset'}">
+                        <aura:if isTrue="{!v.editFlag == false}">
+                            <button class="slds-button slds-button_brand" onclick="{!c.addAsset}">Save</button>
+                            <aura:set attribute="else">
+                                <button class="slds-button slds-button_brand" onclick="{!c.editAsset}">Save</button>
+                            </aura:set>
+                        </aura:if>
+                    </aura:if>
+                    <aura:if isTrue="{!v.objectType == 'Asset To User'}">
+                        <button class="slds-button slds-button_brand" onclick="{!c.saveAssetToUser}">Save</button>
+                    </aura:if>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
     </aura:if>
 
 </aura:component>

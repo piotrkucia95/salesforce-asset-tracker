@@ -1,0 +1,37 @@
+<!--
+ - Created by Piotr Kucia on 05.08.18.
+ -->
+
+<aura:component description="A18_AssetTrackerAssetToUserListItem">
+    <aura:attribute name="assetUserJSON" type="String"/>
+    <aura:attribute name="assetUser" type="Object"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+
+    <tr>
+        <th data-label="Name">
+            <div class="slds-truncate"><a href="{!'https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/detail/' + v.assetUser.id}" target="_blank">{!v.assetUser.name}</a></div>
+        </th>
+        <th data-label="Asset ID">
+            <div class="slds-truncate">{!v.assetUser.assetId}</div>
+        </th>
+        <td data-label="User ID">
+            <div class="slds-truncate">{!v.assetUser.userId}</div>
+        </td>
+        <td data-label="Start Date">
+            <div class="slds-truncate">{!v.assetUser.startDate}</div>
+        </td>
+        <td data-label="End Date">
+            <div class="slds-truncate">{!v.assetUser.endDate}</div>
+        </td>
+        <td data-label="Status">
+            <div class="slds-truncate">{!v.assetUser.status}</div>
+        </td>
+        <td data-label="Action">
+            <div class="slds-button-group" role="group">
+                <button class="slds-button slds-button_neutral" onclick="{!c.showEditModal}">Edit</button>
+                <button class="slds-button slds-button_neutral" onclick="{!c.showDeleteModal}">Delete</button>
+            </div>
+        </td>
+    </tr>
+</aura:component>

@@ -18,6 +18,6 @@
         currently using, report any equipment faults and flaws or make requests for new assets.</p>
 
     <button class="slds-button slds-button_brand" onclick="{!c.showModal}">Request a New Asset</button>
-    <c:A18_AssetTrackerModal aura:id="requestModal" objectType="Request"/>
+    <c:A18_AssetTrackerModal aura:id="requestModal" objectType="Request" editFlag="false"/>
 
 </aura:component>

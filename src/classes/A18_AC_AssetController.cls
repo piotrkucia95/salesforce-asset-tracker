@@ -41,6 +41,7 @@ public with sharing class A18_AC_AssetController {
     public static void updateAsset(String dtoString) {
         try {
             A18_DTO.Asset dtoAsset = createAssetDTOFromJSON(dtoString);
+            System.debug('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'+dtoAsset.id);
             A18_CS_AssetService.updateAsset(dtoAsset);
         } catch(Exception e) {
             throw new AuraHandledException('Error: ' + e.getMessage());

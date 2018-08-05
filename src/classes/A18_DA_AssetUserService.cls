@@ -46,6 +46,6 @@ public with sharing class A18_DA_AssetUserService {
     }
 
     public static List<Asset_To_User__c> getAssetUsers() {
-        return [SELECT Name, Asset__c, Start_Date__c, End_Date__c, Status__c, User__c FROM Asset_To_User__c];
+        return [SELECT Name, Id, Asset__c, Start_Date__c, End_Date__c, Status__c, User__c FROM Asset_To_User__c];
     }
 }
