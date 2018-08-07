@@ -7,11 +7,14 @@
     <aura:attribute name="assetUsers" type="String[]"/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler name="addAssetUser" event="c:A18_AssetTrackerAddAssetUserEvent" action="{!c.handleAddAssetUser}"/>
+    <aura:handler name="editAssetUser" event="c:A18_AssetTrackerEditAssetUserEvent" action="{!c.handleEditAssetUser}"/>
+    <aura:handler name="deleteAssetUser" event="c:A18_AssetTrackerDeleteAssetUserEvent" action="{!c.handleDeleteAssetUser}"/>
 
     <div class="slds-grid">
-        <div class="slds-col slds-size--3-of-12">
+        <div class="slds-col slds-size--3-of-12 my-box">
             <lightning:icon iconName="custom:custom9" class="slds-float--left"/>
-            <p class="slds-text-heading--medium">&nbsp;Assets To Users</p>
+            <p class="slds-text-heading--medium">Assets To Users</p>
         </div>
         <div class="slds-col slds-size--7-of-12"></div>
         <div class="slds-col slds-size--2-of-12">
@@ -49,5 +52,6 @@
         </tbody>
     </table>
 
+    <c:A18_AssetTrackerModal aura:id="assetUserModal" objectType="Asset To User" editFlag="false"/>
 
 </aura:component>

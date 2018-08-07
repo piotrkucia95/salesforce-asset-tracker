@@ -1,0 +1,15 @@
+/**
+ * Created by Piotr Kucia on 07.08.18.
+ */
+.THIS {
+    margin-top: 20px;
+}
+
+table.THIS {
+    margin-top: 30px;
+}
+
+.THIS .my-box p {
+    margin-top: 4px;
+    margin-left: 40px;
+}

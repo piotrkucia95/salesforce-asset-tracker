@@ -10,15 +10,16 @@ public with sharing class A18_DM_AssetUserService {
         this.DAAssetUserService = new A18_DA_AssetUserService();
     }
 
-    public void addAssetUser(Asset_To_User__c assetToUser) {
-        DAAssetUserService.addAssetUser(assetToUser);
-    }
-    public void updateAssetUser(Asset_To_User__c assetToUser){
-        DAAssetUserService.updateAssetUser(assetToUser);
+    public static void addAssetUser(Asset_To_User__c assetToUser) {
+        A18_DA_AssetUserService.addAssetUser(assetToUser);
     }
 
-    public void deleteAssetUser(Id assetToUserId) {
-        DAAssetUserService.deleteAssetUser(assetToUserId);
+    public static void updateAssetUser(Asset_To_User__c assetToUser){
+        A18_DA_AssetUserService.updateAssetUser(assetToUser);
+    }
+
+    public static void deleteAssetUser(Id assetToUserId) {
+        A18_DA_AssetUserService.deleteAssetUser(assetToUserId);
     }
 
     public List<Schema.PicklistEntry> getAssetStatuses() {

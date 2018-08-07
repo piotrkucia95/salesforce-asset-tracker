@@ -31,13 +31,13 @@ public with sharing class A18_DTO {
 
 
     public class AssetUser {
-        public String name;
-        public ID id;
-        public ID assetId;
-        public Date startDate;
-        public Date endDate;
-        public String status;
-        public ID userId;
+        public String name{get; set;}
+        public ID id{get; set;}
+        public ID assetId{get; set;}
+        public Date startDate{get; set;}
+        public Date endDate{get; set;}
+        public String status{get; set;}
+        public ID userId{get; set;}
     }
 
 }

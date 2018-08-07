@@ -8,9 +8,10 @@
     },
     getQR : function(component, event, helper) {
         var action = component.get('c.getAssetQRCode');
-        console.log(assetId);
+        var asset = component.get('v.asset');
+        console.log(asset.idd);
         action.setParams({
-            "assetId": assetId
+            "assetId": asset.id
         });
         action.setCallback(this, function(response) {
             var state = response.getState();

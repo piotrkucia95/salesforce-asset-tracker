@@ -10,18 +10,18 @@ public with sharing class A18_CS_AssetUserService {
         this.DMAssetUserService = new A18_DM_AssetUserService();
     }
 
-    public void addAssetUser(A18_DTO.AssetUser assetUserDTO) {
+    public static void addAssetUser(A18_DTO.AssetUser assetUserDTO) {
         Asset_To_User__c assetUser = A18_AssetUserAssembler.convertToDomain(assetUserDTO);
-        DMAssetUserService.addAssetUser(assetUser);
+        A18_DM_AssetUserService.addAssetUser(assetUser);
     }
 
-    public void updateAssetUser(A18_DTO.AssetUser assetUserDTO) {
+    public static void updateAssetUser(A18_DTO.AssetUser assetUserDTO) {
         Asset_To_User__c assetUser = A18_AssetUserAssembler.convertToDomain(assetUserDTO);
-        DMAssetUserService.updateAssetUser(assetUser);
+        A18_DM_AssetUserService.updateAssetUser(assetUser);
     }
 
-    public void deleteAssetUser(Id assetId) {
-        DMAssetUserService.deleteAssetUser(assetId);
+    public static void deleteAssetUser(Id assetId) {
+        A18_DM_AssetUserService.deleteAssetUser(assetId);
     }
 
     public List<A18_DTO.AssetStatus> getAssetStatuses() {

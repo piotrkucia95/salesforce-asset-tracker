@@ -3,4 +3,51 @@
  -->
 
 <aura:component description="A18_AssetTrackerAssetToUserForm">
+    <aura:attribute name="newAssetUser" type="Map" default=""/>
+    <aura:attribute name="assetUserAddedFlag" type="Boolean" default="false"/>
+    <aura:attribute name="assetUserEditedFlag" type="Boolean" default="false"/>
+    <aura:attribute name="assetFieldFlag" type="Boolean" default="true"/>
+
+    <aura:method name="handleAddAssetUser" action="{!c.handleAddAssetUser}" access="PUBLIC"></aura:method>
+    <aura:method name="handleEditAssetUser" action="{!c.handleEditAssetUser}" access="PUBLIC"></aura:method>
+    <aura:method name="handleCancel" action="{!c.clickCancel}" access="PUBLIC"></aura:method>
+
+    <aura:registerEvent name="addAssetUser" type="c:A18_AssetTrackerAddAssetUserEvent"/>
+    <aura:registerEvent name="editAssetUser" type="c:A18_AssetTrackerEditAssetUserEvent"/>
+
+    <h3 class="{!v.assetUserAddedFlag == true ? 'slds-text-color_success slds-text-align_center' : 'slds-assistive-text'}">
+        Asset To User added successfully!</h3>
+    <h3 class="{!v.assetUserEditedFlag == true ? 'slds-text-color_success slds-text-align_center' : 'slds-assistive-text'}">
+        Asset To User edited successfully!</h3>
+    <br/>
+    <form class="slds-form--stacked">
+        <lightning:input aura:id="assetuserform" label="Asset To User Name"
+                         name="assetusername"
+                         value="{!v.newAssetUser.name}"
+                         required="true"/>
+        <aura:if isTrue="{!v.assetFieldFlag == true}">
+            <lightning:input aura:id="assetuserform" label="Asset ID"
+                             name="assetuserasset"
+                             value="{!v.newAssetUser.assetId}"
+                             required="true"/>
+        </aura:if>
+        <lightning:input aura:id="assetuserform" label="User ID"
+                         name="assetuseruser"
+                         value="{!v.newAssetUser.userId}"
+                         required="true"/>
+        <lightning:input type="date" aura:id="assetuserform" label="Start Date"
+                         name="assetuserstartdate"
+                         value="{!v.newAssetUser.startDate}"/>
+        <lightning:input type="date" aura:id="assetuserform" label="End Date"
+                         name="assetuserenddate"
+                         value="{!v.newAssetUser.endDate}"/>
+        <lightning:select aura:id="assetuserform" name="assetuserstatus" label="Status" value="{!v.newAssetUser.status}">
+            <option>...</option>
+            <option value="Ready to delivery">Ready to delivery</option>
+            <option value="Delivered">Delivered</option>
+            <option value="Service">Service</option>
+            <option value="Returned to store">Returned to store</option>
+            <option value="Destroyed">Destroyed</option>
+        </lightning:select>
+    </form>
 </aura:component>

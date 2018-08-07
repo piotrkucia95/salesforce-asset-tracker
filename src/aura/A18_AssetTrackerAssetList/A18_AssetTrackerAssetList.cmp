@@ -6,7 +6,6 @@
                 implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId">
 
     <aura:attribute name="assets" type="String[]"/>
-    <aura:attribute name="newAsset" type="String"/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
     <aura:handler name="addAsset" event="c:A18_AssetTrackerAddAssetEvent" action="{!c.handleAddAsset}"/>
@@ -14,9 +13,9 @@
     <aura:handler name="deleteAsset" event="c:A18_AssetTrackerDeleteAssetEvent" action="{!c.handleDeleteAsset}"/>
 
     <div class="slds-grid">
-        <div class="slds-col slds-size--2-of-12">
+        <div class="slds-col slds-size--2-of-12 my-box">
             <lightning:icon iconName="custom:custom58" class="slds-float--left"/>
-            <p class="slds-text-heading--medium">&nbsp;Assets</p>
+            <p class="slds-text-heading--medium">Assets</p>
         </div>
         <div class="slds-col slds-size--8-of-12"></div>
         <div class="slds-col slds-size--2-of-12">

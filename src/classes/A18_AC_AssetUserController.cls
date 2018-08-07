@@ -26,16 +26,33 @@ public with sharing class A18_AC_AssetUserController {
         return dtoAssetUser;
     }
 
-    public static void addAssetUser(A18_DTO.AssetUser assetUserDTO) {
-        //A18_CS_AssetUserService.addAssetUser(assetUserDTO);
+    @AuraEnabled
+    public static void addAssetUser(String dtoString) {
+        try {
+            A18_DTO.AssetUser dtoAssetUser = createAssetUserDTOFromJSON(dtoString);
+            A18_CS_AssetUserService.addAssetUser(dtoAssetUser);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
     }
 
-    public void updateAssetUser(A18_DTO.AssetUser assetUserDTO) {
-        CSAssetUserService.updateAssetUser(assetUserDTO);
+    @AuraEnabled
+    public static void updateAssetUser(String dtoString) {
+        try {
+            A18_DTO.AssetUser dtoAssetUser = createAssetUserDTOFromJSON(dtoString);
+            A18_CS_AssetUserService.updateAssetUser(dtoAssetUser);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
     }
 
-    public void deleteAssetUser(ID assetToUserId) {
-        CSAssetUserService.deleteAssetUser(assetToUserId);
+    @AuraEnabled
+    public static void deleteAssetUser(ID assetToUserId) {
+        try {
+            A18_CS_AssetUserService.deleteAssetUser(assetToUserId);
+        } catch(Exception e) {
+            throw new AuraHandledException('Error: ' + e.getMessage());
+        }
     }
 
     public List<A18_DTO.AssetStatus> getAssetStatuses() {

@@ -4,15 +4,15 @@
 
 public with sharing class A18_DA_AssetUserService {
 
-    public void addAssetUser(Asset_To_User__c assetToUser) {
+    public static void addAssetUser(Asset_To_User__c assetToUser) {
         insert assetToUser;
     }
 
-    public void updateAssetUser(Asset_To_User__c assetToUser) {
-        upsert assetToUser;
+    public static void updateAssetUser(Asset_To_User__c assetToUser) {
+        update assetToUser;
     }
 
-    public void deleteAssetUser(ID assetToUserId) {
+    public static void deleteAssetUser(ID assetToUserId) {
         delete [SELECT Id FROM Asset_To_User__c WHERE Id = :assetToUserId];
     }
 

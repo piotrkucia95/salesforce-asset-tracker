@@ -3,28 +3,10 @@
  -->
 
 <aura:component description="A18_AssetTrackerThemeLayout" implements="forceCommunity:themeLayout">
-<<<<<<< Updated upstream
     <div class="header">
         <c:A18_AssetTrackerHeader />
-=======
-    <aura:attribute name="header" type="Aura.Component[]"/>
-    <aura:attribute name="footer" type="Aura.Component[]"/>
-
-    <div class="slds-grid slds-grid--align-center">
-        <div class="content">
-            <div class="header">
-                    {!v.header}
-            </div>
-            <div class="body">
-                    {!v.body}
-            </div>
-            <div class="footer">
-                    {!v.footer}
-            </div>
-        </div>
->>>>>>> Stashed changes
     </div>
-    <div class="slds-align--absolute-center">
+    <div class="slds-align--absolute-center main-content">
             {!v.body}
     </div>
     <div class="footer slds-docked-form-footer">

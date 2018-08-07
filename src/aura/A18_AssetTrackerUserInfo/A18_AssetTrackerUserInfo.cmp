@@ -6,15 +6,15 @@
     <aura:attribute name="user" type="User" />
     <aura:attribute name="userType" type="String" />
 
-    <lightning:layout class="">
-        <lightning:layoutItem>
-            <lightning:icon iconName="standard:user" alternativeText="User Info"/>
-        </lightning:layoutItem>
+    <lightning:layout class="slds-grid--vertical-align-center slds-float--right">
         <lightning:layoutItem padding="horizontal-small">
             <div class="page-section page-header">
                 <h4>{!v.user.FirstName}&nbsp;{!v.user.LastName}</h4>
                 <p>{!v.userType}</p>
             </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem>
+            <lightning:icon iconName="standard:user" alternativeText="User Info"/>
         </lightning:layoutItem>
     </lightning:layout>
 

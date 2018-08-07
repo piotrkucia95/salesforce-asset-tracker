@@ -28,10 +28,6 @@
                          name="requestname"
                          value="{!v.simpleNewRequest.Name}"
                          required="true"/>
-        <!--TODO Add relation input to pick "Who" field value from list (list of users loaded from controller)-->
-        <!--<lightning:input aura:id="requestform" label="Who"-->
-                         <!--name="requestwho"-->
-                         <!--value="{!v.simpleNewRequest.Who__c}"/>-->
         <lightning:input aura:id="requestform" label="What"
                          name="requestwhat"
                          value="{!v.simpleNewRequest.What__c}"

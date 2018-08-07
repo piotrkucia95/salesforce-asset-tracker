@@ -22,12 +22,15 @@ public with sharing class A18_AssetUserAssembler {
         Asset_To_User__c CAssetUser = new Asset_To_User__c();
 
         CAssetUser.Name = assetUser.name;
-        if(assetUser.id != NULL) CAssetUser.Id = assetUser.id;
-        CAssetUser.Asset__c = assetUser.assetId;
+        if(assetUser.id != NULL) {
+            CAssetUser.Id = assetUser.id;
+        } else {
+            CAssetUser.Asset__c = assetUser.assetId;
+        }
         CAssetUser.Start_Date__c = assetUser.startDate;
+        CAssetUser.User__c = assetUser.userId;
         CAssetUser.End_Date__c = assetUser.endDate;
         CAssetUser.Status__c = assetUser.status;
-        CAssetUser.User__c = assetUser.userId;
 
         return CAssetUser;
     }

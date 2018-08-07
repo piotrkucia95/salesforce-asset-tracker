@@ -17,7 +17,7 @@
     <aura:if isTrue="{!v.myAssets[0] == null}">
         <h1>You don't use any of the company's assets</h1>
         <aura:set attribute="else">
-            <h1>You're currently using following assets. Mark 'Is Broken?' toggle to report any assets' faults and flaws.</h1>
+            <div class="slds-text-heading--small">You're currently using following assets. Mark 'Is Broken?' toggle to report any assets' faults and flaws.</div>
 
             <table class="slds-table slds-table_bordered slds-table_cell-buffer">
                 <thead>

@@ -26,8 +26,13 @@
         childComponent.handleEditAsset();
         component.set('v.editFlag', false);
     },
-    saveAssetToUser : function(component, event, helper) {
+    addAssetUser : function(component, event, helper) {
         var childComponent = component.find("assetToUserForm");
-        childComponent.handleSaveAssetToUser();
+        childComponent.handleAddAssetUser();
+    },
+    editAssetUser : function(component, event, helper) {
+        var childComponent = component.find("assetToUserForm");
+        childComponent.handleEditAssetUser();
+        component.set('v.editFlag', false);
     },
 })

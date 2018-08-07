@@ -12,12 +12,13 @@
 
     <aura:handler event="c:A18_AssetTrackerUserInfoEvent" action="{!c.handleUserInfoEvent}"/>
 
-    <h1>Hello {!v.user.FirstName}!</h1>
+    <h1 class="slds-text-heading--large">Hello {!v.user.FirstName}!</h1>
 
-    <p>This is PolSource Asset Tracker App. You can view the assets you're
+    <p class="slds-text-align--center slds-text-heading--small">This is PolSource Asset Tracker App.</p>
+    <p class="slds-text-align--center slds-text-heading--small">You can view the assets you're
         currently using, report any equipment faults and flaws or make requests for new assets.</p>
 
-    <button class="slds-button slds-button_brand" onclick="{!c.showModal}">Request a New Asset</button>
+    <button class="slds-button slds-button_brand slds-align--absolute-center" onclick="{!c.showModal}"><h3>Request a New Asset</h3></button>
     <c:A18_AssetTrackerModal aura:id="requestModal" objectType="Request" editFlag="false"/>
 
 </aura:component>
