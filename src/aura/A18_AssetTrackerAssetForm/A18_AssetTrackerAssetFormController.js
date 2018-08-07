@@ -7,7 +7,7 @@
     //TODO Remove hardcoding in URL addresses, labels etc.
     //TODO Remove Console logs and System debugs
     //TODO Add comments!
-    //TODO Create records for all objects, implement approval process
+    //TODO Create records for all objects, implement approval process, manage community assignments!
 
     handleAddAsset : function(component, event, helper) {
         var validAsset = component.find('assetform').reduce(function (validSoFar, inputCmp) {

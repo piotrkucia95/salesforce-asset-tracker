@@ -16,11 +16,7 @@ public with sharing class A18_DA_AssetUserService {
         delete [SELECT Id FROM Asset_To_User__c WHERE Id = :assetToUserId];
     }
 
-    public List<Schema.PicklistEntry> getAssetStatuses() {
-        return Asset_To_User__c.Status__c.getDescribe().getPicklistValues();
-    }
-
-    public List<Asset_To_User__c> searchAssetUsers(String searchPhrase, String status) {
+    public static List<Asset_To_User__c> searchAssetUsers(String searchPhrase, String status) {
         List<Schema.PicklistEntry> statusValues = Asset_To_User__c.Status__c.getDescribe().getPicklistValues();
         List<String> validStatuses = new List<String>();
 
@@ -43,6 +39,10 @@ public with sharing class A18_DA_AssetUserService {
         } else {
             return NULL;
         }
+    }
+
+    public List<Schema.PicklistEntry> getAssetStatuses() {
+        return Asset_To_User__c.Status__c.getDescribe().getPicklistValues();
     }
 
     public static List<Asset_To_User__c> getAssetUsers() {

@@ -55,12 +55,20 @@ public with sharing class A18_AC_AssetUserController {
         }
     }
 
-    public List<A18_DTO.AssetStatus> getAssetStatuses() {
-        return CSAssetUserService.getAssetStatuses();
+    @AuraEnabled
+    public static List<String> searchAssetUsers(String searchPhrase, String status) {
+        System.debug('searchPhrase = '+searchPhrase);
+        System.debug('status = '+status);
+        List<A18_DTO.AssetUser> assetUsersDTO = A18_CS_AssetUserService.searchAssetUsers(searchPhrase, status);
+        List<String> DTOStrings = new List<String>();
+        for(A18_DTO.AssetUser assetUserDTO : assetUsersDTO) {
+            DTOStrings.add(JSON.serialize(assetUserDTO));
+        }
+        return DTOStrings;
     }
 
-    public List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status) {
-        return CSAssetUserService.searchAssetUsers(searchPhrase, status);
+    public List<A18_DTO.AssetStatus> getAssetStatuses() {
+        return CSAssetUserService.getAssetStatuses();
     }
 
     @AuraEnabled

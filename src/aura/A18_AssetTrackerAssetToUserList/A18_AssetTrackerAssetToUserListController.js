@@ -31,4 +31,21 @@
         var assetUserId = event.getParam("assetUserId");
         helper.deleteAssetUser(component, assetUserId);
     },
+    assetUserSearch : function(component, event, helper) {
+        var searchPhrase = component.get('v.assetUserSearchPhrase');
+        var action = component.get("c.searchAssetUsers");
+        action.setParams({
+            "searchPhrase" : searchPhrase,
+            "status" : null
+        });
+        action.setCallback(this, function(response) {
+            var state = response.getState();
+            if (state === "SUCCESS") {
+                component.set("v.assetUsers", response.getReturnValue());
+            } else {
+                console.log("Failed with state: " + state);
+            }
+        });
+        $A.enqueueAction(action);
+    },
 })

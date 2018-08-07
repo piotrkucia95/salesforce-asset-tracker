@@ -6,6 +6,7 @@
                 implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId">
 
     <aura:attribute name="assets" type="String[]"/>
+    <aura:attribute name="assetSearchPhrase" type="String" default=""/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
     <aura:handler name="addAsset" event="c:A18_AssetTrackerAddAssetEvent" action="{!c.handleAddAsset}"/>
@@ -13,12 +14,28 @@
     <aura:handler name="deleteAsset" event="c:A18_AssetTrackerDeleteAssetEvent" action="{!c.handleDeleteAsset}"/>
 
     <div class="slds-grid">
-        <div class="slds-col slds-size--2-of-12 my-box">
+        <div class="slds-col slds-size--4-of-12 my-box">
             <lightning:icon iconName="custom:custom58" class="slds-float--left"/>
             <p class="slds-text-heading--medium">Assets</p>
         </div>
-        <div class="slds-col slds-size--8-of-12"></div>
-        <div class="slds-col slds-size--2-of-12">
+        <!--<div class="slds-col slds-size&#45;&#45;2-of-12"></div>-->
+        <div class="slds-col slds-size--4-of-12">
+            <lightning:input class="slds-float--left"
+                             aura:id="assetsearch"
+                             label="Search Assets"
+                             placeholder="Asset Name"
+                             name="searchphrase"
+                             variant="label-hidden"
+                             value="{!v.assetSearchPhrase}"/>
+            <aura:if isTrue="{!v.assetSearchPhrase != ''}">
+                <button class="slds-button slds-button_brand" onclick="{!c.assetSearch}">Search Assets</button>
+                <aura:set attribute="else">
+                    <button class="slds-button slds-button_brand" onclick="{!c.init}">Search Assets</button>
+                </aura:set>
+            </aura:if>
+        </div>
+        <!--<div class="slds-col slds-size&#45;&#45;2-of-12"></div>-->
+        <div class="slds-col slds-size--4-of-12">
             <button class="slds-button slds-button_brand slds-float_right" onclick="{!c.showModal}">Add Asset</button>
         </div>
     </div>

@@ -67,12 +67,19 @@ public with sharing class A18_AC_AssetController {
         return DTOStrings;
     }
 
-    public List<A18_DTO.AssetRecordType> getAssetRecordTypes() {
-        return CSAssetService.getAssetRecordTypes();
+    @AuraEnabled
+    public static List<String> searchAssets(String searchPhrase, Id recordTypeId) {
+        List<A18_DTO.Asset> assetsDTO = A18_CS_AssetService.searchAssets(searchPhrase, recordTypeId);
+        List<String> DTOStrings = new List<String>();
+
+        for(A18_DTO.Asset assetDTO : assetsDTO) {
+            DTOStrings.add(JSON.serialize(assetDTO));
+        }
+        return DTOStrings;
     }
 
-    public List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId) {
-        return CSAssetService.searchAssets(searchPhrase, recordTypeId);
+    public List<A18_DTO.AssetRecordType> getAssetRecordTypes() {
+        return CSAssetService.getAssetRecordTypes();
     }
 
     @AuraEnabled

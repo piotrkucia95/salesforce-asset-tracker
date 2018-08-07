@@ -26,8 +26,8 @@ public with sharing class A18_DM_AssetUserService {
         return DAAssetUserService.getAssetStatuses();
     }
 
-    public List<Asset_To_User__c > searchAssetUsers(String searchPhrase, String status) {
-        return DAAssetUserService.searchAssetUsers(searchPhrase, status);
+    public static List<Asset_To_User__c > searchAssetUsers(String searchPhrase, String status) {
+        return A18_DA_AssetUserService.searchAssetUsers(searchPhrase, status);
     }
 
     public static List<Asset_To_User__c> getAssetUsers() {

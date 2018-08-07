@@ -35,6 +35,16 @@ public with sharing class A18_CS_AssetService {
         return DTOAssets;
     }
 
+    public static List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId){
+        List<Asset__c> searchResults = A18_DM_AssetService.searchAssets(searchPhrase, recordTypeId);
+        List<A18_DTO.Asset> DTOFoundAssets = new List<A18_DTO.Asset>();
+
+        for(Asset__c searchResult : searchResults){
+            DTOFoundAssets.add(A18_AssetAssembler.convertToDTO(searchResult));
+        }
+        return DTOFoundAssets;
+    }
+
     public List<A18_DTO.AssetRecordType> getAssetRecordTypes() {
         List<Schema.RecordTypeInfo> recordTypeList = DMAssetService.getAssetRecordTypes();
         List<A18_DTO.AssetRecordType> DTOAssetRecordTypes = new List<A18_DTO.AssetRecordType>();
@@ -44,16 +54,6 @@ public with sharing class A18_CS_AssetService {
         }
 
         return DTOAssetRecordTypes;
-    }
-
-    public List<A18_DTO.Asset> searchAssets(String searchPhrase, ID recordTypeId){
-        List<Asset__c> searchResults = DMAssetService.searchAssets(searchPhrase, recordTypeId);
-        List<A18_DTO.Asset> DTOFoundAssets = new List<A18_DTO.Asset>();
-
-        for(Asset__c searchResult : searchResults){
-            DTOFoundAssets.add(A18_AssetAssembler.convertToDTO(searchResult));
-        }
-        return DTOFoundAssets;
     }
 
     public static List<A18_DTO.Asset> getAssetsAssignedToUser(Id userId) {

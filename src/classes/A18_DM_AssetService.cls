@@ -26,12 +26,12 @@ public with sharing class A18_DM_AssetService {
         return A18_DA_AssetService.getAssets();
     }
 
-    public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
-        return DAAssetService.getAssetRecordTypes();
+    public static List<Asset__c> searchAssets(String searchPhrase, Id recordTypeId) {
+        return A18_DA_AssetService.searchAssets(searchPhrase, recordTypeId);
     }
 
-    public  List<Asset__c> searchAssets(String searchPhrase, Id recordTypeId) {
-        return  DAAssetService.searchAssets(searchPhrase, recordTypeId);
+    public List<Schema.RecordTypeInfo> getAssetRecordTypes() {
+        return DAAssetService.getAssetRecordTypes();
     }
 
     public static List<Asset__c> getAssetsAssignedToUser(Id userId) {

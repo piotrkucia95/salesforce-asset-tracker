@@ -35,8 +35,8 @@ public with sharing class A18_CS_AssetUserService {
         return DTOAssetStatuses;
     }
 
-    public List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status) {
-        List<Asset_To_User__c> searchResults = DMAssetUserService.searchAssetUsers(searchPhrase, status);
+    public static List<A18_DTO.AssetUser> searchAssetUsers(String searchPhrase, String status) {
+        List<Asset_To_User__c> searchResults = A18_DM_AssetUserService.searchAssetUsers(searchPhrase, status);
         List<A18_DTO.AssetUser> DTOFoundAssetUsers = new List<A18_DTO.AssetUser>();
 
         for(Asset_To_User__c searchResult : searchResults){
