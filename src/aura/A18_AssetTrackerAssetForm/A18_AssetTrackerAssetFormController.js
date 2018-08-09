@@ -2,13 +2,9 @@
  * Created by Piotr Kucia on 04.08.18.
  */
 ({
-    //TODO Responsiveness
-    //TODO Implement search methods
-    //TODO Remove hardcoding in URL addresses, labels etc.
-    //TODO Remove Console logs and System debugs
-    //TODO Add comments!
-    //TODO Create records for all objects, implement approval process, manage community assignments!
+    //TODO Dropdown lists for asset id and user id
 
+    //checks if the form is valid and sends event if so
     handleAddAsset : function(component, event, helper) {
         var validAsset = component.find('assetform').reduce(function (validSoFar, inputCmp) {
             inputCmp.showHelpMessageIfInvalid();
@@ -23,6 +19,7 @@
             component.set('v.assetAddedFlag', true);
         }
     },
+    //checks if the form is valid and sends event if so
     handleEditAsset : function(component, event, helper) {
         var validRequest = component.find('assetform').reduce(function (validSoFar, inputCmp) {
             inputCmp.showHelpMessageIfInvalid();
@@ -37,10 +34,7 @@
             component.set('v.assetEditedFlag', true);
         }
     },
-    checkIsBroken : function(component, event, handler) {
-        var isBroken = !component.get('v.newAsset.isBroken');
-        component.set('v.newAsset.isBroken', isBroken);
-    },
+    //sets confirmation flags to false
     clickCancel : function(component, event, helper) {
         component.set('v.assetAddedFlag', false);
         component.set('v.assetEditedFlag', false);

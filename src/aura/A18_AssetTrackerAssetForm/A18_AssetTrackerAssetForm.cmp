@@ -47,6 +47,6 @@
                          name="broken"
                          messageToggleActive="Yes"
                          messageToggleInactive="No"
-                         onchange="{!c.checkIsBroken}"/>
+                         checked="{!v.newAsset.isBroken}"/>
     </form>
 </aura:component>

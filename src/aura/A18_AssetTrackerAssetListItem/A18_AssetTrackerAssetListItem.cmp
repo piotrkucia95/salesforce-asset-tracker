@@ -14,24 +14,24 @@
 
     <tr>
         <th scope="row" data-label="Name">
-            <div class="slds-truncate"><a href="{!'https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/detail/' + v.asset.id}" target="_blank">{!v.asset.name}</a></div>
+            <div class="slds-truncate"><a href="{!$Site.siteUrlPrefix + '/detail/' + v.asset.id}">{!v.asset.name}</a></div>
         </th>
-        <td data-label="Price">
+        <td data-label="Price" class="slds-max-x-small-hide">
             <div class="slds-truncate">{!v.asset.price}</div>
         </td>
-        <td data-label="Purchase Date">
+        <td data-label="Purchase Date" class="slds-max-medium-hide">
             <div class="slds-truncate">{!v.asset.purchaseDate}</div>
         </td>
-        <td data-label="Due Date">
+        <td data-label="Due Date" class="slds-max-medium-hide">
             <div class="slds-truncate">{!v.asset.dueDate}</div>
         </td>
-        <td data-label="Invoice Number">
+        <td data-label="Invoice Number" class="slds-max-small-hide">
             <div class="slds-truncate">{!v.asset.invoiceNumber}</div>
         </td>
-        <td data-label="Description">
-            <div class="slds-truncate">{!v.asset.description}</div>
+        <td data-label="Description" class="slds-max-medium-hide">
+            <div class="slds-truncate slds-cell-wrap">{!v.asset.description}</div>
         </td>
-        <td data-label="Is Broken?">
+        <td data-label="Is Broken?" class="slds-max-small-hide">
             <div class="slds-truncate">{!v.asset.isBroken == true ? 'YES' : 'NO'}</div>
         </td>
         <td data-label="Action">

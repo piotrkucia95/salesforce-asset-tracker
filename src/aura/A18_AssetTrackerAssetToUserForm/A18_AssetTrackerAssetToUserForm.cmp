@@ -7,6 +7,8 @@
     <aura:attribute name="assetUserAddedFlag" type="Boolean" default="false"/>
     <aura:attribute name="assetUserEditedFlag" type="Boolean" default="false"/>
     <aura:attribute name="assetFieldFlag" type="Boolean" default="true"/>
+    <aura:attribute name="selectedLookUpRecords1" type="sObject[]" default="[]"/>
+    <aura:attribute name="selectedLookUpRecords2" type="sObject[]" default="[]"/>
 
     <aura:method name="handleAddAssetUser" action="{!c.handleAddAssetUser}" access="PUBLIC"></aura:method>
     <aura:method name="handleEditAssetUser" action="{!c.handleEditAssetUser}" access="PUBLIC"></aura:method>
@@ -14,6 +16,7 @@
 
     <aura:registerEvent name="addAssetUser" type="c:A18_AssetTrackerAddAssetUserEvent"/>
     <aura:registerEvent name="editAssetUser" type="c:A18_AssetTrackerEditAssetUserEvent"/>
+    <aura:handler name="oSelectedRecordEvent" event="c:selectedsObjectRecordsEvent" action="{!c.handleLookupSelect}" includeFacets="true"/>
 
     <h3 class="{!v.assetUserAddedFlag == true ? 'slds-text-color_success slds-text-align_center' : 'slds-assistive-text'}">
         Asset To User added successfully!</h3>
@@ -26,15 +29,23 @@
                          value="{!v.newAssetUser.name}"
                          required="true"/>
         <aura:if isTrue="{!v.assetFieldFlag == true}">
-            <lightning:input aura:id="assetuserform" label="Asset ID"
-                             name="assetuserasset"
-                             value="{!v.newAssetUser.assetId}"
-                             required="true"/>
+            <!--<lightning:input aura:id="assetuserform" label="Asset ID"-->
+                             <!--name="assetuserasset"-->
+                             <!--value="{!v.newAssetUser.asset}"-->
+                             <!--required="true"/>-->
+            <c:reUsableMultiSelectLookup objectAPIName="asset__c"
+                                         IconName="custom:custom58"
+                                         lstSelectedRecords="{!v.selectedLookUpRecords1}"
+                                         label="Asset"/>
         </aura:if>
         <lightning:input aura:id="assetuserform" label="User ID"
                          name="assetuseruser"
-                         value="{!v.newAssetUser.userId}"
+                         value="{!v.newAssetUser.user}"
                          required="true"/>
+        <!--<c:reUsableMultiSelectLookup objectAPIName="user"-->
+                                     <!--IconName="standard:user"-->
+                                     <!--lstSelectedRecords="{!v.selectedLookUpRecords2}"-->
+                                     <!--label="User"/>-->
         <lightning:input type="date" aura:id="assetuserform" label="Start Date"
                          name="assetuserstartdate"
                          value="{!v.newAssetUser.startDate}"/>

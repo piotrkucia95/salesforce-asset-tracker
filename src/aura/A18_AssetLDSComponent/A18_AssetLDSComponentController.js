@@ -16,7 +16,6 @@
                     console.log("Error initializing record template: " + error);
                     return;
                 }
-                console.log("Record template initialized: " + rec.sobjectType);
             })
         );
     },
@@ -24,9 +23,6 @@
         component.set("v.simpleNewAsset.AccountId", component.get("v.recordId"));
         component.find("assetRecordCreator").saveRecord(function(saveResult) {
             if (saveResult.state === "SUCCESS" || saveResult.state === "DRAFT") {
-                // record is saved successfully
-                console.log("SUCCESS");
-
             } else if (saveResult.state === "INCOMPLETE") {
                 // handle the incomplete state
                 console.log("User is offline, device doesn't support drafts.");

@@ -31,10 +31,10 @@ public with sharing class A18_DA_AssetUserService {
         String orderDirection = A18_CustomSettingsValidation.validateQueryDirection(searchSetting.Order_Direction__c);
 
         if(validStatuses.contains(status) && status != NULL){
-            List<Asset_To_User__c> AssetToUserList = Database.query('SELECT ' + searchFields +' FROM Asset_To_User__c WHERE Name LIKE\''+ '%' + searchPhrase +'\'' + ' AND Status__c=' +'\''  +status +'\'' +  ' ORDER BY ' + orderFields + ' ' + orderDirection);
+            List<Asset_To_User__c> AssetToUserList = Database.query('SELECT ' + searchFields +' FROM Asset_To_User__c WHERE Name LIKE\''+ '%' + searchPhrase +'\''+ '%' + ' AND Status__c=' +'\''  +status +'\'' +  ' ORDER BY ' + orderFields + ' ' + orderDirection);
             return AssetToUserList;
         } else if(validStatuses.contains(status) || status == NULL){
-            List<Asset_To_User__c> AssetToUserList = Database.query('SELECT ' + searchFields +' FROM Asset_To_User__c WHERE Name LIKE\''+ '%' + searchPhrase +'\'');
+            List<Asset_To_User__c> AssetToUserList = Database.query('SELECT ' + searchFields +' FROM Asset_To_User__c WHERE Name LIKE\''+ '%' + searchPhrase + '%' +'\'');
             return AssetToUserList;
         } else {
             return NULL;

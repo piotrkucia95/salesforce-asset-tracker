@@ -7,14 +7,19 @@ public with sharing class A18_CustomSettingsValidation {
     //checks if object contains fields attached in 'queryFields' list and makes coma separated string to add to query
     public static String validateQueryFields(List<String> queryFields, String objectType){
         List<String> fieldsList = queryFields;
-        Set<String> objectFields = Schema.getGlobalDescribe().get('Asset__c').getDescribe().fields.getMap().keySet();
+        Set<String> assetObjectFields = Schema.getGlobalDescribe().get('Asset__c').getDescribe().fields.getMap().keySet();
+        Set<String> assetUserObjectFields = Schema.getGlobalDescribe().get('Asset_To_User__c').getDescribe().fields.getMap().keySet();
         List<String> queryFieldsList = new List<String>();
 
         for(String field : fieldsList){
-            if(objectFields.contains(field)){
+            if(assetObjectFields.contains(field) && objectType == 'Asset'){
+                queryFieldsList.add(field);
+            }
+            if(assetUserObjectFields.contains(field) && objectType == 'AssetToUser'){
                 queryFieldsList.add(field);
             }
         }
+
         if(queryFieldsList.isEmpty()) {
             queryFieldsList.add('Name');
             if(objectType == 'Asset') queryFieldsList.add('Description__c');

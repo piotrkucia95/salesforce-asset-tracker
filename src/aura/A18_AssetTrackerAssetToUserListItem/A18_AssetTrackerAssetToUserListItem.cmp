@@ -15,21 +15,21 @@
 
     <tr>
         <th data-label="Name">
-            <div class="slds-truncate"><a href="{!'https://pkucia-developer-edition.eu10.force.com/AssetTrackerCommunity/s/detail/' + v.assetUser.id}" target="_blank">{!v.assetUser.name}</a></div>
+            <div class="slds-truncate slds-cell-wrap"><a href="{!$Site.siteUrlPrefix + '/detail/' + v.assetUser.id}">{!v.assetUser.name}</a></div>
         </th>
-        <th data-label="Asset ID">
-            <div class="slds-truncate">{!v.assetUser.assetId}</div>
+        <th data-label="Asset ID" class="slds-max-small-hide">
+            <div class="slds-truncate">{!v.assetUser.asset}</div>
         </th>
-        <td data-label="User ID">
-            <div class="slds-truncate">{!v.assetUser.userId}</div>
+        <td data-label="User ID" class="slds-max-small-hide">
+            <div class="slds-truncate">{!v.assetUser.user}</div>
         </td>
-        <td data-label="Start Date">
+        <td data-label="Start Date" class="slds-max-medium-hide">
             <div class="slds-truncate">{!v.assetUser.startDate}</div>
         </td>
-        <td data-label="End Date">
+        <td data-label="End Date" class="slds-max-medium-hide">
             <div class="slds-truncate">{!v.assetUser.endDate}</div>
         </td>
-        <td data-label="Status">
+        <td data-label="Status" class="slds-max-x-small-hide">
             <div class="slds-truncate">{!v.assetUser.status}</div>
         </td>
         <td data-label="Action">

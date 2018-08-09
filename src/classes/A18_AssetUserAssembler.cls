@@ -9,11 +9,11 @@ public with sharing class A18_AssetUserAssembler {
 
         DTOAssetUser.name = assetUser.Name;
         DTOAssetUser.id = assetUser.Id;
-        DTOAssetUser.assetId = assetUser.Asset__c;
+        DTOAssetUser.asset = assetUser.Asset__c;
         DTOAssetUser.startDate = assetUser.Start_Date__c;
         DTOAssetUser.endDate = assetUser.End_Date__c;
         DTOAssetUser.status = assetUser.Status__c;
-        DTOAssetUser.userId = assetUser.User__c;
+        DTOAssetUser.user = assetUser.User__c;
 
         return DTOAssetUser;
     }
@@ -25,10 +25,10 @@ public with sharing class A18_AssetUserAssembler {
         if(assetUser.id != NULL) {
             CAssetUser.Id = assetUser.id;
         } else {
-            CAssetUser.Asset__c = assetUser.assetId;
+            CAssetUser.Asset__c = assetUser.asset;
         }
         CAssetUser.Start_Date__c = assetUser.startDate;
-        CAssetUser.User__c = assetUser.userId;
+        CAssetUser.User__c = assetUser.user;
         CAssetUser.End_Date__c = assetUser.endDate;
         CAssetUser.Status__c = assetUser.status;
 

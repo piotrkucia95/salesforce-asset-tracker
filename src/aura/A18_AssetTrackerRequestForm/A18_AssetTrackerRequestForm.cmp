@@ -3,9 +3,9 @@
  -->
 
 <aura:component description="A18_AssetTrackerRequestForm" implements="flexipage:availableForRecordHome, force:hasRecordId">
-    <aura:attribute name="newRequest" type="Object"/>
+    <aura:attribute name="newRequest" type="Object" default="{'Status__c' = 'New'}"/>
     <aura:attribute name="simpleNewRequest" type="Object" default="{'Status__c' = 'New'}"/>
-    <aura:attribute name="newRequestError" type="String" default="{'Status__c' = 'New'}"/>
+    <aura:attribute name="newRequestError" type="String"/>
     <aura:attribute name="requestAddedFlag" type="Boolean" default="false"/>
     <aura:attribute name="priorityErrorFlag" type="Boolean" default="false"/>
 

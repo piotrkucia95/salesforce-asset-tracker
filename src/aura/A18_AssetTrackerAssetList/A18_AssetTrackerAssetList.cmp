@@ -18,8 +18,7 @@
             <lightning:icon iconName="custom:custom58" class="slds-float--left"/>
             <p class="slds-text-heading--medium">Assets</p>
         </div>
-        <!--<div class="slds-col slds-size&#45;&#45;2-of-12"></div>-->
-        <div class="slds-col slds-size--4-of-12">
+        <div class="slds-col slds-size--5-of-12">
             <lightning:input class="slds-float--left"
                              aura:id="assetsearch"
                              label="Search Assets"
@@ -34,8 +33,7 @@
                 </aura:set>
             </aura:if>
         </div>
-        <!--<div class="slds-col slds-size&#45;&#45;2-of-12"></div>-->
-        <div class="slds-col slds-size--4-of-12">
+        <div class="slds-col slds-size--3-of-12">
             <button class="slds-button slds-button_brand slds-float_right" onclick="{!c.showModal}">Add Asset</button>
         </div>
     </div>
@@ -45,22 +43,22 @@
             <th scope="col">
                 <div class="slds-truncate" title="Name">Name</div>
             </th>
-            <th scope="col">
-                <div class="slds-truncate" title="Price">Price</div>
+            <th scope="col" class="slds-max-x-small-hide">
+                <div class="slds-truncate" title="Price (€)">Price (€)</div>
             </th>
-            <th scope="col">
+            <th scope="col" class="slds-max-medium-hide">
                 <div class="slds-truncate" title="Purchase Date">Purchase Date</div>
             </th>
-            <th scope="col">
+            <th scope="col" class="slds-max-medium-hide">
                 <div class="slds-truncate" title="Due Date">Due Date</div>
             </th>
-            <th scope="col">
+            <th scope="col" class="slds-max-small-hide">
                 <div class="slds-truncate" title="Invoice Number">Invoice Number</div>
             </th>
-            <th scope="col">
+            <th scope="col" class="slds-max-medium-hide">
                 <div class="slds-truncate" title="Description">Description</div>
             </th>
-            <th scope="col">
+            <th scope="col" class="slds-max-small-hide">
                 <div class="slds-truncate" title="Is Broken?">Is Broken?</div>
             </th>
         </tr>

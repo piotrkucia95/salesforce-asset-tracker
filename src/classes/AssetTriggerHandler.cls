@@ -6,7 +6,6 @@ public with sharing class AssetTriggerHandler {
 
     public static void afterInsert(List<Asset__c> assets){
         for (Asset__c asset : assets) {
-            System.debug('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Piotr');
             A18_ES_QRService.create(asset.Id);
             //asset.QR_Code_URL__c = QRService.getURL(asset.Id);
         }

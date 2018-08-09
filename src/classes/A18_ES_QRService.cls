@@ -20,16 +20,8 @@ public with sharing class A18_ES_QRService {
             Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
             // Cast the values in the 'SOME QR DATA HERE' key as a String URL Address
             String URL = (String) results.get('SOME QR DATA HERE');
-            System.debug('Succesful opperation');
             return URL;
-        } else  if(response.getStatusCode() == 400) {
-            System.debug('ERROR: Invalid ID supplied');
-            return NULL;
-        } else  if(response.getStatusCode() == 404) {
-            System.debug('ERROR: QR not found');
-            return NULL;
         } else {
-            System.debug('ERROR: Unexpected error');
             return NULL;
         }
     }
@@ -41,13 +33,11 @@ public with sharing class A18_ES_QRService {
         request.setEndpoint(endpoint + assetId);
         request.setMethod('POST');
         HttpResponse response = http.send(request);
-        System.debug('XXXXXXXXX' + endpoint);
         if(response.getStatusCode() == 200){
             Attachment attachment = new Attachment();
             attachment.Name = 'QR Code for asset: ' + assetId;
             attachment.Body = response.getBodyAsBlob();
             attachment.ParentId = assetId;
-            System.debug('abc');
             insert attachment;
         }
     }
@@ -63,13 +53,7 @@ public with sharing class A18_ES_QRService {
         HttpResponse response = http.send(request);
         // Parse the JSON response
         if (response.getStatusCode() == 201) {
-            System.debug(response.getBody());
-        } else  if(response.getStatusCode() == 400) {
-            System.debug('ERROR: Invalid ID supplied');
-        } else  if(response.getStatusCode() == 404) {
-            System.debug('ERROR: QR not found');
-        } else {
-            System.debug('ERROR: Unexpected error');
+            //System.debug(response.getBody());
         }
     }
 }

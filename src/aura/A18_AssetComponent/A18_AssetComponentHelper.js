@@ -9,14 +9,10 @@
         action.setParams({
             "dtoString": newAssetJSONString
         });
-        console.log(newAssetJSONString);
         action.setCallback(this, function(response) {
             var state = response.getState();
-            if (state === "SUCCESS") {
-                console.log("Success");
-            } else {
-                console.log("Failed with state: " + state);
-            }
+            if (state === "SUCCESS") {}
+            else console.log("Failed with state: " + state);
         });
         $A.enqueueAction(action);
     },

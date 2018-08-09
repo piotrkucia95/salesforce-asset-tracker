@@ -17,8 +17,8 @@ public with sharing class A18_AC_AssetUserController {
 
         if(dtoMap.get('name') != NULL) dtoAssetUser.name = dtoMap.get('name');
         if(dtoMap.get('id') != NULL) dtoAssetUser.id = dtoMap.get('id');
-        if(dtoMap.get('assetId') != NULL) dtoAssetUser.assetId = dtoMap.get('assetId');
-        if(dtoMap.get('userId') != NULL) dtoAssetUser.userId = dtoMap.get('userId');
+        if(dtoMap.get('asset') != NULL) dtoAssetUser.asset = dtoMap.get('asset');
+        if(dtoMap.get('user') != NULL) dtoAssetUser.user = dtoMap.get('user');
         if(dtoMap.get('startDate') != NULL) dtoAssetUser.startDate = Date.valueOf(dtoMap.get('startDate'));
         if(dtoMap.get('endDate') != NULL) dtoAssetUser.endDate = Date.valueOf(dtoMap.get('endDate'));
         if(dtoMap.get('status') != NULL) dtoAssetUser.status = dtoMap.get('status');
@@ -57,9 +57,29 @@ public with sharing class A18_AC_AssetUserController {
 
     @AuraEnabled
     public static List<String> searchAssetUsers(String searchPhrase, String status) {
-        System.debug('searchPhrase = '+searchPhrase);
-        System.debug('status = '+status);
         List<A18_DTO.AssetUser> assetUsersDTO = A18_CS_AssetUserService.searchAssetUsers(searchPhrase, status);
+        List<Id> assetIdList = new List<Id>();
+        List<Id> userIdList = new List<Id>();
+        for(A18_DTO.AssetUser assetDTO : assetUsersDTO) {
+            assetIdList.add(assetDTO.asset);
+            userIdList.add(assetDTO.user);
+        }
+        List<Asset__c> assetList = [SELECT Name FROM Asset__c WHERE Id IN :assetIdList];
+        List<User> userList = [SELECT FirstName, LastName FROM User WHERE Id IN :userIdList];
+        for(A18_DTO.AssetUser assetUser : assetUsersDTO) {
+            for(Asset__c asset : assetList) {
+                if(assetUser.asset == (String)asset.Id) {
+                    assetUser.asset = asset.Name;
+                    break;
+                }
+            }
+            for(User user : userList) {
+                if(assetUser.user == (String)user.Id) {
+                    assetUser.user = user.FirstName + ' ' + user.LastName;
+                    break;
+                }
+            }
+        }
         List<String> DTOStrings = new List<String>();
         for(A18_DTO.AssetUser assetUserDTO : assetUsersDTO) {
             DTOStrings.add(JSON.serialize(assetUserDTO));
@@ -74,10 +94,52 @@ public with sharing class A18_AC_AssetUserController {
     @AuraEnabled
     public static List<String> getAssetUsers() {
         List<A18_DTO.AssetUser> assetUsersDTO = A18_CS_AssetUserService.getAssetUsers();
+        List<Id> assetIdList = new List<Id>();
+        List<Id> userIdList = new List<Id>();
+        for(A18_DTO.AssetUser assetDTO : assetUsersDTO) {
+            assetIdList.add(assetDTO.asset);
+            userIdList.add(assetDTO.user);
+        }
+        List<Asset__c> assetList = [SELECT Name FROM Asset__c WHERE Id IN :assetIdList];
+        List<User> userList = [SELECT FirstName, LastName FROM User WHERE Id IN :userIdList];
+        for(A18_DTO.AssetUser assetUser : assetUsersDTO) {
+            for(Asset__c asset : assetList) {
+                if(assetUser.asset == (String)asset.Id) {
+                    assetUser.asset = asset.Name;
+                    break;
+                }
+            }
+            for(User user : userList) {
+                if(assetUser.user == (String)user.Id) {
+                    assetUser.user = user.FirstName + ' ' + user.LastName;
+                    break;
+                }
+            }
+        }
         List<String> DTOStrings = new List<String>();
         for(A18_DTO.AssetUser assetUserDTO : assetUsersDTO) {
             DTOStrings.add(JSON.serialize(assetUserDTO));
         }
         return DTOStrings;
+    }
+
+    @AuraEnabled
+    public static List < sObject > fetchLookUpValues(String searchKeyWord, String ObjectName, List<sObject> ExcludeitemsList) {
+        String searchKey = '%' + searchKeyWord + '%';
+        List < sObject > returnList = new List < sObject > ();
+
+        List<string> lstExcludeitems = new List<string>();
+        for(sObject item : ExcludeitemsList ){
+            lstExcludeitems.add(item.id);
+        }
+
+        // Create a Dynamic SOQL Query For Fetch Record List with LIMIT 5 and exclude already selected records
+        String sQuery =  'select id, Name from ' +ObjectName + ' where Name LIKE: searchKey AND Id NOT IN : lstExcludeitems order by createdDate DESC limit 5';
+        List < sObject > lstOfRecords = Database.query(sQuery);
+
+        for (sObject obj: lstOfRecords) {
+            returnList.add(obj);
+        }
+        return returnList;
     }
 }

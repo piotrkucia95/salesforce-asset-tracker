@@ -2,6 +2,7 @@
  * Created by Piotr Kucia on 03.08.2018.
  */
 ({
+    //gets list of assets from backend (json format)
     init : function(component, event, helper) {
         var action = component.get("c.getAssets");
         action.setCallback(this, function(response) {
@@ -14,6 +15,7 @@
         });
         $A.enqueueAction(action);
     },
+    //displays add asset form modal
     showModal : function(component, event, handler) {
         var childComponent = component.find("assetModal");
         childComponent.toggleModal();
@@ -30,6 +32,7 @@
         var assetId = event.getParam("assetId");
         helper.deleteAsset(component, assetId);
     },
+    //gets list of searched assets
     assetSearch : function(component, event, helper) {
         var searchPhrase = component.get('v.assetSearchPhrase');
         var action = component.get("c.searchAssets");

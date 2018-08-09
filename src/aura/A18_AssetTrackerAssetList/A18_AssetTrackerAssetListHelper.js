@@ -2,6 +2,7 @@
  * Created by Piotr Kucia on 05.08.18.
  */
 ({
+    //sends add asset request to backend and adds an asset to local list
     createAsset : function(component, newAsset) {
         var action = component.get("c.addAsset");
         var newAssetJSONString = JSON.stringify(newAsset);
@@ -21,6 +22,7 @@
         });
         $A.enqueueAction(action);
     },
+    //sends edit asset request to backend and updates an asset in local list
     editAsset : function(component, newAsset) {
         var action = component.get("c.updateAsset");
         var newAssetJSONString = JSON.stringify(newAsset);
@@ -30,7 +32,6 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
-                console.log("Success");
                 var assetArray = component.get('v.assets');
                 for(var i=0; i<assetArray.length; i++) {
                     var a = assetArray[i].search(newAsset.id);
@@ -45,6 +46,7 @@
         });
         $A.enqueueAction(action);
     },
+    //sends delete asset request to backend and removes an asset from local list
     deleteAsset : function(component, assetId) {
         var action = component.get("c.deleteAsset");
         action.setParams({
@@ -53,7 +55,6 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
-                console.log("Success");
                 var assetArray = component.get('v.assets');
                 for(var i=0; i<assetArray.length; i++) {
                     var a = assetArray[i].search(assetId);

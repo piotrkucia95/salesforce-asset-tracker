@@ -7,9 +7,7 @@
         newAsset.isBroken = false;
         if(newAsset.name != null){
             helper.createAsset(component, newAsset);
-        } else {
-            console.log("Name field cannot be empty!");
-        }
+        } else {}
     },
     clickCancel : function(component, event, helper) {
         component.set("v.newAsset",{

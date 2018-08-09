@@ -2,6 +2,7 @@
  * Created by Piotr Kucia on 01.08.2018.
  */
 ({
+    //lightning data service method to create new Request record
     doInit: function(component, event, helper) {
         // Prepare a new record from template
         component.find("requestRecordCreator").getNewRecord(
@@ -19,6 +20,7 @@
             })
         );
     },
+    //lightning data service method to create new Request record
     handleSaveRequest: function(component, event, helper) {
         var validRequest = component.find('requestform').reduce(function (validSoFar, inputCmp) {
             inputCmp.showHelpMessageIfInvalid();
@@ -50,6 +52,7 @@
             });
         }
     },
+    //sets confirmation flags to false and clears object
     clickCancel : function(component, event, helper) {
         component.set('v.requestAddedFlag', false);
         component.set('v.priorityErrorFlag', false);

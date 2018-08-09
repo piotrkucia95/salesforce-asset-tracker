@@ -9,7 +9,7 @@
     <div class="slds-align--absolute-center main-content">
             {!v.body}
     </div>
-    <div class="footer slds-docked-form-footer">
+    <div class="footer slds-docked-form-footer slds-max-small-hide">
         <c:A18_AssetTrackerFooter />
     </div>
 </aura:component>

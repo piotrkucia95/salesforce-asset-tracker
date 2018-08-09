@@ -9,7 +9,6 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 component.set("v.user", response.getReturnValue());
-                console.log(component.get("v.user"));
             } else {
                 console.log("Failed with state: " + state);
             }
@@ -18,7 +17,6 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 component.set("v.userType", response.getReturnValue());
-                console.log(component.get("v.userType"));
             } else {
                 console.log("Failed with state: " + state);
             }

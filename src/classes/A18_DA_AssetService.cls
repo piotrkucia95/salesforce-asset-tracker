@@ -7,7 +7,6 @@ public with sharing class A18_DA_AssetService {
     //public Asset_Search_Settings__c setti;
 
     public static void addAsset(Asset__c asset) {
-        System.debug('XXXXX'+asset);
         insert asset;
     }
 
@@ -37,10 +36,10 @@ public with sharing class A18_DA_AssetService {
         String orderDirection = A18_CustomSettingsValidation.validateQueryDirection(searchSetting.Order_Direction__c);
 
         if(recordTypeId == NULL || !validId.contains(recordTypeId) ){
-            List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\' IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c, Is_Broken__c ORDER BY '+orderField +' '+orderDirection +')');
+            List<List<Asset__c>> myQuery = search.query('FIND {'+searchPhrase+'*} IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c, Is_Broken__c ORDER BY '+orderField +' '+orderDirection +')');
             return myQuery[0];
         } else {
-            List<List<Asset__c>> myQuery = search.query('FIND\'%'+searchPhrase+'%\'IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c, Is_Broken__c ORDER BY '+orderField +' '+orderDirection +') WITH RecordTypeId= ' +recordTypeId);
+            List<List<Asset__c>> myQuery = search.query('FIND {'+searchPhrase+'*} IN ALL FIELDS RETURNING Asset__c(Name, Description__c, Due_Date__c, Invoice_Number__c, Price__c, Purchase_Date__c, Is_Broken__c ORDER BY '+orderField +' '+orderDirection +') WITH RecordTypeId= ' +recordTypeId);
             return myQuery[0];
         }
     }
