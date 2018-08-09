@@ -26,9 +26,9 @@ public with sharing class A18_AssetUserAssembler {
             CAssetUser.Id = assetUser.id;
         } else {
             CAssetUser.Asset__c = assetUser.asset;
+            CAssetUser.User__c = assetUser.user;
         }
         CAssetUser.Start_Date__c = assetUser.startDate;
-        CAssetUser.User__c = assetUser.user;
         CAssetUser.End_Date__c = assetUser.endDate;
         CAssetUser.Status__c = assetUser.status;
 

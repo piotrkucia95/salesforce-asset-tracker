@@ -9,6 +9,7 @@
     <aura:attribute name="assetSearchPhrase" type="String" default=""/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler name="change" value="{!v.assets}" action="{!c.init}"/>
     <aura:handler name="addAsset" event="c:A18_AssetTrackerAddAssetEvent" action="{!c.handleAddAsset}"/>
     <aura:handler name="editAsset" event="c:A18_AssetTrackerEditAssetEvent" action="{!c.handleEditAsset}"/>
     <aura:handler name="deleteAsset" event="c:A18_AssetTrackerDeleteAssetEvent" action="{!c.handleDeleteAsset}"/>

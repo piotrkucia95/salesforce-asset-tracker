@@ -9,6 +9,8 @@
     <aura:attribute name="editFlag" type="Boolean" default="false"/>
 
     <aura:method name="toggleModal" action="{!c.toggleModal}" access="PUBLIC"></aura:method>
+    <aura:method name="notifySuccess" action="{!c.notifySuccess}" access="PUBLIC"></aura:method>
+    <aura:method name="notifyError" action="{!c.notifyError}" access="PUBLIC"></aura:method>
 
     <aura:if isTrue="{!v.modalVisible}">
         <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
@@ -35,7 +37,7 @@
                     </aura:if>
                 </div>
                 <footer class="slds-modal__footer">
-                    <button class="slds-button slds-button_neutral" onclick="{!c.toggleModal}">Cancel</button>
+                    <button class="slds-button slds-button_neutral" onclick="{!c.toggleModal}">Close</button>
                     <aura:if isTrue="{!v.objectType == 'Request'}">
                         <button class="slds-button slds-button_brand" onclick="{!c.saveRequest}">Save</button>
                     </aura:if>

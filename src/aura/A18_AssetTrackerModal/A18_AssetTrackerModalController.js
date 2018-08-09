@@ -41,4 +41,24 @@
         childComponent.handleEditAssetUser();
         component.set('v.editFlag', false);
     },
+    notifySuccess : function(component, event, helper) {
+        var objectType = component.get('v.objectType');
+        if(objectType == 'Asset') {
+            var childComponent = component.find("assetForm");
+            childComponent.notifySuccess();
+        } else if(objectType == "Asset To User") {
+            var childComponent = component.find("assetToUserForm");
+            childComponent.notifySuccess();
+        }
+    },
+    notifyError : function(component, event, helper) {
+        var objectType = component.get('v.objectType');
+        if(objectType == 'Asset') {
+            var childComponent = component.find("assetForm");
+            childComponent.notifyError();
+        } else if(objectType == "Asset To User") {
+            var childComponent = component.find("assetToUserForm");
+            childComponent.notifyError();
+        }
+    },
 })

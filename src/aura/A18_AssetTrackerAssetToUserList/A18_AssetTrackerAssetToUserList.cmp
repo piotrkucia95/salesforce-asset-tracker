@@ -8,6 +8,7 @@
     <aura:attribute name="assetUserSearchPhrase" type="String" default=""/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler name="change" value="{!v.assetUsers}" action="{!c.init}"/>
     <aura:handler name="addAssetUser" event="c:A18_AssetTrackerAddAssetUserEvent" action="{!c.handleAddAssetUser}"/>
     <aura:handler name="editAssetUser" event="c:A18_AssetTrackerEditAssetUserEvent" action="{!c.handleEditAssetUser}"/>
     <aura:handler name="deleteAssetUser" event="c:A18_AssetTrackerDeleteAssetUserEvent" action="{!c.handleDeleteAssetUser}"/>

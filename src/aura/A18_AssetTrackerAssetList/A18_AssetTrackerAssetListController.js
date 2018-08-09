@@ -4,16 +4,7 @@
 ({
     //gets list of assets from backend (json format)
     init : function(component, event, helper) {
-        var action = component.get("c.getAssets");
-        action.setCallback(this, function(response) {
-            var state = response.getState();
-            if (state === "SUCCESS") {
-                component.set("v.assets", response.getReturnValue());
-            } else {
-                console.log("Failed with state: " + state);
-            }
-        });
-        $A.enqueueAction(action);
+        helper.loadAssets(component);
     },
     //displays add asset form modal
     showModal : function(component, event, handler) {
@@ -22,15 +13,57 @@
     },
     handleAddAsset : function(component, event, helper) {
         var newAsset = event.getParam("newAsset");
-        helper.createAsset(component, newAsset);
+        var action = component.get("c.addAsset");
+        var newAssetJSONString = JSON.stringify(newAsset);
+        action.setParams({
+            "dtoString": newAssetJSONString
+        });
+        action.setCallback(this, function(response) {
+            var state = response.getState();
+            if (state === "SUCCESS") {
+                var childComponent = component.find('assetModal');
+                childComponent.notifySuccess();
+                component.set('v.assets', []);
+            } else {
+                console.log("Failed with state: " + state);
+                var childComponent = component.find('assetModal');
+                childComponent.notifyError();
+            }
+        });
+        $A.enqueueAction(action);
     },
     handleEditAsset : function(component, event, helper) {
         var newAsset = event.getParam("newAsset");
-        helper.editAsset(component, newAsset);
+        var action = component.get("c.updateAsset");
+        var newAssetJSONString = JSON.stringify(newAsset);
+        action.setParams({
+            "dtoString": newAssetJSONString
+        });
+        action.setCallback(this, function(response) {
+            var state = response.getState();
+            if (state === "SUCCESS") {
+                component.set('v.assets', []);
+            } else {
+                console.log("Failed with state: " + state);
+            }
+        });
+        $A.enqueueAction(action);
     },
     handleDeleteAsset : function(component, event, helper) {
         var assetId = event.getParam("assetId");
-        helper.deleteAsset(component, assetId);
+        var action = component.get("c.deleteAsset");
+        action.setParams({
+            "assetId": assetId
+        });
+        action.setCallback(this, function(response) {
+            var state = response.getState();
+            if (state === "SUCCESS") {
+                component.set('v.assets', []);
+            } else {
+                console.log("Failed with state: " + state);
+            }
+        });
+        $A.enqueueAction(action);
     },
     //gets list of searched assets
     assetSearch : function(component, event, helper) {

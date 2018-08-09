@@ -16,7 +16,6 @@
             var createEvent = component.getEvent("addAsset");
             createEvent.setParams({ "newAsset": newAsset });
             createEvent.fire();
-            component.set('v.assetAddedFlag', true);
         }
     },
     //checks if the form is valid and sends event if so
@@ -31,12 +30,17 @@
             var createEvent = component.getEvent("editAsset");
             createEvent.setParams({ "newAsset": newAsset });
             createEvent.fire();
-            component.set('v.assetEditedFlag', true);
         }
     },
     //sets confirmation flags to false
     clickCancel : function(component, event, helper) {
         component.set('v.assetAddedFlag', false);
-        component.set('v.assetEditedFlag', false);
+        component.set('v.assetErrorFlag', false);
+    },
+    notifySuccess : function(component, event, helper) {
+        component.set('v.assetAddedFlag', true);
+    },
+    notifyError : function(component, event, helper) {
+        component.set('v.assetErrorFlag', true);
     },
 })

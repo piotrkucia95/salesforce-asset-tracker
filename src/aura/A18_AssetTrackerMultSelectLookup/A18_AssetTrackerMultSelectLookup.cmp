@@ -1,8 +1,8 @@
 <!--
- - Created by Polsource on 09.08.2018.
+ - Created by Piotr Kucia on 09.08.18.
  -->
 
-<aura:component controller="reUsableMultiSelectLookupCtrl">
+<aura:component description="A18_AssetTrackerMultSelectLookup" controller="A18_AC_AssetUserController">
 
     <!--declare attributes-->
     <aura:attribute name="lstSelectedRecords" type="sObject[]" default="[]" description="Use,for store SELECTED sObject Records"/>
@@ -11,11 +11,15 @@
     <aura:attribute name="objectAPIName" type="string" default=""/>
     <aura:attribute name="IconName" type="string" default=""/>
     <aura:attribute name="label" type="string" default=""/>
-    <aura:attribute name="value" type="sObject" default="{}"/>
+    <aura:attribute name="Message" type="String" default=""/>
+
+    <aura:registerEvent name="assetClearedEvent" type="c:A18_AssetTrackerClearAssetEvent"/>
+    <aura:registerEvent name="userClearedEvent" type="c:A18_AssetTrackerClearUserEvent"/>
 
     <!--declare events hendlers-->
-    <aura:handler name="oSelectedRecordEvent" event="c:selectedsObjectRecordsEvent" action="{!c.handleComponentEvent}"/>
-    <aura:attribute name="Message" type="String" default=""/>
+    <aura:handler name="oSelectedAssetEvent" event="c:A18_AssetTrackerAssetSelectedEvent" action="{!c.handleComponentEvent}"/>
+    <aura:handler name="oSelectedUserEvent" event="c:A18_AssetTrackerUserSelectedEvent" action="{!c.handleComponentEvent}"/>
+
 
     <!-- https://www.lightningdesignsystem.com/components/lookups/ -->
 
@@ -41,7 +45,7 @@
                     </div>
                     <!--Selected Records Pills Section-->
                     <aura:iteration items="{!v.lstSelectedRecords}" var="sr">
-                        <lightning:pill class="slds-m-around_xx-small" label="{!sr.Name}" name="{!sr.Id}" onremove="{! c.clear }">
+                        <lightning:pill class="slds-m-around_xx-medium" label="{!sr.Name}" name="{!sr.Id}" onremove="{! c.clear }">
                             <aura:set attribute="media">
                                 <lightning:icon iconName="{!v.IconName}" size="x-small" alternativeText="icon"/>
                             </aura:set>
@@ -57,7 +61,7 @@
             <center> {!v.Message}</center>
             <aura:iteration items="{!v.listOfSearchRecords}" var="singleRec">
                 <!--Child Component-->
-                <c:reUsableMultiSelectLookupResult oRecord="{!singleRec}" IconName="{!v.IconName}"/>
+                <c:A18_AssetTrackerLookupResult oRecord="{!singleRec}" IconName="{!v.IconName}" objectAPIName="{!v.objectAPIName}"/>
             </aura:iteration>
         </ul>
     </div>

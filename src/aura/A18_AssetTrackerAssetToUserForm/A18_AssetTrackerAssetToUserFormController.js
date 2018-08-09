@@ -14,8 +14,10 @@
           var createEvent = component.getEvent("addAssetUser");
           createEvent.setParams({ "newAssetUser": newAssetUser });
           createEvent.fire();
-          component.set('v.assetUserAddedFlag', true);
         }
+
+        component.set('v.assetUserAddedFlag', false);
+        component.set('v.assetUserErrorFlag', false);
     },
     //checks if the form is valid and sends event if so
     handleEditAssetUser : function(component, event, helper) {
@@ -29,18 +31,32 @@
           var createEvent = component.getEvent("editAssetUser");
           createEvent.setParams({ "newAssetUser": newAssetUser });
           createEvent.fire();
-          component.set('v.assetUserEditedFlag', true);
         }
     },
     //sets confirmation flags to false
     clickCancel : function(component, event, helper) {
         component.set('v.assetUserAddedFlag', false);
-        component.set('v.assetUserEditedFlag', false);
+        component.set('v.assetUserErrorFlag', false);
     },
-    handleLookupSelect : function(component, event, helper) {
-
-         var assetId = event.getParam("recordByEvent");
-         console.log(assetId);
-         component.set('v.newAssetUser.asset', assetId.Id);
+    //gets asset/user id from lookup relation
+    handleAssetSelect : function(component, event, helper) {
+         var asset = event.getParam("recordByEvent");
+         component.set('v.newAssetUser.asset', asset.Id);
+    },
+    handleUserSelect : function(component, event, helper) {
+         var user = event.getParam("recordByEvent");
+         component.set('v.newAssetUser.user', user.Id);
+    },
+    handleClearAsset : function(component, event, helper) {
+         component.set('v.newAssetUser.asset', '');
+    },
+    handleClearUser : function(component, event, helper) {
+         component.set('v.newAssetUser.user', '');
+    },
+    notifySuccess : function(component, event, helper) {
+        component.set('v.assetUserAddedFlag', true);
+    },
+    notifyError : function(component, event, helper) {
+        component.set('v.assetUserErrorFlag', true);
     },
 })
