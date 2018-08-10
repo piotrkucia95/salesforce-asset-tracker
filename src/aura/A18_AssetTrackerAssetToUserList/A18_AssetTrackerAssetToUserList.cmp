@@ -6,9 +6,10 @@
                 implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId">
     <aura:attribute name="assetUsers" type="String[]"/>
     <aura:attribute name="assetUserSearchPhrase" type="String" default=""/>
+    <aura:attribute name="changeFlag" type="Boolean" default="false"/>
 
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
-    <aura:handler name="change" value="{!v.assetUsers}" action="{!c.init}"/>
+    <aura:handler name="change" value="{!v.changeFlag}" action="{!c.init}"/>
     <aura:handler name="addAssetUser" event="c:A18_AssetTrackerAddAssetUserEvent" action="{!c.handleAddAssetUser}"/>
     <aura:handler name="editAssetUser" event="c:A18_AssetTrackerEditAssetUserEvent" action="{!c.handleEditAssetUser}"/>
     <aura:handler name="deleteAssetUser" event="c:A18_AssetTrackerDeleteAssetUserEvent" action="{!c.handleDeleteAssetUser}"/>

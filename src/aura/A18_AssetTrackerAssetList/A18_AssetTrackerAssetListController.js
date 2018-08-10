@@ -24,6 +24,7 @@
                 var childComponent = component.find('assetModal');
                 childComponent.notifySuccess();
                 component.set('v.assets', []);
+                component.set('v.changeFlag', !component.get('v.changeFlag'));
             } else {
                 console.log("Failed with state: " + state);
                 var childComponent = component.find('assetModal');
@@ -43,6 +44,7 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 component.set('v.assets', []);
+                component.set('v.changeFlag', !component.get('v.changeFlag'));
             } else {
                 console.log("Failed with state: " + state);
             }
@@ -59,6 +61,7 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 component.set('v.assets', []);
+                component.set('v.changeFlag', !component.get('v.changeFlag'));
             } else {
                 console.log("Failed with state: " + state);
             }
